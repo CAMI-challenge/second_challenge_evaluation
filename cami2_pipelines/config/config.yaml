@@ -1,0 +1,9 @@
+dataset: marine
+fq_dir: /net/sgi/metagenomics/cami2_benchmark/datasets/marine/reads/short
+out_dir: /net/sgi/metagenomics/cami2_benchmark/outputs
+profile_db_dir: /net/sgi/metagenomics/data/tax_profile/dbs
+profile_conda_env: config/conda_env.yaml
+assembly_conda_env: config/conda_assembly.yaml
+binning_conda_env: config/conda_binning.yaml
+nodedmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/nodes.dmp
+threads: 20

@@ -1,0 +1,12 @@
+name: cami_binning
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - metabat2=2.13
+  - maxbin2=2.2.6
+  - das_tool=1.1.1
+  - concoct=1.1.0
+  - bwa=0.7.17
+  - samtools=1.9
