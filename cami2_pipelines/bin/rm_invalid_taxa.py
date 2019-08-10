@@ -9,9 +9,13 @@ Author: ZL Deng <dawnmsg(at)gmail.com>
 Last Modified: 9th August 2019 11:12:02 am
 '''
 
+'''
+TODO:
+use int_enum class to replace number literal
+'''
+
+
 import click
-
-
 @click.command()
 @click.argument(
     "camiprofiles",
