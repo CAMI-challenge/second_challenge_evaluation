@@ -12,7 +12,7 @@ pooled_dataset = "{}_pooled".format(dataset)
 
 fq_dir = config["fq_dir"]
 proj_dir = path.join(config["out_dir"], dataset)
-db_dir = config["profile_db_dir"]
+
 out_data_dir = path.join(proj_dir, "data")
 
 qc_dir = path.join(out_data_dir, "qc_fq")

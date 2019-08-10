@@ -9,7 +9,7 @@ profilers = ["kraken2", "motus"]
 motus_levels = "class order family genus mOTU"
 converted_motus_levels = ["class", "order", "family", "genus"]
 bracken_levels = "class order family genus species"
-
+db_dir = config["profile_db_dir"]
 nodedmp = config["nodedmp"]
 
 rule all:
