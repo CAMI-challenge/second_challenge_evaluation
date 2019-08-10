@@ -101,3 +101,5 @@ outputs
             └── motus
 ```
 
+### Utilities included in this repo
+There are some useful programs distributed along with the pipelines, please check [here](bin/README.md)
