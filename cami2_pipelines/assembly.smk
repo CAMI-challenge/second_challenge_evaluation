@@ -90,20 +90,20 @@ rule idba:
         r1 = rules.pool_reads.output.pr1,
         r2 = rules.pool_reads.output.pr2
     output:
+        merged_pe = qc_dir + "/merged/{data}_12.fa",
         scaffolds = assembly_dir + "/idba/{data}/scaffold.fa",
         renamed_scaffolds = assembly_dir + "/idba/{data}.idba.scaffolds.fa"
     conda: conda_env
     benchmark:
         reports_dir + "/benchmarks/{data}.idba.benchmark.txt"
     params:
-        merged_pe = fq_dir + "/merged/{data}_12.fa",
         idba_out = assembly_dir + "/idba/{data}"
     threads: threads
     shell:
         """
         rm -rf {params.idba_out}
-        fq2fa --merge {input.r1} {input.r2} {params.merged_pe}
-        idba_ud -r {params.merged_pe} --num_threads {threads} -o {params.idba_out}
+        fq2fa --merge {input.r1} {input.r2} {output.merged_pe}
+        idba_ud -r {output.merged_pe} --num_threads {threads} -o {params.idba_out}
         cp {output.scaffolds} {output.renamed_scaffolds}
         """
 
