@@ -103,7 +103,7 @@ def generate_header(input_profile):
     header = '''# Taxonomic Profiling Output
 @SampleID:{}
 @Version:0.9.1
-@Ranks:superkingdom|phylum|class|order|family|genus|species
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_{}
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 '''.format(sample, date)
