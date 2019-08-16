@@ -16,7 +16,7 @@ rule all:
     input:
         # profile = expand(
         #     profile_dir + "/{profiler}/{sample}.{profiler}.genus.profile", sample=samples, profiler=profilers)
-        cami_profile = expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.valid.profile",
+        cami_profile = expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
                               profiler=profilers, sample=samples)
 
 include: "share/fastp.smk"
@@ -190,28 +190,30 @@ rule convert_format:
         bracken2 = profile_dir + "/kraken2/{sample}.kraken2.cami.profile",
         motus = profile_dir + "/motus/{sample}.motus.cami.profile"
     params:
-        converter = path.join(cd, "bin/tocami.py")
+        converter = path.join(cd, "bin/tocami.py"),
+        taxdmp = config[taxdmp],
+        taxdb = config[taxdb]
     threads: threads
     shell:
         """
-        python3 {params.converter} -f bracken <(cat {input.bracken2}) -o {output.bracken2}
-        python3 {params.converter} -f motus <(cat {input.motus}) -o {output.motus}
+        python3 {params.converter} -f bracken <(cat {input.bracken2}) -o {output.bracken2} -t {params.taxdmp} -d {params.taxdb}
+        python3 {params.converter} -f motus <(cat {input.motus}) -o {output.motus} -t {} -t {params.taxdmp} -d {params.taxdb}
         """
 
-rule validate_taxid:
-    input:
-        expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
-               profiler=profilers, sample=samples)
-    output:
-        expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.valid.profile",
-               profiler=profilers, sample=samples)
-    log:
-        reports_dir + "/profile/validate_taxid.log"
-    params:
-        validator = path.join(cd, "bin/rm_invalid_taxa.py"),
-        nodedmp = nodedmp
-    threads: threads
-    shell:
-        """
-        python3 {params.validator} -n {params.nodedmp} {input} > {log}
-        """
+# rule validate_taxid:
+#     input:
+#         expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
+#                profiler=profilers, sample=samples)
+#     output:
+#         expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.valid.profile",
+#                profiler=profilers, sample=samples)
+#     log:
+#         reports_dir + "/profile/validate_taxid.log"
+#     params:
+#         validator = path.join(cd, "bin/rm_invalid_taxa.py"),
+#         nodedmp = nodedmp
+#     threads: threads
+#     shell:
+        # """
+        # python3 {params.validator} -n {params.nodedmp} {input} > {log}
+        # """

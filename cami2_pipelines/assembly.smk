@@ -1,7 +1,7 @@
 include: "share/load_config.smk"
 
 # Define paths for input and output
-assemblers = ["metaspades", "megahit", "ray", "idba", "abyss"]
+assemblers = ["metaspades", "megahit", "ray", "abyss"] #, "idba"]
 
 assembly_dir = path.join(results_dir, "assembly")
 conda_env = config["assembly_conda_env"]
@@ -58,7 +58,7 @@ rule megahit:
     threads: threads
     shell:
         """
-        megahit -t {threads} --continue --k-min 21 --k-max 151 -1 {input.r1} \
+        megahit -t {threads} --continue --k-min 21 --k-max 91 -1 {input.r1} \
             -2 {input.r2} -o {params.megahit_out}  --out-prefix {params.prefix}
         cp {output.scaffolds} {output.renamed_scaffolds}
         """

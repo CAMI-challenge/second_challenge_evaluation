@@ -15,8 +15,6 @@ import time
 import re
 from ete3 import NCBITaxa
 
-ncbi = NCBITaxa()
-
 
 @click.command()
 @click.option(
@@ -30,11 +28,34 @@ ncbi = NCBITaxa()
     type=click.Path(exists=True),
     required=True)
 @click.option(
+    '-t',
+    '--taxdump',
+    type=click.Path(exists=True),
+    default=None,
+    help="The taxdump.tar.gz file to create database."
+)
+@click.option(
+    '-d',
+    '--db',
+    type=str,
+    help="The folder to store the taxa.sqlite file.",
+    required=True)
+@click.option(
     '-o', "--output",
     type=str,
     default="",
     help='output CAMI profile file.')
-def to_cami(format, profile, output):
+def to_cami(format, profile, taxdump, db, output):
+    dump_file = taxdump
+    dbfile = os.path.join(db, "taxa.sqlite")
+    global ncbi
+    if os.path.exists(dbfile):
+        ncbi = NCBITaxa(dbfile=dbfile)
+    else:
+        if taxdump is None:
+            raise IOError(
+                "The db is empty, you must specify the taxdump.tar.gz file to create the database.")
+        ncbi = NCBITaxa(dbfile=dbfile, taxdump_file=dump_file)
     if format == "bracken":
         bracken_to_cami(profile, output)
     elif format == "motus":
@@ -60,7 +81,10 @@ def bracken_to_cami(profile, output):
                 name, taxid, level, rel_abd = [
                     cols[i] for i in [0, 1, 2, 6]]
                 level = tax_level_dict[level]
-                taxon_path = get_taxon_path(taxid)
+                try:
+                    taxon_path = get_taxon_path(taxid)
+                except ValueError:
+                    continue
                 out_cols = [taxid, level, taxon_path[0],
                             taxon_path[1], rel_abd]
                 outline = "\t".join(out_cols)
@@ -119,7 +143,10 @@ def get_taxid(name):
 
 
 def get_taxon_path(taxid):
-    taxid_list = ncbi.get_lineage(taxid)
+    try:
+        taxid_list = ncbi.get_lineage(taxid)
+    except ValueError:
+        raise
     kept_levels = ["superkingdom", "phylum", "class",
                    "order", "family", "genus", "species"]
 

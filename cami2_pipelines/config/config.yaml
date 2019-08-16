@@ -5,5 +5,8 @@ profile_db_dir: /net/sgi/metagenomics/data/tax_profile/dbs
 profile_conda_env: config/conda_env.yaml
 assembly_conda_env: config/conda_assembly.yaml
 binning_conda_env: config/conda_binning.yaml
-nodedmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/nodes.dmp
+#nodedmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/nodes.dmp
+taxdmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/taxdump.tar.gz
+taxdb: /net/sgi/metagenomics/cami2_benchmark/.ete3db
+
 threads: 20
