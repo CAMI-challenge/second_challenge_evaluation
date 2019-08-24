@@ -10,14 +10,16 @@ motus_levels = "class order family genus mOTU"
 converted_motus_levels = ["class", "order", "family", "genus"]
 bracken_levels = "class order family genus species"
 db_dir = config["profile_db_dir"]
-nodedmp = config["nodedmp"]
+#nodedmp = config["nodedmp"]
 
 rule all:
     input:
         # profile = expand(
         #     profile_dir + "/{profiler}/{sample}.{profiler}.genus.profile", sample=samples, profiler=profilers)
         cami_profile = expand(profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
-                              profiler=profilers, sample=samples)
+                              profiler=profilers, sample=samples),
+        multisample_cami_profile = expand(profile_dir + "/{dataset}.{profiler}.cami.profile",
+                                          dataset=dataset, profiler=profilers)
 
 include: "share/fastp.smk"
 
@@ -182,23 +184,43 @@ rule motus:
 
 rule convert_format:
     input:
-        bracken2 = expand(
-            profile_dir + "/kraken2/{{sample}}.kraken2.{level}.profile", level=bracken_levels.split()),
-        motus = expand(
-            profile_dir + "/motus/{{sample}}.motus.{level}.profile", level=converted_motus_levels)
+        lambda wc: expand(profile_dir + "/{{profiler}}/{{sample}}.{{profiler}}.{level}.profile",
+                          level=bracken_levels.split() if wc.profiler == "kraken2" else converted_motus_levels)
+        # bracken2 = expand(
+        #     profile_dir + "/{{profiler}}/{{sample}}.{{profiler}}.{level}.profile", level=bracken_levels.split()),
+        # motus = expand(
+        #     profile_dir + "/motus/{{sample}}.motus.{level}.profile", level=converted_motus_levels)
     output:
-        bracken2 = profile_dir + "/kraken2/{sample}.kraken2.cami.profile",
-        motus = profile_dir + "/motus/{sample}.motus.cami.profile"
+        profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
+        #bracken2 = profile_dir + "/kraken2/{sample}.kraken2.cami.profile",
+        #motus = profile_dir + "/motus/{sample}.motus.cami.profile"
+    conda: conda_env
     params:
         converter = path.join(cd, "bin/tocami.py"),
-        taxdmp = config[taxdmp],
-        taxdb = config[taxdb]
+        taxdmp = config["taxdmp"],
+        taxdb = config["taxdb"],
+        input_format = lambda wc: "bracken" if wc.profiler == "kraken2" else "motus"
     threads: threads
     shell:
         """
-        python3 {params.converter} -f bracken <(cat {input.bracken2}) -o {output.bracken2} -t {params.taxdmp} -d {params.taxdb}
-        python3 {params.converter} -f motus <(cat {input.motus}) -o {output.motus} -t {} -t {params.taxdmp} -d {params.taxdb}
+        python3 {params.converter} -f {params.input_format} -s {wildcards.sample} \
+            <(cat {input}) -o {output} -t {params.taxdmp} -d {params.taxdb}
         """
+# python3 {params.converter} -f motus <(cat {input.motus}) -o {output.motus} -t {} -t {params.taxdmp} -d {params.taxdb}
+
+
+rule cat_profile:
+    input:
+        expand(profile_dir + "/{{profiler}}/{sample}.{{profiler}}.cami.profile",
+               sample=samples)
+    output:
+        profile_dir + \
+            "/{}.{{profiler}}.cami.profile".format(dataset)
+    shell:
+        """
+        cat {input} > {output}
+        """
+
 
 # rule validate_taxid:
 #     input:

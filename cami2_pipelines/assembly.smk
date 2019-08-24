@@ -35,7 +35,7 @@ rule metaspades:
     shell:
         """
         metaspades.py -k 21,33,55,77 -1 {input.r1} \
-            -2 {input.r2} -o {params.outdir} -t {threads}
+            -2 {input.r2} -m 500 -o {params.outdir} -t {threads}
         cp {output.scaffolds} {output.renamed_scaffolds}
         """
 
@@ -58,11 +58,12 @@ rule megahit:
     threads: threads
     shell:
         """
-        megahit -t {threads} --continue --k-min 21 --k-max 91 -1 {input.r1} \
+        megahit -t {threads} --continue -m 0.8 --k-min 21 --k-max 91 -1 {input.r1} \
             -2 {input.r2} -o {params.megahit_out}  --out-prefix {params.prefix}
         cp {output.scaffolds} {output.renamed_scaffolds}
         """
-        # rm -rf {params.megahit_out}
+        #  rmdir --ignore-fail-on-non-empty {params.megahit_out}
+
 
 
 rule ray:

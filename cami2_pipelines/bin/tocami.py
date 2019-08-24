@@ -28,6 +28,13 @@ from ete3 import NCBITaxa
     type=click.Path(exists=True),
     required=True)
 @click.option(
+    '-s',
+    '--sampleid',
+    type=str,
+    required=True,
+    help="The sample ID of the input sample. This will present in the header of the output."
+)
+@click.option(
     '-t',
     '--taxdump',
     type=click.Path(exists=True),
@@ -45,7 +52,7 @@ from ete3 import NCBITaxa
     type=str,
     default="",
     help='output CAMI profile file.')
-def to_cami(format, profile, taxdump, db, output):
+def to_cami(format, profile, sampleid, taxdump, db, output):
     dump_file = taxdump
     dbfile = os.path.join(db, "taxa.sqlite")
     global ncbi
@@ -56,17 +63,20 @@ def to_cami(format, profile, taxdump, db, output):
             raise IOError(
                 "The db is empty, you must specify the taxdump.tar.gz file to create the database.")
         ncbi = NCBITaxa(dbfile=dbfile, taxdump_file=dump_file)
-    if format == "bracken":
-        bracken_to_cami(profile, output)
-    elif format == "motus":
-        motus_to_cami(profile, output)
-
-
-def bracken_to_cami(profile, output):
+    header = generate_header(sampleid)
     outstream = (open(output, "w")
                  if output else sys.stdout)
-    header = generate_header(profile)
     outstream.write(header)
+    if format == "bracken":
+        bracken_to_cami(profile, outstream)
+    elif format == "motus":
+        motus_to_cami(profile, outstream)
+    if output:
+        outstream.close()
+
+
+def bracken_to_cami(profile, outstream):
+
     # print("Converting {} to CAMI profiling format".format(profile))
     tax_level_dict = {"S": "species",
                       "G": "genus",
@@ -89,15 +99,9 @@ def bracken_to_cami(profile, output):
                             taxon_path[1], rel_abd]
                 outline = "\t".join(out_cols)
                 outstream.write(outline + '\n')
-    if output:
-        outstream.close()
 
 
-def motus_to_cami(profile, output):
-    outstream = (open(output, "w")
-                 if output else sys.stdout)
-    header = generate_header(profile)
-    outstream.write(header)
+def motus_to_cami(profile, outstream):
     # print("Converting {} to CAMI profiling format".format(profile))
     with open(profile, 'r') as fh:
         p = re.compile(r" -k (\w+) ")
@@ -116,12 +120,9 @@ def motus_to_cami(profile, output):
                     outstream.write(outline + '\n')
             else:
                 continue
-    if output:
-        outstream.close()
 
 
-def generate_header(input_profile):
-    sample = os.path.basename(input_profile).split('.')[0]
+def generate_header(sampleid):
     date = time.strftime("%Y%m%d")
 
     header = '''# Taxonomic Profiling Output
@@ -130,7 +131,7 @@ def generate_header(input_profile):
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_{}
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-'''.format(sample, date)
+'''.format(sampleid, date)
     return header
 
 
