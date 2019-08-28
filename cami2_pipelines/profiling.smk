@@ -24,18 +24,8 @@ rule all:
 include: "share/fastp.smk"
 
 # By default only use Kraken2
-rule kraken_build:
-    input: path.join(fq_dir, samples[0] + "_reads.fq.gz")
-    output: db_dir + "/kraken_st/lca.complete"
-    params: db = db_dir + "/kraken_st"
-    threads: threads
-    conda:
-        "config/conda_kraken_env.yaml"
-    benchmark: reports_dir + "/benchmarks/kraken_build.txt"
-    shell: "kraken-build --standard --use-wget --threads {threads} --db {params.db}"
-
 rule kraken2_build:
-    input: rules.kraken_build.input
+    input: cd + "./profiling.smk"
     output: db_dir + "/kraken2_st/hash.k2d"
     params: db = db_dir + "/kraken2_st"
     threads: threads
@@ -43,28 +33,6 @@ rule kraken2_build:
     benchmark: reports_dir + "/benchmarks/kraken2_build.txt"
     shell: "kraken2-build --standard --use-ftp --threads {threads} --db {params.db}"
 
-rule kraken:
-    input:
-        r1 = rules.fastp.output.or1,
-        r2 = rules.fastp.output.or2,
-        dbcomplete = rules.kraken_build.output
-    output:
-        kraken_out = profile_dir + "/kraken/raw/{sample}.kraken.out",
-        normal_report = profile_dir + "/kraken/{sample}.kraken_normal.report",
-        clf = profile_dir + "/kraken/raw/{sample}.clf.fq",
-        unclf = profile_dir + "/kraken/raw/{sample}.unclf.fq"
-    params:
-        db = rules.kraken_build.params.db
-    threads: threads
-    conda:
-        "config/conda_kraken_env.yaml"
-    benchmark: reports_dir + "/benchmarks/{sample}.kraken.txt"
-    shell:
-        """
-        kraken --db {params.db} --threads {threads} --fastq-input --paired {input.r1} {input.r2} \
-            --unclassified-out {output.unclf} --classified-out {output.clf} --output {output.kraken_out}
-        kraken-report --db {params.db} {output.kraken_out} > {output.normal_report}
-        """
 
 rule kraken2:
     input:
@@ -88,68 +56,42 @@ rule kraken2:
             --report {output.normal_report}
         """
 
-# By default Bracken builds the Kraken2 database
-rule bracken_build:
-    input: rules.kraken_build.output
-    output: db_dir + "/kraken_st/bracken_build.complete"
-    params: db = rules.kraken_build.params.db
-    threads: threads
-    conda: conda_env
-    benchmark: reports_dir + "/benchmarks/bracken_build.txt"
-    shell:
-        """
-        bracken-build -d {params.db} -t {threads} -k 31 -l 150 -x $(dirname $(which kraken))/
-        touch {output}
-        """
-
 rule bracken_build2:
     input: rules.kraken2_build.output
-    output: db_dir + "/kraken2_st/bracken_build.complete"
-    params: db = rules.kraken2_build.params.db
+    output: db_dir + \
+        "/kraken2_st/database{}mers.kmer_distrib".format(read_length)
+    params:
+        db = rules.kraken2_build.params.db,
+        read_len = read_length
     threads: threads
     conda: conda_env
     benchmark: reports_dir + "/benchmarks/bracken_build2.txt"
     shell:
         """
-        kraken2 --db {params.db} --threads {threads} <( find -L {params.db}/library /(-name "*.fna" -o -name "*.fasta" -o \
+        if [ ! -f {params.db}/database.kraken]; then
+            kraken2 --db {params.db} --threads {threads} <( find -L {params.db}/library /(-name "*.fna" -o -name "*.fasta" -o \
             -name "*.fa" /) -exec cat {{}} + ) > {params.db}/database.kraken
+        fi
         kmer2read_distr --seqid2taxid {params.db}/seqid2taxid.map --taxonomy {params.db}/taxonomy \
-            --kraken {params.db}/database.kraken --output {params.db}/database150mers.kraken -k 35 -l 150 -t {threads}
-        generate_kmer_distribution.py -i {params.db}/database150mers.kraken -o {params.db}/database150mers.kmer_distrib
-        touch {output}
+            --kraken {params.db}/database.kraken --output {params.db}/database{params.read_len}mers.kraken -k 35 \
+                -l {params.read_len} -t {threads}
+        generate_kmer_distribution.py -i {params.db}/database{params.read_len}mers.kraken \
+            -o {params.db}/database{params.read_len}mers.kmer_distrib
         """
 
-rule bracken:
-    input:
-        dbcomplete = rules.bracken_build.output,
-        k_report = rules.kraken.output.normal_report
-    output:
-        profile = profile_dir + "/kraken/{sample}.kraken.S.profile"
-    params:
-        db = rules.kraken_build.params.db,
-        prefix = profile_dir + "/kraken/{sample}.kraken",
-        levels = bracken_levels
-    threads: threads
-    conda: conda_env
-    benchmark: reports_dir + "/benchmarks/{sample}.bracken.txt"
-    shell:
-        """
-        for level in {params.levels}
-        do
-            bracken -d {params.db} -t {threads} -i {input.k_report} -o {params.prefix}.${{level}}.profile -r 150 -l $level
-        done
-        """
 
 rule bracken2:
     input:
         dbcomplete = rules.bracken_build2.output,
         k2_report = rules.kraken2.output.normal_report
     output:
-        profile = profile_dir + "/kraken2/{sample}.kraken2.genus.profile"
+        profile = expand(
+            profile_dir + "/kraken2/{{sample}}.kraken2.{levels}.profile", levels=bracken_levels.split())
     params:
         db = rules.kraken2_build.params.db,
         prefix = profile_dir + "/kraken2/{sample}.kraken2",
-        levels = bracken_levels
+        levels = bracken_levels,
+        read_len = read_length
     threads: threads
     conda: conda_env
     benchmark: reports_dir + "/benchmarks/{sample}.bracken2.txt"
@@ -158,7 +100,8 @@ rule bracken2:
         declare -A levels=( ["species"]="S" ["genus"]="G" ["family"]="F" ["order"]="O" ["class"]="C")
         for level in {params.levels}
         do
-            bracken -d {params.db} -t {threads} -i {input.k2_report} -o {params.prefix}.${{level}}.profile -r 150 -l $levels[$level]
+            bracken -d {params.db} -t {threads} -i {input.k2_report} -o {params.prefix}.${{level}}.profile \
+                -r {params.read_len} -l ${{levels[$level]}}
         done
         """
 
@@ -167,10 +110,11 @@ rule motus:
         r1 = rules.fastp.output.or1,
         r2 = rules.fastp.output.or2
     output:
-        profile_dir + "/motus/{sample}.motus.genus.profile"
+        expand(profile_dir +
+               "/motus/{{sample}}.motus.{levels}.profile", levels=motus_levels.split())
     params:
         prefix = profile_dir + "/motus/{sample}.motus",
-        level = motus_levels
+        levels = motus_levels
     threads: threads
     conda: conda_env
     benchmark: reports_dir + "/benchmarks/{sample}.motus.txt"
@@ -194,7 +138,7 @@ rule convert_format:
         profile_dir + "/{profiler}/{sample}.{profiler}.cami.profile",
         #bracken2 = profile_dir + "/kraken2/{sample}.kraken2.cami.profile",
         #motus = profile_dir + "/motus/{sample}.motus.cami.profile"
-    conda: conda_env
+    #conda: conda_env
     params:
         converter = path.join(cd, "bin/tocami.py"),
         taxdmp = config["taxdmp"],
@@ -206,7 +150,6 @@ rule convert_format:
         python3 {params.converter} -f {params.input_format} -s {wildcards.sample} \
             <(cat {input}) -o {output} -t {params.taxdmp} -d {params.taxdb}
         """
-# python3 {params.converter} -f motus <(cat {input.motus}) -o {output.motus} -t {} -t {params.taxdmp} -d {params.taxdb}
 
 
 rule cat_profile:

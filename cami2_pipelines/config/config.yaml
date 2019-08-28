@@ -1,5 +1,7 @@
-dataset: marine
-fq_dir: /net/sgi/metagenomics/cami2_benchmark/datasets/marine/reads/short
+dataset: pathgen
+fq_dir: ../datasets/pathogen/reads
+interleave: false
+read_length: 100
 out_dir: /net/sgi/metagenomics/cami2_benchmark/outputs
 profile_db_dir: /net/sgi/metagenomics/data/tax_profile/dbs
 profile_conda_env: config/conda_env.yaml
@@ -7,6 +9,6 @@ assembly_conda_env: config/conda_assembly.yaml
 binning_conda_env: config/conda_binning.yaml
 #nodedmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/nodes.dmp
 taxdmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/taxdump.tar.gz
-taxdb: /net/sgi/metagenomics/cami2_benchmark/.ete3db
+taxdb: /home/zldeng/.ete3oldtax
 
 threads: 20
