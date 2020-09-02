@@ -38,7 +38,7 @@ do
   if test -f "${fileName}"; then
     toEval+=( "${fileName}")
     labels+=( "${toolNames[i]}"_"${versions[i]}"_"${i}" )
-    echo "yes"
+    #echo "yes"
   fi
   i=$((i+1))
 done
