@@ -1,0 +1,73 @@
+commonkmers
+FOCUS
+MetaPhlAn2.0
+MetaPhyler
+mOTU
+mpipe
+Quickr
+Taxy-Pro
+TIPP
+Common Kmers
+Common Kmers
+DUDes
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+Common Kmers
+Common Kmers
+DUDes
+DUDes
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+FOCUS
+NBC++
+NBC++
+NBC++
+NBC++
+NBC++
+CCMetagen
+Kraken2 and Bracken
+LSHVec (genbank)
+LSHVec (genbank)
+LSHVec-illumina (genbank)
+LSHVec-pacbio (genbank)
+Metalign
+MetaPhlAn2 2.9
+mOTUS
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+NBC++
+CCMetagen
+LSHVec (genbank)
+LSHVec (genbank)
+LSHVec-illumina (genbank)
+LSHVec-pacbio (genbank)
+LSHVec-strain
+Metalign
+MetaPhlAn2 2.9
+mOTUs
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+mOTUs2
+NSSAC
