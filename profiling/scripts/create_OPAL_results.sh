@@ -38,7 +38,13 @@ do
   if test -f "${fileName}"; then
     toEval+=( "${fileName}")
     labels+=( "${toolNames[i]}"_"${versions[i]}"_"${i}" )
+    #echo "$(basename ${fileName})"
+    #echo "${toolNames[i]}"
     #echo "yes"
+  else
+    echo "${anonymousName}"
+    echo "${marineBase} -name ${anonymousName}.profile"
+    echo "${toolNames[i]}"
   fi
   i=$((i+1))
 done
@@ -57,6 +63,7 @@ printf -v joinedLabels '%s,' "${labels[@]}"
 #echo "${joinedLabels%,}"
 #echo "${#joinedLabels[@]}"
 
+: << 'END'
 # Run OPAL
 ${pythonExec} ${opalScript} -g "${groundTruth}" \
 -o "${opalOut}" \
@@ -64,7 +71,7 @@ ${pythonExec} ${opalScript} -g "${groundTruth}" \
 "${toEval[@]}" \
 -l "${joinedLabels%,}"
 
-: << 'END'
+
 # Then Filter
 opalOut=/home/dkoslicki/Desktop/OPAL/EMDUnifracTest/output_filtered_1/
 /home/dkoslicki/anaconda3/envs/OPAL/bin/python $opalScript -g $groundTruth \
