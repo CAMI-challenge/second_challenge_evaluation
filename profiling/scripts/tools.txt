@@ -1,14 +1,14 @@
-commonkmers
+CK
 FOCUS
-MetaPhlAn2.0
+MetaPhlAn
 MetaPhyler
 mOTU
 mpipe
 Quickr
 Taxy-Pro
 TIPP
-Common Kmers
-Common Kmers
+CK
+CK
 DUDes
 FOCUS
 FOCUS
@@ -16,8 +16,8 @@ FOCUS
 FOCUS
 FOCUS
 FOCUS
-Common Kmers
-Common Kmers
+CK
+CK
 DUDes
 DUDes
 FOCUS
@@ -32,13 +32,13 @@ NBC++
 NBC++
 NBC++
 CCMetagen
-Kraken2 and Bracken
-LSHVec (genbank)
-LSHVec (genbank)
-LSHVec-illumina (genbank)
-LSHVec-pacbio (genbank)
+Bracken
+LSHVec
+LSHVec
+LSHVec
+LSHVec
 Metalign
-MetaPhlAn2 2.9
+MetaPhlAn2
 mOTUS
 mOTUs2
 mOTUs2
@@ -52,13 +52,13 @@ mOTUs2
 mOTUs2
 NBC++
 CCMetagen
-LSHVec (genbank)
-LSHVec (genbank)
-LSHVec-illumina (genbank)
-LSHVec-pacbio (genbank)
-LSHVec-strain
+LSHVec
+LSHVec
+LSHVec
+LSHVec
+LSHVec
 Metalign
-MetaPhlAn2 2.9
+MetaPhlAn2
 mOTUs
 mOTUs2
 mOTUs2

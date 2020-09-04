@@ -1,0 +1,73 @@
+thirsty_shockley_4	CK	sjanssen
+evil_feynman_10	FOCUS	sjanssen
+furious_elion_12	MetaPhlAn	db_v20
+focused_archimedes_10	MetaPhyler	V1.25
+evil_darwin_10	mOTU	1.1.1
+happy_albattani_0	mpipe	 
+grave_wright_10	Quickr	sjanssen
+elegant_tesla_10	Taxy-Pro	sjanssen
+cranky_wozniak_10	TIPP	1.1
+agitated_hopper_8	CK	 
+clever_cori_1	CK	Sensitive 
+reverent_curie_1	DUDes	 
+angry_bell_1	FOCUS	cfk7b
+elegant_wozniak_1	FOCUS	cfk7d
+distracted_blackwell_1	FOCUS	cfk7bd
+jolly_pasteur_1	FOCUS	cfk8b
+sharp_nobel_1	FOCUS	cfk8d
+thirsty_kirch_1	FOCUS	cfk8bd
+agitated_hopper_7	CK	 
+clever_cori_0	CK	Sensitive
+romantic_lovelace_0	DUDes	old
+reverent_curie_0	DUDes	 
+angry_bell_0	FOCUS	cfk7b
+elegant_wozniak_0	FOCUS	cfk7d
+distracted_blackwell_0	FOCUS	cfk7bd
+jolly_pasteur_0	FOCUS	cfk8b
+sharp_nobel_0	FOCUS	cfk8d
+thirsty_kirch_0	FOCUS	cfk8bd
+adoring_euclid_0	NBC++	 
+adoring_euclid_1	NBC++	 
+adoring_euclid_2	NBC++	 
+adoring_euclid_3	NBC++	 
+adoring_euclid_4	NBC++	 
+modest_yalow_0	CCMetagen	1.1.3
+angry_brattain_0	Bracken	 
+tender_brown_0	LSHVec	latest
+tender_brown_1	LSHVec	latest
+stoic_mclean_0	LSHVec	ILL
+distracted_mestorf_0	LSHVec	PB
+insane_turing_0	Metalign	0.6.2
+mad_yalow_0	MetaPhlAn2	2.9.22
+distracted_jones_0	mOTUS	1.0.0
+ecstatic_nobel_0	mOTUs2	2.5.1a
+ecstatic_nobel_1	mOTUs2	2.5.1b
+ecstatic_nobel_2	mOTUs2	2.5.1c
+ecstatic_nobel_3	mOTUs2	2.5.1d
+ecstatic_nobel_4	mOTUs2	2.5.1e
+ecstatic_nobel_5	mOTUs2	2.5.1f
+ecstatic_nobel_6	mOTUs2	2.5.1g
+ecstatic_nobel_7	mOTUs2	2.5.1h
+ecstatic_nobel_8	mOTUs2	2.5.1i
+ 	mOTUs2	2.5.1j
+adoring_euclid_5	NBC++	 
+boring_colden_0	CCMetagen	1.1.3
+tender_brown_2	LSHVec	latest
+tender_brown_3	LSHVec	latest
+stoic_mclean_1	LSHVec	ILL
+distracted_mestorf_1	LSHVec	PB
+focused_lalande_0	LSHVec	STRN
+insane_turing_1	Metalign	0.6.2
+mad_yalow_1	MetaPhlAn2	2.9.22
+condescending_cori_0	mOTUs	1.0.0
+ecstatic_nobel_10	mOTUs2	2.5.1a
+ecstatic_nobel_11	mOTUs2	2.5.1b
+ecstatic_nobel_12	mOTUs2	2.5.1c
+ecstatic_nobel_13	mOTUs2	2.5.1d
+ecstatic_nobel_14	mOTUs2	2.5.1e
+ecstatic_nobel_15	mOTUs2	2.5.1f
+ecstatic_nobel_16	mOTUs2	2.5.1g
+ecstatic_nobel_17	mOTUs2	2.5.1h
+ecstatic_nobel_18	mOTUs2	2.5.1i
+ 	mOTUs2	2.5.1j
+desperate_sammet_0	NSSAC	 
