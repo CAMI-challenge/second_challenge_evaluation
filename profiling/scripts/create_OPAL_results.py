@@ -54,6 +54,7 @@ for dataset in ["marine_dataset", "strain_madness_dataset"]:
             if os.path.exists(file_name):
                 #print(anonymous_name)
                 to_evaluate.append(file_name)
+                #FIXME: Replace this with last column of tool_mapping.csv
                 labels.append(f"{tool_names[i]}_{versions[i]}_{i}")  # FIXME: stupid "_{i}" on the end since OPAL wants unique labels
 
         # Delete results if they exist
