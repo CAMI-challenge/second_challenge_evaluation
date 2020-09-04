@@ -1,73 +1,73 @@
-thirsty_shockley_4	commonkmers	sjanssen	CK_C
-evil_feynman_10	FOCUS	sjanssen	FOCUS_C
-furious_elion_12	MetaPhlAn2.0	db_v20	MP_2
-focused_archimedes_10	MetaPhyler	V1.25	MPY_1.25
-evil_darwin_10	mOTU	1.1.1	mOTU_1.1.1
-happy_albattani_0	mpipe	 	mpipe
-grave_wright_10	Quickr	sjanssen	Quikr_C
-elegant_tesla_10	Taxy-Pro	sjanssen	TP_C
-cranky_wozniak_10	TIPP	1.1	TIPP
-agitated_hopper_8	Common Kmers	 	CK_D
-clever_cori_1	Common Kmers	Sensitive Unnormalized	CK_SU
-reverent_curie_1	DUDes	 	DUDes
-angry_bell_1	FOCUS	cfk7b	FOCUSa
-elegant_wozniak_1	FOCUS	cfk7d	FOCUSb
-distracted_blackwell_1	FOCUS	cfk7bd	FOCUSc
-jolly_pasteur_1	FOCUS	cfk8b	FOCUSd
-sharp_nobel_1	FOCUS	cfk8d	FOCUSe
-thirsty_kirch_1	FOCUS	cfk8bd	FOCUSf
-agitated_hopper_7	Common Kmers	 	CK_D
-clever_cori_0	Common Kmers	Sensitive Unnormalized	CK_SU
-romantic_lovelace_0	DUDes	old	DUDes_O
-reverent_curie_0	DUDes	 	DUDes
-angry_bell_0	FOCUS	cfk7b	FOCUSa
-elegant_wozniak_0	FOCUS	cfk7d	FOCUSb
-distracted_blackwell_0	FOCUS	cfk7bd	FOCUSc
-jolly_pasteur_0	FOCUS	cfk8b	FOCUSd
-sharp_nobel_0	FOCUS	cfk8d	FOCUSe
-thirsty_kirch_0	FOCUS	cfk8bd	FOCUSf
-adoring_euclid_0	NBC++	 	NBC++a
-adoring_euclid_1	NBC++	 	NBC++b
-adoring_euclid_2	NBC++	 	NBC++c
-adoring_euclid_3	NBC++	 	NBC++d
-adoring_euclid_4	NBC++	 	NBC++e
-modest_yalow_0	CCMetagen	CCMetagen v1.1.3 + KMA v1.1.7	CCM_1.1.3
-angry_brattain_0	Kraken2 and Bracken	 	Bracken
-tender_brown_0	LSHVec (genbank)	latest	LSHVa
-tender_brown_1	LSHVec (genbank)	latest	LSHVb
-stoic_mclean_0	LSHVec-illumina (genbank)	latest	LSHV_ILL
-distracted_mestorf_0	LSHVec-pacbio (genbank)	latest	LSHV_PB
-insane_turing_0	Metalign	Default	Metln_0.6.3
-mad_yalow_0	MetaPhlAn2 2.9	2.9.22	MP_2.9.22
-distracted_jones_0	mOTUS	 	mOTU_1.1.1
-ecstatic_nobel_0	mOTUs2	2.5.1	mOTU_2.5.1a
-ecstatic_nobel_1	mOTUs2	2.5.1	mOTU_2.5.1b
-ecstatic_nobel_2	mOTUs2	2.5.1	mOTU_2.5.1c
-ecstatic_nobel_3	mOTUs2	2.5.1	mOTU_2.5.1d
-ecstatic_nobel_4	mOTUs2	2.5.1	mOTU_2.5.1e
-ecstatic_nobel_5	mOTUs2	2.5.1	mOTU_2.5.1f
-ecstatic_nobel_6	mOTUs2	2.5.1	mOTU_2.5.1g
-ecstatic_nobel_7	mOTUs2	2.5.1	mOTU_2.5.1h
-ecstatic_nobel_8	mOTUs2	2.5.1	mOTU_2.5.1i
- 	mOTUs2	2.5.1	mOTU_2.5.1j
-adoring_euclid_5	NBC++	 	NBC++
-boring_colden_0	CCMetagen	KMA version 1.1.7 + CCMetagen version 1.1.3.	CCM_1.1.3
-tender_brown_2	LSHVec (genbank)	latest	LSHVa
-tender_brown_3	LSHVec (genbank)	latest	LSHVb
-stoic_mclean_1	LSHVec-illumina (genbank)	latest	LSHV_ILL
-distracted_mestorf_1	LSHVec-pacbio (genbank)	latest	LSHV_PB
-focused_lalande_0	LSHVec-strain	latest	LSHV_ST
-insane_turing_1	Metalign	Default	Metln_0.6.3
-mad_yalow_1	MetaPhlAn2 2.9	2.9.22	MP_2.9.22
-condescending_cori_0	mOTUs	 	mOTU_1.1.1
-ecstatic_nobel_10	mOTUs2	2.5.1	mOTU_2.5.1a
-ecstatic_nobel_11	mOTUs2	2.5.1	mOTU_2.5.1b
-ecstatic_nobel_12	mOTUs2	2.5.1	mOTU_2.5.1c
-ecstatic_nobel_13	mOTUs2	2.5.1	mOTU_2.5.1d
-ecstatic_nobel_14	mOTUs2	2.5.1	mOTU_2.5.1e
-ecstatic_nobel_15	mOTUs2	2.5.1	mOTU_2.5.1f
-ecstatic_nobel_16	mOTUs2	2.5.1	mOTU_2.5.1g
-ecstatic_nobel_17	mOTUs2	2.5.1	mOTU_2.5.1h
-ecstatic_nobel_18	mOTUs2	2.5.1	mOTU_2.5.1i
- 	mOTUs2	2.5.1	mOTU_2.5.1j
-desperate_sammet_0	NSSAC	 	NSSAC
+thirsty_shockley_4,commonkmers,sjanssen,CK_C
+evil_feynman_10,FOCUS,sjanssen,FOCUS_C
+furious_elion_12,MetaPhlAn2.0,db_v20,MP
+focused_archimedes_10,MetaPhyler,V1.25,MPY
+evil_darwin_10,mOTU,1.1.1,mOTUv1
+happy_albattani_0,mpipe, ,mpipe
+grave_wright_10,Quickr,sjanssen,Quikr_C
+elegant_tesla_10,Taxy-Pro,sjanssen,TP_C
+cranky_wozniak_10,TIPP,1.1,TIPP
+agitated_hopper_8,Common Kmers, ,CKa
+clever_cori_1,Common Kmers,Sensitive Unnormalized,CKb
+reverent_curie_1,DUDes, ,DUDes
+angry_bell_1,FOCUS,cfk7b,FOCUSa
+elegant_wozniak_1,FOCUS,cfk7d,FOCUSb
+distracted_blackwell_1,FOCUS,cfk7bd,FOCUSc
+jolly_pasteur_1,FOCUS,cfk8b,FOCUSd
+sharp_nobel_1,FOCUS,cfk8d,FOCUSe
+thirsty_kirch_1,FOCUS,cfk8bd,FOCUSf
+agitated_hopper_7,Common Kmers, ,CKa
+clever_cori_0,Common Kmers,Sensitive Unnormalized,CKb
+romantic_lovelace_0,DUDes,old,DUDesv1
+reverent_curie_0,DUDes, ,DUDesv2
+angry_bell_0,FOCUS,cfk7b,FOCUSa
+elegant_wozniak_0,FOCUS,cfk7d,FOCUSb
+distracted_blackwell_0,FOCUS,cfk7bd,FOCUSc
+jolly_pasteur_0,FOCUS,cfk8b,FOCUSd
+sharp_nobel_0,FOCUS,cfk8d,FOCUSe
+thirsty_kirch_0,FOCUS,cfk8bd,FOCUSf
+adoring_euclid_0,NBC++, ,NBC++a
+adoring_euclid_1,NBC++, ,NBC++b
+adoring_euclid_2,NBC++, ,NBC++c
+adoring_euclid_3,NBC++, ,NBC++d
+adoring_euclid_4,NBC++, ,NBC++e
+modest_yalow_0,CCMetagen,CCMetagen v1.1.3 + KMA v1.1.7,CCM
+angry_brattain_0,Kraken2 and Bracken, ,Bracken
+tender_brown_0,LSHVec (genbank),latest,LSHVa
+tender_brown_1,LSHVec (genbank),latest,LSHVb
+stoic_mclean_0,LSHVec-illumina (genbank),latest,LSHVc
+distracted_mestorf_0,LSHVec-pacbio (genbank),latest,LSHVd
+insane_turing_0,Metalign,Default,Metln
+mad_yalow_0,MetaPhlAn2 2.9,2.9.22,MP
+distracted_jones_0,mOTUS, ,mOTUv1
+ecstatic_nobel_0,mOTUs2,2.5.1,mOTUv2a
+ecstatic_nobel_1,mOTUs2,2.5.1,mOTUv2b
+ecstatic_nobel_2,mOTUs2,2.5.1,mOTUv2c
+ecstatic_nobel_3,mOTUs2,2.5.1,mOTUv2d
+ecstatic_nobel_4,mOTUs2,2.5.1,mOTUv2e
+ecstatic_nobel_5,mOTUs2,2.5.1,mOTUv2f
+ecstatic_nobel_6,mOTUs2,2.5.1,mOTUv2g
+ecstatic_nobel_7,mOTUs2,2.5.1,mOTUv2h
+ecstatic_nobel_8,mOTUs2,2.5.1,mOTUv2i
+  ,mOTUs2,2.5.1,mOTUv2j
+adoring_euclid_5,NBC++, ,NBC++
+boring_colden_0,CCMetagen,KMA version 1.1.7 + CCMetagen version 1.1.3.,CCM
+tender_brown_2,LSHVec (genbank),latest,LSHVa
+tender_brown_3,LSHVec (genbank),latest,LSHVb
+stoic_mclean_1,LSHVec-illumina (genbank),latest,LSHVc
+distracted_mestorf_1,LSHVec-pacbio (genbank),latest,LSHVd
+focused_lalande_0,LSHVec-strain,latest,LSHVe
+insane_turing_1,Metalign,Default,Metln
+mad_yalow_1,MetaPhlAn2 2.9,2.9.22,MP
+condescending_cori_0,mOTUs, ,mOTUv1
+ecstatic_nobel_10,mOTUs2,2.5.1,mOTUv2a
+ecstatic_nobel_11,mOTUs2,2.5.1,mOTUv2b
+ecstatic_nobel_12,mOTUs2,2.5.1,mOTUv2c
+ecstatic_nobel_13,mOTUs2,2.5.1,mOTUv2d
+ecstatic_nobel_14,mOTUs2,2.5.1,mOTUv2e
+ecstatic_nobel_15,mOTUs2,2.5.1,mOTUv2f
+ecstatic_nobel_16,mOTUs2,2.5.1,mOTUv2g
+ecstatic_nobel_17,mOTUs2,2.5.1,mOTUv2h
+ecstatic_nobel_18,mOTUs2,2.5.1,mOTUv2i
+  ,mOTUs2,2.5.1,mOTUv2j
+desperate_sammet_0,NSSAC, ,NSSAC
