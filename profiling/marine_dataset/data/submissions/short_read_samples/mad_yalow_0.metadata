@@ -1,0 +1,8 @@
+anonymousName: mad_yalow_0
+name: MetaPhlAn2 2.9
+version: 2.9.22
+authors: Francesco Beghini
+gitHubRepo: nan
+biocondaRecipe: metaphlan2
+commandLineUsed: nan
+description: Profiling was performed on all the 10 metagenomes by runnning MetaPhlAn2 2.9.22 with default parameters using the mpa_v294 database 

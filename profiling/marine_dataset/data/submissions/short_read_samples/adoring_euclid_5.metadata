@@ -1,0 +1,18 @@
+anonymousName: adoring_euclid_5
+name: NBC++
+version: nan
+authors: Zhengqiao Zhao, Alexandru Cristian, Gail Rosen
+gitHubRepo: https://github.com/z2e2/CAMI
+biocondaRecipe: nan
+commandLineUsed: see https://github.com/z2e2/CAMI/README.md for details
+description: 2nd CAMI Challenge Marine Dataset:
+marinetest_s0
+marinetest_s1
+marinetest_s2
+marinetest_s3
+marinetest_s4
+marinetest_s5
+marinetest_s6
+marinetest_s7
+marinetest_s8
+marinetest_s9

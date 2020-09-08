@@ -1,0 +1,8 @@
+anonymousName: insane_turing_0
+name: Metalign
+version: Default
+authors: Nathan LaPierre, Serghei Mangul, David Koslicki
+gitHubRepo: https://github.com/nlapier2/Metalign
+biocondaRecipe: nan
+commandLineUsed: Instructions will be emailed (more than one command line used).
+description: Default mode. All samples included in a single file, along with a result that is averaged across all samples.

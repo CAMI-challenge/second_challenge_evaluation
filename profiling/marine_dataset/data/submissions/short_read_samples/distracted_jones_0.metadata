@@ -1,0 +1,8 @@
+anonymousName: distracted_jones_0
+name: mOTUS
+version: nan
+authors: Zhi-Luo Deng BIFO HZI
+gitHubRepo: https://github.com/hzi-bifo/cami2_pipelines
+biocondaRecipe: nan
+commandLineUsed: nan
+description: The default mOTUs database was used. The profiling result contains all samples from marine dataset.

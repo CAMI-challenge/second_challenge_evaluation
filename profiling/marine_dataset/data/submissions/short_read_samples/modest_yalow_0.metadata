@@ -1,0 +1,8 @@
+anonymousName: modest_yalow_0
+name: CCMetagen
+version: CCMetagen v1.1.3 / KMA v1.1.7
+authors: Vanessa R. Marcelino, Philip T.L.C. Clausen, Jan Buchman
+gitHubRepo: https://github.com/vrmarcelino/CriticalAss2
+biocondaRecipe: nan
+commandLineUsed: Linux shell
+description: Illumina reads were mapped to the NCBI nt database with KMA, and the results were processed with CCMetagen

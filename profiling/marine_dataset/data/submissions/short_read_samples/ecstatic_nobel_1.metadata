@@ -1,0 +1,12 @@
+anonymousName: ecstatic_nobel_1
+name: mOTUs2
+version: 2.5.1
+authors: Alessio Milanese, Daniel Mende, Hans-Joachim Ruscheweyh, Lucas Paoli, Georg Zeller, Shinichi Sunagawa
+gitHubRepo: https://github.com/motu-tool/mOTUs_v2
+biocondaRecipe: motus
+commandLineUsed: motus util --split_cami_file $SAMPLE_reads.fq.gz   &&     motus profile -f $SAMPLE_reads.for.fq.gz -r $SAMPLE_reads.rev.fq.gz -n $SAMPLE --remove_cami_comments -C precision -l 75 -g 3
+description: "The mOTUs tool uses phylogenetic marker gene (MG)-based operational taxonomic units (mOTUs) to profile microorganisms (>12,000 in version 2.5.1) at species-level resolution."
+
+NOTE:
+- there are 2 commands, one to split the samples (should not be counted for the total computation time) and the profiling (separated by &&)
+- the profiles can be "normalised" or "not_renormalise", depending on the name of the file. normalised, means that the relative abundance is normalised to sum up to 100% (see also https://github.com/motu-tool/mOTUs_v2/wiki/CAMI-format-output)
