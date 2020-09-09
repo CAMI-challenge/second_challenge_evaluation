@@ -1,0 +1,8 @@
+anonymousName: condescending_cori_0
+name: mOTUs
+version: nan
+authors: BIFO HZI
+gitHubRepo: nan
+biocondaRecipe: nan
+commandLineUsed: nan
+description: All 100 short reads sequencing samples were analyzed with mOTUs for taxonomy profiling.

@@ -1,0 +1,8 @@
+anonymousName: desperate_sammet_0
+name: NSSAC
+version: nan
+authors: Jacob Porter, Andrew Warren
+gitHubRepo: nan
+biocondaRecipe: nan
+commandLineUsed: nan
+description: assembly method on strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta

@@ -1,0 +1,13 @@
+anonymousName: stoic_mclean_1
+name: LSHVec-illumina (genbank)
+version: latest
+authors: Lizhen Shi, Bo Chen
+
+gitHubRepo: https://LizhenShi@bitbucket.org/LizhenShi/cami2_challenge.git
+biocondaRecipe: nan
+commandLineUsed: docker run --rm  -v /path_to_host_folder_of_model_and_data:/cami2_challenge/input     lizhen0909/cami2:latest run_taxonomic_profiling_cami2_strmg_illumina_reads.py
+description: "Per sample profiling for illumina reads by train LSHVec classification model with 60k species in genbank database and  simulation.  
+
+Corresponding samples: 
+strmgCAMI2_short_read_sample_[0-99]_reads"
+
