@@ -1,9 +1,8 @@
 @SampleID:strmgCAMI2_short_read_average
-    @Version:0.9.1
-    @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-    
-    @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-    2	superkingdom	2	Bacteria	100.0
+@Version:0.9.1
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	100.0
 976	phylum	2|976	Bacteria|Bacteroidetes	1.5863589999999999
 1224	phylum	2|1224	Bacteria|Proteobacteria	42.186632
 1239	phylum	2|1239	Bacteria|Firmicutes	55.922105

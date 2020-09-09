@@ -1,9 +1,8 @@
 @SampleID:marmgCAMI2_short_read_average
-    @Version:0.9.1
-    @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-    
-    @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
-    2157	superkingdom	2157	Archaea	4.146209999999999
+@Version:0.9.1
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2157	superkingdom	2157	Archaea	4.146209999999999
 10239	superkingdom	10239	Viruses	1.6342299999999998
 2	superkingdom	2	Bacteria	32.893069999999994
 1224	phylum	2|1224	Bacteria|Proteobacteria	25.012639999999998

@@ -66,10 +66,10 @@ for dataset in ["marine_dataset", "strain_madness_dataset"]:
     # Write header information from one of the files
     if "marine" in dataset:
         header = """@SampleID:marmgCAMI2_short_read_average
-    @Version:0.9.1
-    @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-    
-    @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+@Version:0.9.1
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
     """
     else:
         header = """@SampleID:strmgCAMI2_short_read_average
