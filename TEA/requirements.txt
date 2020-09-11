@@ -1,0 +1,5 @@
+numpy==1.18.1
+pandas==1.0.3
+openpyxl==3.0.4
+glob2==0.6
+re==2.2.1
