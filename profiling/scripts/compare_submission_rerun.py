@@ -170,7 +170,7 @@ def visualize_reproducibility(submissions, reproduces, labels, output, normaliza
     reproduce_metrics, taxid_perct = evaluate(profiles_list,
                                               labels)
 
-    reproduce_metrics.to_csv(output + '.tsv', sep='\t', index=False)
+    reproduce_metrics.to_csv(output + '.rank_L1.tsv', sep='\t', index=False)
     taxid_perct.to_csv(output + '.taxid_perct.tsv', sep='\t', index=False)
     # sns.set_style("white")
     sns.set_style("ticks")
