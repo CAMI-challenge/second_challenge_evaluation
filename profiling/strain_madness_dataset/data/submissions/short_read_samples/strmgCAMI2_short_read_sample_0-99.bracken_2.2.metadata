@@ -1,0 +1,8 @@
+anonymousName: nan
+name: Kraken2 and Bracken
+version: 2.2
+authors: Zhi-Luo Deng BIFO HZI
+gitHubRepo: https://github.com/hzi-bifo/cami2_pipelines
+biocondaRecipe: nan
+commandLineUsed: nan
+description: The standard Kraken database was used. The profiling result contains all samples from strain madness dataset.
