@@ -1,4 +1,4 @@
-##dockermem.py
+## dockermem.py
 
 Tool to measure maximum memory usage and runtime of docker containers.
 
