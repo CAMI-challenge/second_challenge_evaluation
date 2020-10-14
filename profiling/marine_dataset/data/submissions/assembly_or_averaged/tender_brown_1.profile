@@ -1,6 +1,7 @@
 #tax profile based on rank prediction
 @Version:0.9.0
-@SampleID:marmgCAMI2_short_read_pooled_megahit_assembly
+#@SampleID:marmgCAMI2_short_read_pooled_megahit_assembly
+@SampleID:marmgCAMI2_short_read_average
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.0

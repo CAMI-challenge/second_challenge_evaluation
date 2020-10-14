@@ -1,4 +1,5 @@
-@SampleID:marine_averaged
+#@SampleID:marine_averaged
+@SampleID:marmgCAMI2_short_read_average
 @Version:0.9
 @Ranks: superkingdom|phylum|class|order|family|genus|species|strain
 

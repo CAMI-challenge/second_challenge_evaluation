@@ -36,10 +36,14 @@ def run_opal(commands, name):
         for submission_type in ["short_read_samples", "long_read_samples", "assembly_or_averaged"]:
             base = str(Path(os.path.abspath(os.path.join(__file__, os.pardir))).parent) + f"/{dataset}/"
             opal_out = f"{base}/results/OPAL_{OPAL_options}_{submission_type}"
-            if "marine" in dataset:
-                ground_truth = f"{base}/data/ground_truth/gs_marine_short.profile"
+            if (submission_type != "assembly_or_averaged") and ("marine" in dataset):
+                ground_truth = f"{base}/data/ground_truth/gs_marine_short.profile"  # marine, all samples
+            elif (submission_type == "assembly_or_averaged") and ("marine" in dataset):
+                ground_truth = f"{base}/data/ground_truth/gs_marine_short_average.profile"  # marine, averaged
+            elif (submission_type == "assembly_or_averaged") and ("marine" not in dataset):
+                ground_truth = f"{base}/data/ground_truth/gs_strain_madness_short_long_average.profile"  # strain madness, averaged
             else:
-                ground_truth = f"{base}/data/ground_truth/gs_strain_madness_short_long.profile"
+                ground_truth = f"{base}/data/ground_truth/gs_strain_madness_short_long.profile"  # strain madness, all samples
 
             ## default args
             plotLabel = f"{dataset}, {submission_type}"
@@ -64,6 +68,8 @@ def run_opal(commands, name):
             print(" ")
             print(f"{dataset}, {submission_type}:")
             res = subprocess.run(to_run, shell=True)
+            #print(to_run)
+
 
 # Default
 run_opal("", "default")

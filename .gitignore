@@ -111,3 +111,4 @@ venv.bak/
 *.pyc
 tmp/
 ignore/
+.vscode

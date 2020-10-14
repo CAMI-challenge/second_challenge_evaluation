@@ -1,4 +1,5 @@
-@SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+#@SampleID:strmgCAMI2_short_read_pooled_gold_standard_assembly
+@SampleID:strmgCAMI2_short_read_average
 @Version:0.9.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20171004

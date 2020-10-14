@@ -1,0 +1,11 @@
+marmgCAMI2_short_read_sample_0-9.bracken_2.2.profile,angry_brattain_0    
+marmgCAMI2_short_read_sample_0-9.ccmetagen_1.1.3.profile,modest_yalow_0
+marmgCAMI2_short_read_sample_0-9.LSHvec_1dfe822.profile,stoic_mclean_0
+marmgCAMI2_short_read_sample_0-9.metalign_0.6.2_default.profile,insane_turing_0
+marmgCAMI2_short_read_sample_0-9.metalign_0.6.2_precise.profile,
+marmgCAMI2_short_read_sample_0-9.metaphlan2_2.9.22.profile,mad_yalow_0
+marmgCAMI2_short_read_sample_0-9.motus_2.5.1.profile,ecstatic_nobel_1
+strmgCAMI2_short_read_sample_0-99.bracken_2.2.profile,strmgCAMI2_short_read_sample_0-99.bracken_2.2
+strmgCAMI2_short_read_sample_0-99.ccmetagen_1.1.3.profile,
+strmgCAMI2_short_read_sample_0-99.metaphlan2_2.9.22.profile,mad_yalow_1
+strmgCAMI2_short_read_sample_0-99.motus_2.5.1_default_norm.profile,ecstatic_nobel_11
