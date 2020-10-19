@@ -1,0 +1,12 @@
+anonymousName: hopeful_kirch_0
+name: LSHVec (genbank)
+version: latest
+authors: Lizhen Shi, Bo Chen
+
+gitHubRepo: https://LizhenShi@bitbucket.org/LizhenShi/cami2_challenge.git
+biocondaRecipe: nan
+commandLineUsed: docker run --rm  -v /path_to_host_folder_of_model_and_data:/cami2_challenge/input     lizhen0909/cami2:latest  run_binning_cami2_assembly_marmg_gold_standard
+description: "Train a LSHVec classification model with 60k species in genbank database.
+Corresponding sample: 
+marmgCAMI2_short_read_pooled_gold_standard_assembly.fasta.gz"
+

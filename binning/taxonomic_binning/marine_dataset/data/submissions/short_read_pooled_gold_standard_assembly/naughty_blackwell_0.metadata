@@ -1,0 +1,11 @@
+anonymousName: naughty_blackwell_0
+name: PhyloPythiaS+
+version: 1.4
+authors: Gregor et al.
+gitHubRepo: nan
+biocondaRecipe: nan
+commandLineUsed: ppsp -c <config> -n -g -o s16 mg -t -p c -r -s
+description: Taxonomic binning of the gold standard pooled assembly
+maxLeafClades=800
+minPercentInLeaf=0.01
+Complete refseq 93 and SILVA 132

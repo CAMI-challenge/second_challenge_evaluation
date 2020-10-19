@@ -1,0 +1,8 @@
+anonymousName: grave_ritchie_2
+name: Ganon
+version: 0.1.4
+authors: Vitor C. Piro, Temesgen H. Dadi, Enrico Seiler, Knut Reinert, Bernhard Y. Renard
+gitHubRepo: https://github.com/pirovc/ganon
+biocondaRecipe: nan
+commandLineUsed: The workflow is described at https://github.com/mirand863/ganon_cami2
+description: Ganon is a k-mer based read classification tool which uses Interleaved Bloom Filters in conjunction with a taxonomic clustering and a k-mer counting-filtering scheme. All 100 samples were used in this submission (0-99).
