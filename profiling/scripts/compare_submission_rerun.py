@@ -1,7 +1,11 @@
 import click
 import logging
-from opal import *
-
+#from opal import *
+import sys
+sys.path.extend('/home/dkoslicki/Desktop/second_challenge_evaluation/OPAL/src')
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from src import l1norm as l1
@@ -11,6 +15,7 @@ from src import braycurtis as bc
 # from src import html_opal as html
 # from src import plots as pl
 from src.utils import load_data
+from src.utils import constants as c
 
 
 def load_profiles(submission_files, reproduce_files, no_normalization):
