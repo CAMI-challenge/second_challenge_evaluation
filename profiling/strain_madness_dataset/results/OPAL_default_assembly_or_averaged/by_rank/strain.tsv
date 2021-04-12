@@ -1,0 +1,5 @@
+tool	sample	Weighted UniFrac error	Unweighted UniFrac error	L1 norm error	Completeness	Purity	F1 score	True positives	False positives	False negatives	Taxon counts	Jaccard index	Shannon diversity	Shannon equitability	Bray-Curtis distance
+LSHVa	strmgCAMI2_short_read_average	0.014904948105528608	0.9721967864369986	na	0.0	0.0	na	0.0	0.0	408.0	0.0	0.0	na	na	na
+LSHVb	strmgCAMI2_short_read_average	0.0523987906257505	0.6040883856144053	na	0.0	0.0	na	0.0	0.0	408.0	0.0	0.0	na	na	na
+LSHVe	strmgCAMI2_short_read_average	0.028919703993837077	0.6998503339324157	1.9999997849999989	0.0	0.0	na	0.0	632.0	408.0	632.0	0.0	5.491620984855983	0.8515607338281052	1.0
+NSSAC	strmgCAMI2_short_read_average	0.029294917029651268	1.047994644960898	na	0.0	0.0	na	0.0	0.0	408.0	0.0	0.0	na	na	na
