@@ -4,6 +4,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	73.77
+2157	superkingdom	2157	Archaea	8.37
 201174	phylum	2|201174	Bacteria|Actinobacteria	5.46
 200783	phylum	2|200783	Bacteria|Aquificae	0.05
 976	phylum	2|976	Bacteria|Bacteroidetes	2.52
@@ -418,6 +420,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	74.73
+2157	superkingdom	2157	Archaea	7.259999999999999
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	4.78
 200783	phylum	2|200783	Bacteria|Aquificae	0.10
@@ -845,6 +849,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	72.39000000000001
+2157	superkingdom	2157	Archaea	7.789999999999999
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	5.04
 200783	phylum	2|200783	Bacteria|Aquificae	0.18
@@ -1279,6 +1285,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	71.29
+2157	superkingdom	2157	Archaea	6.719999999999999
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	4.67
 200783	phylum	2|200783	Bacteria|Aquificae	0.10
@@ -1696,6 +1704,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	71.77
+2157	superkingdom	2157	Archaea	5.279999999999999
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	5.72
 200783	phylum	2|200783	Bacteria|Aquificae	0.06
@@ -2091,6 +2101,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	68.19999999999999
+2157	superkingdom	2157	Archaea	5.1899999999999995
 201174	phylum	2|201174	Bacteria|Actinobacteria	3.68
 200783	phylum	2|200783	Bacteria|Aquificae	0.08
 976	phylum	2|976	Bacteria|Bacteroidetes	11.06
@@ -2487,6 +2499,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	69.64000000000001
+2157	superkingdom	2157	Archaea	6.1
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	3.65
 200783	phylum	2|200783	Bacteria|Aquificae	0.06
@@ -2891,6 +2905,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	73.01000000000002
+2157	superkingdom	2157	Archaea	6.48
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	4.27
 200783	phylum	2|200783	Bacteria|Aquificae	0.21
@@ -3306,6 +3322,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	71.16
+2157	superkingdom	2157	Archaea	7.09
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	2.79
 200783	phylum	2|200783	Bacteria|Aquificae	0.14
@@ -3715,6 +3733,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	70.19000000000001
+2157	superkingdom	2157	Archaea	5.04
 57723	phylum	2|57723	Bacteria|Acidobacteria	0.00
 201174	phylum	2|201174	Bacteria|Actinobacteria	4.44
 200783	phylum	2|200783	Bacteria|Aquificae	0.01

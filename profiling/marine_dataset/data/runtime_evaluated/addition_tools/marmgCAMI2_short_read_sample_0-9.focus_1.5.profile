@@ -4,6 +4,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	88.88974251341334
+2157	superkingdom	2157	Archaea	7.433796068222855
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.3517020157260136
 1239	phylum	2|1239	Bacteria|Firmicutes	6.737118294454733
 1224	phylum	2|1224	Bacteria|Proteobacteria	65.73370856775
@@ -1112,6 +1114,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	89.78465743564293
+2157	superkingdom	2157	Archaea	6.665857675700043
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.5729033823036512
 1239	phylum	2|1239	Bacteria|Firmicutes	8.273215998693978
 1224	phylum	2|1224	Bacteria|Proteobacteria	64.72992559683526
@@ -2220,6 +2224,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	89.78789511009165
+2157	superkingdom	2157	Archaea	7.194620221352751
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.6546508188001123
 1239	phylum	2|1239	Bacteria|Firmicutes	7.9384024616453335
 1224	phylum	2|1224	Bacteria|Proteobacteria	64.47509989540316
@@ -3328,6 +3334,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	89.9981900896609
+2157	superkingdom	2157	Archaea	6.76242803746935
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.4928606014058821
 1239	phylum	2|1239	Bacteria|Firmicutes	8.37345908383033
 1224	phylum	2|1224	Bacteria|Proteobacteria	62.71078366655686
@@ -4436,6 +4444,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	91.29876700358574
+2157	superkingdom	2157	Archaea	5.829280956250898
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.6338248959452498
 1239	phylum	2|1239	Bacteria|Firmicutes	7.5541452391423185
 1224	phylum	2|1224	Bacteria|Proteobacteria	61.92629554191943
@@ -5544,6 +5554,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	90.7606775398282
+2157	superkingdom	2157	Archaea	5.8855440554952185
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.4949756974560123
 1239	phylum	2|1239	Bacteria|Firmicutes	7.5578386656094905
 1224	phylum	2|1224	Bacteria|Proteobacteria	62.561972837810316
@@ -6652,6 +6664,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	90.09037306615498
+2157	superkingdom	2157	Archaea	6.117954603782138
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.5553625882469511
 1239	phylum	2|1239	Bacteria|Firmicutes	7.284345213012829
 1224	phylum	2|1224	Bacteria|Proteobacteria	63.0332036952369
@@ -7760,6 +7774,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	89.79209574536607
+2157	superkingdom	2157	Archaea	6.547465806347957
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.5357500697531133
 1239	phylum	2|1239	Bacteria|Firmicutes	7.187760345302216
 1224	phylum	2|1224	Bacteria|Proteobacteria	64.38698723796978
@@ -8868,6 +8884,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	89.87372883658642
+2157	superkingdom	2157	Archaea	6.98828354133044
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.6167232129483617
 1239	phylum	2|1239	Bacteria|Firmicutes	6.388162232895131
 1224	phylum	2|1224	Bacteria|Proteobacteria	65.58993156744339
@@ -9976,6 +9994,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	91.57393850428593
+2157	superkingdom	2157	Archaea	5.203448865753366
 203691	phylum	2|203691	Bacteria|Spirochaetes	0.4533386066381731
 1239	phylum	2|1239	Bacteria|Firmicutes	6.469837436969043
 1224	phylum	2|1224	Bacteria|Proteobacteria	62.43768699940878

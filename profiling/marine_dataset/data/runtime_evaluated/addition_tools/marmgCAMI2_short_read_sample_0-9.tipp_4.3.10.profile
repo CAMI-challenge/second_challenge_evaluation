@@ -4,6 +4,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -2199,6 +2201,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -4394,6 +4398,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -6589,6 +6595,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -8784,6 +8792,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -10979,6 +10989,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -13174,6 +13186,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -15369,6 +15383,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -17564,6 +17580,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001
@@ -19759,6 +19777,8 @@
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20200904
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	84.08
+2157	superkingdom	2157	Archaea	10.350000000000001
 1090	phylum	2|1090	Bacteria|Chlorobi	2.19
 1117	phylum	2|1117	Bacteria|Cyanobacteria	4.04
 1224	phylum	2|1224	Bacteria|Proteobacteria	67.10000000000001

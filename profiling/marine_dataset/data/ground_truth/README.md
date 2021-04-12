@@ -1,0 +1,1 @@
+`gs_marine_short.filtered.profile` is normalized and does not contain viruses and circular elements like plasmids.
