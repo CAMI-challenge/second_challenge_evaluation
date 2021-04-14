@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage[left=0.3in,right=0.3in,top=0.5in,bottom=0.3in]{geometry}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\floatsetup[figure]{style=plain,subcapbesideposition=top, position=top}
+\captionsetup[subfigure]{labelformat=simple,labelfont={bf,sf},font=large}
+
+\begin{document}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.55]{efficiency_legend}\\
+    \vspace*{-1px}
+    \sidesubfloat[]{\includegraphics[width=180pt]{runtimes}}
+    \quad
+    \sidesubfloat[]{\includegraphics[width=180pt]{memory_usage}}
+\end{figure}
+\end{document}
