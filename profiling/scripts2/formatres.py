@@ -9,16 +9,15 @@ pd.set_option('display.expand_frame_repr', False)
 
 RANKS = ['superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species', 'strain']
 
-# PATH = '../marine_dataset/results/OPAL_short_long_noplasmids/'
-PATH = '../strain_madness_dataset/results/OPAL_short_long/'
 METRICS = ['Completeness', 'Purity', 'F1 score', 'L1 norm error', 'Bray-Curtis distance', 'Shannon equitability'] # 'Weighted UniFrac error'
 
 DECIMALS = {'Completeness': 1, 'Purity': 1, 'F1 score': 1, 'L1 norm error': 2, 'Bray-Curtis distance': 2, 'Shannon equitability': 2}
 DECIMALS.update({metric + rank: DECIMALS[metric] for metric in METRICS for rank in RANKS + ['avg']})
 DECIMALS['Weighted UniFrac error'] = 2
 
-ASCENDING = ['L1 norm error', 'Bray-Curtis distance', 'Shannon equitability', 'Weighted UniFrac error']
+# ASCENDING = ['L1 norm error', 'Bray-Curtis distance', 'Shannon equitability', 'Weighted UniFrac error']
 DESCENDING = ['Completeness', 'Purity', 'F1 score']
+DESCENDING += [metric + rank for rank in RANKS for metric in DESCENDING]
 
 pd.set_option('display.max_columns', 999)
 pd.set_option('display.max_rows', 100)
@@ -84,29 +83,30 @@ def load_results(path):
 
 def append_stats(formattepd, bestpd):
     bestpd = bestpd.drop(index='mOTUs 2.0.1_1')
-    return formattepd.append(pd.DataFrame([bestpd.mean().values.round(1), bestpd.sem().values.round(1),
-                                           bestpd.var().values.round(1), bestpd.std().values.round(1)],
-                           index=['Average', 'Standard error of the mean', 'Variance', 'Standard deviation'],
-                           columns=formattepd.columns))
+
+    mean_series = pd.DataFrame(bestpd.mean()).T.round(DECIMALS).iloc[0]
+    sem_series = pd.DataFrame(bestpd.sem()).T.round(DECIMALS).iloc[0]
+    var_series = pd.DataFrame(bestpd.var()).T.round(DECIMALS).iloc[0]
+    std_series = pd.DataFrame(bestpd.std()).T.round(DECIMALS).iloc[0]
+
+    return formattepd.append(pd.DataFrame([mean_series, sem_series, var_series, std_series],
+                               index=['Average', 'Standard error of the mean', 'Variance', 'Standard deviation'],
+                               columns=formattepd.columns))
 
 
 def compute_rankings(pdres, ranked_cols):
     pdres['method'] = pdres.apply(lambda row: row['tool'].split(' ')[0] + ' cami1' if 'cami1' in row['tool'] else row['tool'].split(' ')[0], axis=1)
     pdres.loc[pdres[pdres['tool'] == 'mOTUs 2.0.1_1'].index[0], 'method'] = 'mOTUs 2.0.1'
-
-    # drop_cols = [metric+'avg' for metric in METRICS]
-    # drop_cols += [metric+'strain' for metric in METRICS]
-
-    # tools = sorted(pdres['tool'], key=str.casefold)
-    # pdres = pdres.drop(columns=drop_cols).set_index('tool').loc[tools]
     pdres = pdres.set_index('tool')
 
-    # Compute scores for all results, then keep only best per method, and recompute
+    pdcopy = pdres.apply(lambda x: x.fillna(0 if x.name in DESCENDING else 9999999), axis=0)
+
+    # Compute scores for all results, keep only best per method, and recompute
     for i in [0, 1]:
         for metric in METRICS:
             for rank in RANKS[:-1]:
-                pdres[metric + rank].fillna(0 if metric in DESCENDING else 9999999, inplace=True)
-                pdres[metric + rank + 'score'] = pdres[metric + rank].rank(method='min', ascending=False if metric in DESCENDING else True, na_option='bottom') - 1
+                pdcopy = pdcopy.loc[pdres.index]
+                pdres[metric + rank + 'score'] = pdcopy[metric + rank].rank(method='min', ascending=False if metric in DESCENDING else True, na_option='bottom') - 1
         pdres['Weighted UniFrac error' + 'score'] = pdres['Weighted UniFrac error'].rank(method='min', ascending=True, na_option='bottom') - 1
         pdres['sum'] = pdres[ranked_cols].sum(axis=1)
         pdres = pdres.loc[pdres.groupby('method')['sum'].idxmin()]
@@ -114,10 +114,8 @@ def compute_rankings(pdres, ranked_cols):
     return pdres
 
 
-def save_ranked(rankedpd, ranked_cols, path):
-    rankedpd = rankedpd.drop(columns=['method'])
-    rankedpd = rankedpd[ranked_cols + ['sum']]
-
+def save_ranked(rankedpd, filename):
+    rankedpd = rankedpd.copy()
     pdlist = []
     for metric in METRICS:
         cols = [metric + rank + 'score' for rank in RANKS[:-1]]
@@ -127,21 +125,44 @@ def save_ranked(rankedpd, ranked_cols, path):
     pdlist.append(pd.DataFrame(["%s (%i)" % (idx, pos) for idx, pos in rankedpd[metric + 'score'].sort_values().iteritems()], columns=[metric]))
     metric = 'sum'
     pdlist.append(pd.DataFrame(["%s (%i)" % (idx, pos) for idx, pos in rankedpd[metric].sort_values().iteritems()], columns=[metric]))
-    pd.concat(pdlist, axis=1).to_csv(os.path.join(path, 'rankings.tsv'), sep='\t')
+    pd.concat(pdlist, axis=1).to_csv(filename, sep='\t', index=False)
+
+
+def rank_across_datasets(df1, df2, filename):
+    common = set(df1['method']).intersection(set(df2['method']))
+
+    df1 = df1[df1['method'].isin(common)]
+    df2 = df2[df2['method'].isin(common)]
+
+    dfx = pd.concat([df1, df2]).groupby('method').sum()
+    dfx = dfx.loc[dfx.groupby('method')['sum'].idxmin()]
+
+    save_ranked(dfx, filename)
 
 
 def main():
-    formattepd = load_results(PATH)
+    results = ['../marine_dataset/results/OPAL_short_long_noplasmids/',
+               '../marine_dataset/results/OPAL_short_long_noplasmids_normalized_filtered/',
+               '../strain_madness_dataset/results/OPAL_short_long/',
+               '../strain_madness_dataset/results/OPAL_short_long_normalized_filtered/']
 
     ranked_cols = [metric+rank + 'score' for metric in METRICS for rank in RANKS[:-1]] + ['Weighted UniFrac error' + 'score']
-    rankedpd = compute_rankings(formattepd, ranked_cols)
+    best_list = []
+    for path in results:
+        formattepd = load_results(path)
 
-    formattepd.set_index('tool', inplace=True)
-    avg_cols = [metric + rank for metric in METRICS for rank in RANKS + ['avg']] + ['Weighted UniFrac error']
-    formattepd = append_stats(formattepd[avg_cols], rankedpd[avg_cols])
-    formattepd.to_csv(os.path.join(PATH, 'formatted_results.tsv'), sep='\t')
+        rankedpd = compute_rankings(formattepd, ranked_cols)
+        save_ranked(rankedpd[ranked_cols + ['sum']], os.path.join(path, 'rankings.tsv'))
 
-    save_ranked(rankedpd, ranked_cols, PATH)
+        formattepd = formattepd.set_index('tool')
+        avg_cols = [metric + rank for metric in METRICS for rank in RANKS[:-1] + ['avg'] + [RANKS[-1]]] + ['Weighted UniFrac error']
+        formattepd = append_stats(formattepd[avg_cols], rankedpd[avg_cols])
+        formattepd.to_csv(os.path.join(path, 'formatted_results.tsv'), sep='\t')
+
+        best_list.append(rankedpd[ranked_cols + ['method'] + ['sum']])
+
+    rank_across_datasets(best_list[0], best_list[2], os.path.join('../', 'rankings_across_marine_strain_madness.tsv'))
+    rank_across_datasets(best_list[1], best_list[3], os.path.join('../', 'rankings_across_marine_strain_madness_normalized_filtered.tsv'))
 
 
 if __name__ == "__main__":

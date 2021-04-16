@@ -37,6 +37,10 @@ opal.py -g ./marine_dataset/data/ground_truth/gs_marine_short.filtered.profile \
 -l "Metalign 0.6.2 avg,LSHVec gsa,NBC++,Bracken 2.2,mOTUs 2.0.1_1,mOTUs 2.5.1_2,mOTUs 2.5.1_3,mOTUs 2.5.1_4,mOTUs 2.5.1_5,mOTUs 2.5.1_6,mOTUs 2.5.1_7,mOTUs 2.5.1_8,mOTUs 2.5.1_9,mOTUs 2.5.1_10,mOTUs 2.5.1_11,Metalign 0.6.2,MetaPhlAn 2.9.22,CCMetagen 1.1.3,LSHVec illumina,LSHVec pacbio,DUDes cami1,FOCUS cami1,MetaPhlAn cami1,mOTUs cami1,TIPP cami1,Centrifuge 1.0.4 beta,DUDes 0.08,FOCUS 1.5,MetaPalette 1.0.0,MetaPhyler 1.25,TIPP 4.3.10" \
 -o ./marine_dataset/results/OPAL_short_long_noplasmids
 ~~~
+Replace last line by the following for normalized and 1%-filtered results:
+~~~BASH
+-o ./marine_dataset/results/OPAL_short_long_noplasmids_normalized_filtered -n -f 1
+~~~
 
 ## OPAL command for the strain madness dataset
 ~~~BASH
@@ -73,4 +77,8 @@ opal.py -g ./strain_madness_dataset/data/ground_truth/gs_strain_madness_short_lo
 ./strain_madness_dataset/data/runtime_evaluated/reproduce/strmgCAMI2_short_read_sample_0-99.ccmetagen_1.1.3.profile \
 -l "Bracken 2.2,LSHVec strain gsa,LSHVec gsa, mOTUs 2.0.1_1,mOTUs 2.5.1_2,mOTUs 2.5.1_3,mOTUs 2.5.1_4,mOTUs 2.5.1_5,mOTUs 2.5.1_6,mOTUs 2.5.1_7,mOTUs 2.5.1_8,mOTUs 2.5.1_9,mOTUs 2.5.1_10,mOTUs 2.5.1_11,Metalign 0.6.2,MetaPhlAn 2.9.22,LSHVec illumina,LSHVec pacbio,DUDes cami1,FOCUS cami1,MetaPhlAn cami1,mOTUs cami1,TIPP cami1,Centrifuge 1.0.4 beta,DUDes 0.08,FOCUS 1.5,MetaPhyler 1.25,TIPP 4.3.10,CCMetagen 1.1.3" \
 -o ./strain_madness_dataset/results/OPAL_short_long
+~~~
+Replace last line by the following for normalized and 1%-filtered results:
+~~~BASH
+-o ./strain_madness_dataset/results/OPAL_short_long_normalized_filtered -n -f 1
 ~~~
