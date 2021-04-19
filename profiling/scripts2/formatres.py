@@ -82,7 +82,8 @@ def load_results(path):
 
 
 def append_stats(formattepd, bestpd):
-    bestpd = bestpd.drop(index='mOTUs 2.0.1_1')
+    if 'mOTUs 2.0.1_1' in bestpd.index:
+        bestpd = bestpd.drop(index='mOTUs 2.0.1_1')
 
     mean_series = pd.DataFrame(bestpd.mean()).T.round(DECIMALS).iloc[0]
     sem_series = pd.DataFrame(bestpd.sem()).T.round(DECIMALS).iloc[0]
@@ -94,9 +95,10 @@ def append_stats(formattepd, bestpd):
                                columns=formattepd.columns))
 
 
-def compute_rankings(pdres, ranked_cols):
+def compute_rankings(pdres, ranked_cols, methods):
     pdres['method'] = pdres.apply(lambda row: row['tool'].split(' ')[0] + ' cami1' if 'cami1' in row['tool'] else row['tool'].split(' ')[0], axis=1)
-    pdres.loc[pdres[pdres['tool'] == 'mOTUs 2.0.1_1'].index[0], 'method'] = 'mOTUs 2.0.1'
+    for method in methods:
+        pdres.loc[pdres[pdres['tool'] == method].index[0], 'method'] = method
     pdres = pdres.set_index('tool')
 
     pdcopy = pdres.apply(lambda x: x.fillna(0 if x.name in DESCENDING else 9999999), axis=0)
@@ -141,17 +143,24 @@ def rank_across_datasets(df1, df2, filename):
 
 
 def main():
-    results = ['../marine_dataset/results/OPAL_short_long_noplasmids/',
-               '../marine_dataset/results/OPAL_short_long_noplasmids_normalized_filtered/',
-               '../strain_madness_dataset/results/OPAL_short_long/',
-               '../strain_madness_dataset/results/OPAL_short_long_normalized_filtered/']
+    # Keep these method versions, not only the best
+    methods_mar = ['mOTUs 2.0.1_1']
+    methods_rhi = ['MetaPhlAn 2.9.21', 'MetaPhlAn 3.0.7']
+
+    results = [('../marine_dataset/results/OPAL_short_long_noplasmids/', methods_mar),
+               ('../marine_dataset/results/OPAL_short_long_noplasmids_normalized_filtered/', methods_mar),
+               ('../strain_madness_dataset/results/OPAL_short_long/', methods_mar),
+               ('../strain_madness_dataset/results/OPAL_short_long_normalized_filtered/', methods_mar),
+               ('../rhizosphere_dataset/results/OPAL_short_long_noplasmids/', methods_rhi),
+               ('../rhizosphere_dataset/results/OPAL_short_long_noplasmids_normalized_filtered/', methods_rhi),
+               ('../rhizosphere_dataset/results/OPAL_short_long/', methods_rhi)]
 
     ranked_cols = [metric+rank + 'score' for metric in METRICS for rank in RANKS[:-1]] + ['Weighted UniFrac error' + 'score']
     best_list = []
-    for path in results:
+    for path, methods in results:
         formattepd = load_results(path)
 
-        rankedpd = compute_rankings(formattepd, ranked_cols)
+        rankedpd = compute_rankings(formattepd, ranked_cols, methods)
         save_ranked(rankedpd[ranked_cols + ['sum']], os.path.join(path, 'rankings.tsv'))
 
         formattepd = formattepd.set_index('tool')

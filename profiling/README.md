@@ -83,11 +83,15 @@ Replace last line by the following for normalized and 1%-filtered results:
 -o ./strain_madness_dataset/results/OPAL_short_long_normalized_filtered -n -f 1
 ~~~
 
+## OPAL command for the rhizosphere dataset
+
 ~~~BASH
-opal.py -g ./rhizosphere_dataset/data/ground_truth/gs_rhizosphere.profile \
+opal.py -g ./rhizosphere_dataset/data/ground_truth/gs_rhizosphere.filtered.profile \
 -d "2nd CAMI Challenge Rhizosphere Dataset, short & long reads" \
 ./rhizosphere_dataset/data/submissions/bracken2.6_rhizosphere.profile \
+./rhizosphere_dataset/data/submissions/metaphlan2.9.21_rhizosphere.profile \
 ./rhizosphere_dataset/data/submissions/metaphlan3.0.7_rhizosphere.profile \
+./rhizosphere_dataset/data/submissions/motus_cami1_rhizosphere.profile \
 ./rhizosphere_dataset/data/submissions/motus2.5.1_rhizosphere.profile \
 ./rhizosphere_dataset/data/submissions/jolly_bartik_0.profile \
 ./rhizosphere_dataset/data/submissions/jolly_bartik_1.profile \
@@ -97,6 +101,10 @@ opal.py -g ./rhizosphere_dataset/data/ground_truth/gs_rhizosphere.profile \
 ./rhizosphere_dataset/data/submissions/jolly_bartik_5.profile \
 ./rhizosphere_dataset/data/submissions/jolly_bartik_6.profile \
 ./rhizosphere_dataset/data/submissions/jolly_bartik_7.profile \
--l "Bracken 2.6,MetaPhlAn 3.0.7,mOTUs 2.5.1, sourmash gather k21 (sr),sourmash gather k31 (sr),sourmash gather k51 (sr),sourmash gather k21 (nano),sourmash gather k31 (nano),sourmash gather k51 (nano),sourmash gather k21 (pb),sourmash gather k31 (pb)" \
--o ./rhizosphere_dataset/results/OPAL_short_long
+-l "Bracken 2.6,MetaPhlAn 2.9.21,MetaPhlAn 3.0.7,mOTUs cami1,mOTUs 2.5.1, sourmash gather 3.3.2 k21 (sr),sourmash gather 3.3.2 k31 (sr),sourmash gather 3.3.2 k51 (sr),sourmash gather 3.3.2 k21 (nano),sourmash gather 3.3.2 k31 (nano),sourmash gather 3.3.2 k51 (nano),sourmash gather 3.3.2 k21 (pb),sourmash gather 3.3.2 k31 (pb)" \
+-o ./rhizosphere_dataset/results/OPAL_short_long_noplasmids
+~~~
+Replace last line by the following for normalized and 1%-filtered results:
+~~~BASH
+-o ./rhizosphere_dataset/results/OPAL_short_long_normalized_filtered -n -f 1
 ~~~

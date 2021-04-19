@@ -1,0 +1,7 @@
+Completeness	Purity	F1 score	L1 norm error	Bray-Curtis distance	Shannon equitability	Weighted UniFrac error	sum
+sourmash gather 3.3.2 k21 (sr) (2)	MetaPhlAn 3.0.7 (0)	mOTUs 2.5.1 (8)	Bracken 2.6 (4)	Bracken 2.6 (3)	sourmash gather 3.3.2 k21 (sr) (3)	Bracken 2.6 (0)	sourmash gather 3.3.2 k21 (sr) (50)
+mOTUs 2.5.1 (11)	MetaPhlAn 2.9.21 (2)	MetaPhlAn 2.9.21 (10)	sourmash gather 3.3.2 k21 (sr) (4)	sourmash gather 3.3.2 k21 (sr) (3)	Bracken 2.6 (12)	mOTUs 2.5.1 (1)	mOTUs 2.5.1 (58)
+Bracken 2.6 (14)	mOTUs 2.5.1 (4)	sourmash gather 3.3.2 k21 (sr) (11)	mOTUs 2.5.1 (11)	mOTUs 2.5.1 (10)	mOTUs 2.5.1 (13)	sourmash gather 3.3.2 k21 (sr) (2)	Bracken 2.6 (65)
+MetaPhlAn 2.9.21 (14)	mOTUs cami1 (12)	Bracken 2.6 (16)	mOTUs cami1 (20)	mOTUs cami1 (20)	MetaPhlAn 3.0.7 (16)	mOTUs cami1 (3)	MetaPhlAn 2.9.21 (96)
+MetaPhlAn 3.0.7 (23)	Bracken 2.6 (16)	MetaPhlAn 3.0.7 (20)	MetaPhlAn 2.9.21 (23)	MetaPhlAn 2.9.21 (23)	MetaPhlAn 2.9.21 (20)	MetaPhlAn 2.9.21 (4)	MetaPhlAn 3.0.7 (118)
+mOTUs cami1 (25)	sourmash gather 3.3.2 k21 (sr) (25)	mOTUs cami1 (24)	MetaPhlAn 3.0.7 (27)	MetaPhlAn 3.0.7 (27)	mOTUs cami1 (23)	MetaPhlAn 3.0.7 (5)	mOTUs cami1 (127)
