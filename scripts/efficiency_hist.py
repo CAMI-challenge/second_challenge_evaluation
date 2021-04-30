@@ -150,7 +150,7 @@ if __name__ == "__main__":
     # exit()
     runtimes = pd.read_csv(FILE, sep=',').fillna('')
 
-    assemblers = 'Flye,MEGAHIT,metaSPAdes,OPERA-MS,Ray Meta,AbySS'.split(',')
+    assemblers = 'Flye,MEGAHIT,GATB,metaSPAdes,OPERA-MS,Ray Meta,AbySS'.split(',')
     genome_binners = 'UltraBinner,MetaBAT,MetaBinner,Autometa,MaxBin,CONCOCT,SolidBin,LSHVec,Vamb'.split(',')
     taxonomic_binners = 'DIAMOND,MEGAN,Kraken,PhyloPythiaS+'.split(',')
     profilers = ['Bracken', 'CCMetagen', 'Centrifuge', 'DUDes', 'FOCUS', 'LSHVec', 'MetaPhlAn', 'MetaPhyler',
