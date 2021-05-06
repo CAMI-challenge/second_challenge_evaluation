@@ -1,0 +1,13 @@
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	0.0	0.0	1.117	0.0	0.82479	0.0	2745.0
+sample_nanopore_gsa	0.0	0.0	1.039	0.0	0.7924599999999999	0.0	16976.0
+sample_pacbio_gsa	1.0	0.0	1.015	0.0	0.9405100000000001	1.0	35593.0
+sample_hybrid_pb_gsa	1.0	0.0	1.016	0.0	0.9897199999999999	1.0	82834.0
+sample_hybrid_nanopore_gsa	0.0	0.0	1.09	0.0	0.8764799999999999	0.0	4851.0
+MetaHipMer_short	0.0	308.79	1.004	0.0	0.29679	0.0	0.0
+MetaHipMer2_short	0.0	302.21	1.006	3.0	0.31713	0.0	0.0
+metaSPAdes_short	0.0	949.46	1.015	0.0	0.2427	0.0	0.0
+Megahit_short	0.0	930.3	1.017	3.0	0.34241999999999995	0.0	0.0
+ABySS_short	0.0	191.36	1.001	0.0	0.05135	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	819.25	1.014	2.0	0.14264	0.0	0.0
+OPERA-MS_hybrid	0.0	1140.09	1.02	4.0	0.13385999999999998	0.0	0.0
