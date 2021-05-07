@@ -1,0 +1,169 @@
+3934_BI_pooled.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+pooled_short_gsa	1.0	0.0	1.0	0.0	0.9993899999999999	1.0	124605.0
+pooled_nanopore_gsa	1.0	0.0	1.0	0.0	0.9909	1.0	291838.0
+pooled_pacbio_gsa	1.0	0.0	1.0	0.0	0.99688	1.0	672736.0
+pooled_hybrid_pb_gsa	1.0	0.0	1.0	0.0	0.9997499999999999	1.0	673467.0
+pooled_hybrid_nano_gsa	0.0	0	0	0	0.0	0.0	0.0
+MetaHipMer_short	0.0	73.97	1.002	1.0	0.88286	0.0	2341.0
+metaFlye_long	0.0	617.59	1.004	0.0	0.78181	0.0	102864.0
+metaFlye_hybrid	0.0	623.56	1.002	1.0	0.85584	0.0	112897.0
+metaFlye_strain_long	0.0	617.71	1.004	0.0	0.78181	0.0	102864.0
+metaFlye_strain_hybrid	0.0	623.56	1.002	1.0	0.85584	0.0	112897.0
+MetaHipMer2_short	1.0	41.35	1.001	1.0	0.9104099999999999	1.0	2800.0
+metaSPAdes_short	0.0	507.79	1.041	6.0	0.9503100000000001	0.0	2188.0
+Megahit_short	0.0	376.28	1.021	7.0	0.98639	0.0	5971.0
+OPERA-MS_hybrid	0.0	685.9	1.025	3.0	0.30343	0.0	0.0
+metaFlye-inhouse_hybrid	0.0	640.26	1.006	0.0	0.75285	0.0	99041.0
+LjRoot109_pooled.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+pooled_short_gsa	1.0	0.0	1.002	0.0	0.99926	1.0	412099.0
+pooled_nanopore_gsa	1.0	0.0	1.018	0.0	0.9997400000000001	1.0	412085.0
+pooled_pacbio_gsa	1.0	0.0	1.047	0.0	0.99771	1.0	412051.0
+pooled_hybrid_pb_gsa	1.0	0.0	1.041	0.0	0.99845	1.0	412099.0
+pooled_hybrid_nano_gsa	1.0	0.0	1.0	0.0	0.99846	1.0	412099.0
+MetaHipMer_short	0.0	29.59	1.011	1.0	0.65452	0.0	3199.0
+metaFlye_long	0.0	71.15	1.142	40.0	0.8547100000000001	0.0	76575.0
+metaFlye_hybrid	0.0	88.34	1.133	35.0	0.8591599999999999	0.0	77778.0
+metaFlye_strain_long	0.0	66.82	1.082	7.0	0.80369	0.0	32076.0
+metaFlye_strain_hybrid	0.0	73.3	1.073	7.0	0.80573	0.0	32076.0
+MetaHipMer2_short	0.0	34.69	1.012	1.0	0.59175	0.0	1723.0
+metaSPAdes_short	0.0	371.39	1.025	0.0	0.60475	0.0	1500.0
+Megahit_short	0.0	313.07	1.016	2.0	0.6367499999999999	0.0	2908.0
+OPERA-MS_hybrid	0.0	430.53	1.116	29.0	0.88997	0.0	78769.0
+metaFlye-inhouse_hybrid	0.0	100.82	1.115	16.0	0.83918	0.0	77037.0
+LjRoot170_pooled.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+pooled_short_gsa	1.0	0.0	1.098	0.0	0.99824	1.0	345796.0
+pooled_nanopore_gsa	1.0	0.0	1.038	0.0	0.99488	1.0	345784.0
+pooled_pacbio_gsa	1.0	0.0	1.027	0.0	0.99476	1.0	345676.0
+pooled_hybrid_pb_gsa	1.0	0.0	1.028	0.0	0.99971	1.0	345796.0
+pooled_hybrid_nano_gsa	0.0	0	0	0	0.0	0.0	0.0
+MetaHipMer_short	0.0	37.32	1.013	2.0	0.61404	0.0	1919.0
+metaFlye_long	0.0	327.47	1.015	7.0	0.49274	0.0	524.0
+metaFlye_hybrid	0.0	322.16	1.017	7.0	0.48667	0.0	0.0
+metaFlye_strain_long	0.0	284.15	1.006	0.0	0.42497	0.0	0.0
+metaFlye_strain_hybrid	0.0	266.48	1.005	0.0	0.42258	0.0	0.0
+MetaHipMer2_short	0.0	35.16	1.016	4.0	0.60049	0.0	1847.0
+metaSPAdes_short	0.0	243.83	1.022	3.0	0.64063	0.0	2855.0
+Megahit_short	0.0	279.16	1.013	8.0	0.66598	0.0	5315.0
+OPERA-MS_hybrid	0.0	347.81	1.046	30.0	0.80786	0.0	250676.0
+metaFlye-inhouse_hybrid	0.0	342.52	1.03	8.0	0.5483899999999999	0.0	51705.0
+LjRoot28_pooled.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+pooled_short_gsa	1.0	0.0	1.001	0.0	0.99661	1.0	201458.0
+pooled_nanopore_gsa	1.0	0.0	1.0	0.0	0.98234	1.0	429944.0
+pooled_pacbio_gsa	1.0	0.0	1.001	0.0	0.9913	1.0	438857.0
+pooled_hybrid_pb_gsa	1.0	0.0	1.002	0.0	0.9978	1.0	441019.0
+pooled_hybrid_nano_gsa	1.0	0.0	1.0	0.0	0.99551	1.0	201458.0
+MetaHipMer_short	1.0	52.4	1.002	4.0	0.9283100000000001	1.0	3325.0
+metaFlye_long	0.0	338.05	1.004	0.0	0.8822	0.0	130628.0
+metaFlye_hybrid	0.0	153.54	1.001	0.0	0.89991	0.0	130222.0
+metaFlye_strain_long	0.0	354.45	1.004	0.0	0.88251	0.0	130630.0
+metaFlye_strain_hybrid	0.0	163.3	1.001	0.0	0.8962600000000001	0.0	130222.0
+MetaHipMer2_short	1.0	34.26	1.001	4.0	0.94341	1.0	4253.0
+metaSPAdes_short	0.0	1194.43	1.004	0.0	0.062279999999999995	0.0	0.0
+Megahit_short	0.0	1208.86	1.005	2.0	0.17922000000000002	0.0	0.0
+OPERA-MS_hybrid	0.0	949.81	1.014	1.0	0.11878	0.0	0.0
+metaFlye-inhouse_hybrid	0.0	337.94	1.003	0.0	0.88101	0.0	130632.0
+LjRoot84_pooled.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+pooled_short_gsa	1.0	0.0	1.004	0.0	0.99992	1.0	162883.0
+pooled_nanopore_gsa	1.0	0.0	1.0	0.0	0.99779	1.0	162747.0
+pooled_pacbio_gsa	1.0	0.0	1.001	0.0	0.9989100000000001	1.0	162843.0
+pooled_hybrid_pb_gsa	1.0	0.0	1.001	0.0	0.99993	1.0	162883.0
+pooled_hybrid_nano_gsa	0.0	0	0	0	0.0	0.0	0.0
+MetaHipMer_short	0.0	38.01	1.024	14.0	0.8907200000000001	0.0	3083.0
+metaFlye_long	0.0	97.13	1.057	46.0	0.7724599999999999	0.0	56304.0
+metaFlye_hybrid	0.0	88.15	1.056	46.0	0.7724899999999999	0.0	56299.0
+metaFlye_strain_long	0.0	85.25	1.032	21.0	0.7898000000000001	0.0	34131.0
+metaFlye_strain_hybrid	0.0	75.78	1.029	21.0	0.7927200000000001	0.0	34131.0
+MetaHipMer2_short	1.0	30.11	1.021	20.0	0.91006	1.0	3954.0
+metaSPAdes_short	0.0	691.38	1.049	7.0	0.76005	0.0	1019.0
+Megahit_short	0.0	532.08	1.038	14.0	0.93758	0.0	3933.0
+OPERA-MS_hybrid	0.0	493.53	1.134	84.0	0.96473	0.0	119484.0
+metaFlye-inhouse_hybrid	0.0	105.89	1.048	37.0	0.8266500000000001	0.0	81615.0
+3934_BI_sample0.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	1.0	0.0	1.0	0.0	0.9993899999999999	1.0	124605.0
+sample_nanopore_gsa	1.0	0.0	1.0	0.0	0.9909	1.0	291838.0
+sample_pacbio_gsa	1.0	0.0	1.0	0.0	0.99688	1.0	672736.0
+sample_hybrid_pb_gsa	1.0	0.0	1.0	0.0	0.9997499999999999	1.0	673467.0
+sample_hybrid_nanopore_gsa	1.0	0.0	1.0	0.0	0.99957	1.0	154107.0
+MetaHipMer_short	1.0	69.43	1.001	2.0	0.91664	1.0	2784.0
+MetaHipMer2_short	1.0	36.9	1.001	1.0	0.92923	1.0	3213.0
+metaSPAdes_short	0.0	483.86	1.039	3.0	0.9595999999999999	0.0	2411.0
+Megahit_short	0.0	354.87	1.02	8.0	0.98768	0.0	6172.0
+ABySS_short	0.0	51.63	1.001	0.0	0.25768	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	699.66	1.01	5.0	0.58082	0.0	25237.0
+OPERA-MS_hybrid	0.0	751.86	1.021	2.0	0.3923	0.0	0.0
+LjRoot109_sample3.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	1.0	0.0	1.001	0.0	0.9996200000000001	1.0	186347.0
+sample_nanopore_gsa	1.0	0.0	1.0	0.0	0.99274	1.0	279987.0
+sample_pacbio_gsa	1.0	0.0	1.0	0.0	0.99627	1.0	411267.0
+sample_hybrid_pb_gsa	1.0	0.0	1.001	0.0	0.99977	1.0	412000.0
+sample_hybrid_nanopore_gsa	1.0	0.0	1.001	0.0	0.99979	1.0	286434.0
+MetaHipMer_short	1.0	74.71	1.004	1.0	0.90679	1.0	2862.0
+MetaHipMer2_short	1.0	59.25	1.004	3.0	0.9273699999999999	1.0	3603.0
+metaSPAdes_short	0.0	676.33	1.039	1.0	0.7818200000000001	0.0	1109.0
+Megahit_short	0.0	610.45	1.041	0.0	0.91336	0.0	2777.0
+ABySS_short	0.0	53.87	1.002	0.0	0.17934999999999998	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	590.34	1.029	9.0	0.54783	0.0	1510.0
+OPERA-MS_hybrid	0.0	858.9	1.055	1.0	0.43500999999999995	0.0	0.0
+LjRoot170_sample2.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	1.0	0.0	1.0	0.0	0.9981399999999999	1.0	46249.0
+sample_nanopore_gsa	1.0	0.0	1.0	0.0	0.97327	1.0	84405.0
+sample_pacbio_gsa	1.0	0.0	1.0	0.0	0.99504	1.0	268030.0
+sample_hybrid_pb_gsa	1.0	0.0	1.0	0.0	0.99954	1.0	345747.0
+sample_hybrid_nanopore_gsa	1.0	0.0	1.0	0.0	0.9988800000000001	1.0	89676.0
+MetaHipMer_short	0.0	113.61	1.002	2.0	0.76248	0.0	1253.0
+MetaHipMer2_short	0.0	81.23	1.002	4.0	0.81659	0.0	1446.0
+metaSPAdes_short	0.0	876.12	1.037	4.0	0.63161	0.0	653.0
+Megahit_short	0.0	796.53	1.04	11.0	0.86898	0.0	1762.0
+ABySS_short	0.0	86.72	1.0	0.0	0.07801	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	586.29	1.024	10.0	0.40145000000000003	0.0	0.0
+OPERA-MS_hybrid	0.0	955.74	1.039	7.0	0.38061999999999996	0.0	0.0
+LjRoot170_sample3.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	1.0	0.0	1.033	0.0	0.9586	1.0	53060.0
+sample_nanopore_gsa	1.0	0.0	1.032	0.0	0.94721	1.0	86631.0
+sample_pacbio_gsa	1.0	0.0	1.059	0.0	0.9925700000000001	1.0	296063.0
+sample_hybrid_pb_gsa	1.0	0.0	1.065	0.0	0.99643	1.0	345325.0
+sample_hybrid_nanopore_gsa	1.0	0.0	1.035	0.0	0.97191	1.0	96688.0
+MetaHipMer_short	0.0	124.04	1.003	2.0	0.58583	0.0	949.0
+MetaHipMer2_short	0.0	88.87	1.003	2.0	0.62277	0.0	1091.0
+metaSPAdes_short	0.0	836.99	1.027	7.0	0.42804000000000003	0.0	0.0
+Megahit_short	0.0	800.71	1.032	5.0	0.629	0.0	1193.0
+ABySS_short	0.0	68.36	1.0	0.0	0.06568	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	583.62	1.018	4.0	0.2601	0.0	0.0
+OPERA-MS_hybrid	0.0	926.2	1.035	5.0	0.29042999999999997	0.0	0.0
+LjRoot170_sample4.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	1.0	0.0	1.075	0.0	0.98253	1.0	51646.0
+sample_nanopore_gsa	0.0	0.0	1.022	0.0	0.80779	0.0	24248.0
+sample_pacbio_gsa	1.0	0.0	1.05	0.0	0.9956499999999999	1.0	324823.0
+sample_hybrid_pb_gsa	1.0	0.0	1.042	0.0	0.99937	1.0	345776.0
+sample_hybrid_nanopore_gsa	1.0	0.0	1.064	0.0	0.99117	1.0	94251.0
+MetaHipMer_short	0.0	131.29	1.004	2.0	0.6285499999999999	0.0	1256.0
+MetaHipMer2_short	0.0	103.31	1.005	4.0	0.66289	0.0	1456.0
+metaSPAdes_short	0.0	827.75	1.029	4.0	0.47055	0.0	0.0
+Megahit_short	0.0	740.69	1.03	7.0	0.67991	0.0	1726.0
+ABySS_short	0.0	66.58	1.0	0.0	0.09849000000000001	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	860.41	1.013	2.0	0.15897	0.0	0.0
+OPERA-MS_hybrid	0.0	955.04	1.033	7.0	0.28902	0.0	0.0
+LjRoot28_sample0.tsv
+assembler	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50
+sample_short_gsa	0.0	0.0	1.005	0.0	0.09616	0.0	0.0
+sample_nanopore_gsa	0.0	0.0	1.0	0.0	0.35814999999999997	0.0	0.0
+sample_pacbio_gsa	0.0	0.0	1.0	0.0	0.44146	0.0	0.0
+sample_hybrid_pb_gsa	0.0	0.0	1.003	0.0	0.50709	0.0	535.0
+sample_hybrid_nanopore_gsa	0.0	0.0	1.003	0.0	0.14502	0.0	0.0
+MetaHipMer_short	0.0	45.57	1.0	0.0	0.0013	0.0	0.0
+MetaHipMer2_short	0.0	208.8	1.0	0.0	0.0014199999999999998	0.0	0.0
+metaSPAdes_short	0.0	737.46	1.0	0.0	0.00187	0.0	0.0
+Megahit_short	0.0	892.86	1.0	0.0	0.0023599999999999997	0.0	0.0
+ABySS_short	0.0	86.91	1.0	0.0	0.00068	0.0	0.0
+OPERA-MS0.9_hybrid	0.0	262.26	1.0	0.0	0.00128	0.0	0.0
+OPERA-MS_hybrid	0.0	705.68	1.0	0.0	0.00296	0.0	0.0
