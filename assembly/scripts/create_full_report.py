@@ -52,9 +52,9 @@ for assembler in metrics:
     val_mm = (max_mm - mm)/(max_mm - min_mm)
     val_dup = (max_dup - dup)/(max_dup - min_dup)
     val_ma = (max_ma - ma)/(max_ma - min_ma)
-    val_gf = (gf - min_mm)/(max_mm - min_mm)
+    val_gf = (gf - min_gf)/(max_gf - min_gf)
     try:
-        val_nga50 = (nga50 - min_mm)/(max_mm - min_mm)
+        val_nga50 = (nga50 - min_nga50)/(max_nga50 - min_nga50)
     except:
         val_nga50 = 0 # no assembler has 50% gf
     score = sum([x * y for x,y in zip(weight,[val_mm,val_dup,val_ma,val_gf,val_nga50])])
