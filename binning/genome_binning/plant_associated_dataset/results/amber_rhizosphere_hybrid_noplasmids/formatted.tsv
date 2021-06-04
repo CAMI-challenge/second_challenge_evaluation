@@ -1,0 +1,12 @@
+	CAMI 1 average completeness (bp)	Average purity (bp)	CAMI 1 F1 score (bp)	Adjusted Rand index (bp)	Percentage of binned bp
+MetaBAT 2.15-5 (A1)	13.6	89.1	23.6	53.5	38.8
+MetaBAT 2.15-5 (A2)	14.0	97.3	24.4	85.4	19.4
+MetaBAT 2.15-5 (A3)	13.9	95.7	24.3	82.0	19.6
+MetaBAT 2.15-5 (A4)	11.4	89.6	20.3	46.7	34.8
+MetaBinner 1.0 (B1)	17.6	66.9	27.9	44.0	61.2
+MetaBinner 1.1 (B2)	12.7	56.9	20.7	41.9	58.0
+VAMB 3.0.1 (J1)	0.2	99.9	0.3	42.4	50.8
+Average	11.9	85.1	20.2	56.6	40.4
+Standard error of the mean	2.1	6.3	3.5	7.2	6.5
+Variance	30.4	274.5	83.4	360.1	292.6
+Standard deviation	5.5	16.6	9.1	19.0	17.1

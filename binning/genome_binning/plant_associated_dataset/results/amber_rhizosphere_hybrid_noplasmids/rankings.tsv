@@ -1,0 +1,8 @@
+	CAMI 1 average completeness (bp)rank	Average purity (bp)rank	Adjusted Rand index (bp)rank	Percentage of binned bprank	sum
+0	MetaBinner 1.0 (B1) (0)	VAMB 3.0.1 (J1) (0)	MetaBAT 2.15-5 (A2) (0)	MetaBinner 1.0 (B1) (0)	MetaBAT 2.15-5 (A2) (8)
+1	MetaBAT 2.15-5 (A2) (1)	MetaBAT 2.15-5 (A2) (1)	MetaBAT 2.15-5 (A3) (1)	MetaBinner 1.1 (B2) (1)	MetaBinner 1.0 (B1) (9)
+2	MetaBAT 2.15-5 (A3) (2)	MetaBAT 2.15-5 (A3) (2)	MetaBAT 2.15-5 (A1) (2)	VAMB 3.0.1 (J1) (2)	MetaBAT 2.15-5 (A3) (10)
+3	MetaBAT 2.15-5 (A1) (3)	MetaBAT 2.15-5 (A4) (3)	MetaBAT 2.15-5 (A4) (3)	MetaBAT 2.15-5 (A1) (3)	MetaBAT 2.15-5 (A1) (12)
+4	MetaBinner 1.1 (B2) (4)	MetaBAT 2.15-5 (A1) (4)	MetaBinner 1.0 (B1) (4)	MetaBAT 2.15-5 (A4) (4)	VAMB 3.0.1 (J1) (13)
+5	MetaBAT 2.15-5 (A4) (5)	MetaBinner 1.0 (B1) (5)	VAMB 3.0.1 (J1) (5)	MetaBAT 2.15-5 (A3) (5)	MetaBAT 2.15-5 (A4) (15)
+6	VAMB 3.0.1 (J1) (6)	MetaBinner 1.1 (B2) (6)	MetaBinner 1.1 (B2) (6)	MetaBAT 2.15-5 (A2) (6)	MetaBinner 1.1 (B2) (17)
