@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[left=0.3in,right=0.3in,top=0.5in,bottom=0.3in]{geometry}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage[T1]{fontenc}
+\usepackage{lscape}
+\floatsetup[figure]{style=plain,subcapbesideposition=top}
+\captionsetup[subfigure]{labelformat=simple,labelfont={sf,bf},font=normalsize, position=top, singlelinecheck=off,justification=raggedright}
+
+\begin{document}
+\begin{landscape}
+\begin{figure}
+\captionsetup[subfloat]{farskip=10pt,captionskip=-4pt}
+    \centering
+
+	\includegraphics[width=360pt]{../marine_dataset/data/results/legend-crop}\\
+    \vspace*{-5px}
+    \sidesubfloat[]{\includegraphics[width=360pt]{../marine_dataset/data/results/taxonomic-crop}}\\
+    \smallskip
+    \sidesubfloat[]{\includegraphics[width=360pt]{../strain_madness_dataset/data/results/taxonomic-crop}}\\
+    \smallskip
+    \sidesubfloat[]{\includegraphics[width=360pt]{../plant_associated_dataset/data/results/taxonomic-crop}}
+    
+\end{figure}
+\end{landscape}
+\end{document}
+
+
+
