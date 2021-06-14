@@ -1,0 +1,9 @@
+anonymousName: pensive_sinoussi_0
+name: UltraBinner
+version: DAS Tool(version 1.1.1), CONCOCT(v1.1.0), MetaBAT(v2.12.1), MetaBinner
+authors: Ziye Wang, Pingqin Huang,  Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/Huangpq2019/UltraBinner
+biocondaRecipe: nan
+commandLineUsed: nan
+description: It is a method to use DAS Tool(v1.1.1) to integrate the results of three binners (CONCOCT V1.1.0, MetaBAT V2.12.1, MetaBinner) to calculate an optimized, non-redundant set of bins.
+samples used: simulated short read and long read shotgun metagenome data from samples at different seafloor locations of a marine environment, the gold standard assembly.

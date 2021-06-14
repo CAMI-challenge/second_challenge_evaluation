@@ -1,0 +1,15 @@
+anonymousName: furious_ardinghelli_19
+name: MetaBinner
+version: MetaBinner v1.0
+authors: Ziye Wang, Ronghui You, Pingqin Huang, Zhengyang Wang, Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/ziyewang/MetaBinner
+biocondaRecipe: nan
+commandLineUsed: OPENBLAS_NUM_THREADS=2 python Metabinner.py --contig_file input_path/andmarmgCAMI2_short_read_pooled_megahit_assembly_1000.fa --coverage_profiles input_path/coverage_new_f1000_sr.tsv --composition_profiles input_path/kmer_4_f1000.csv --output output_path/marine_megahit_assembly_f1k_k564_short_read_only_result.tsv --log output_path/result.log --use_hmm --hmm_icm_path path_to_MetaBinner/hmm_data/hmm/ --clusters 564
+description: The method imporves the performance of large scale binning with ensemble K-means by considering multiple types of features. DAS_tool is utilized to obtain the ensemble result. Our tool will recluster the remained contig after using das_tool. It takes the contig lengths and single-copy marker genes into consideration. CheckM is applied for post-processing.
+samples used: Simulated short read shotgun metagenome data and marmgCAMI2_short_read_pooled_megahit_assembly.fasta
+#code to generate input files
+#./gen_cov.sh #need do some slight changes, scripts/gen_cov.sh (to get coverage_new.tsv)
+#move the coverage_new.tsv to the input path
+#./run.sh /input/marmgCAMI2_short_read_pooled_megahit_assembly.fasta 1000 4
+#details are shown in Github repo
+#contigs length threshold: 1000; --clusters 564; only use short reads

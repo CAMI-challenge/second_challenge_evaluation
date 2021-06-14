@@ -1,0 +1,8 @@
+anonymousName: sleepy_ptolemy_4
+name: MetaBAT2
+version: v2.13-33-g236d20e
+authors: Dongwan Kang, Feng Li, Edward S Kirton, Ashleigh Thomas, Rob S Egan, Hong An, Zhong Wang​
+gitHubRepo: https://bitbucket.org/berkeleylab/metabat/src/master/
+biocondaRecipe: nan
+commandLineUsed: nan
+description: gold assembly short reads minimum_length 1500

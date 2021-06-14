@@ -1,0 +1,11 @@
+anonymousName: grave_torvalds_1
+name: Autometa HGT
+version: binning format 0.9.0
+authors: Ian J. Miller, Evan R. Rees, Jennifer Ross, Izaak Miller, Jared Baxa,  Juan Lopera, Robert L. Kerby, Federico E. Rey, Jason C. Kwan
+gitHubRepo: https://bitbucket.org/jason_c_kwan/autometa/src/cami2/
+biocondaRecipe: nan
+commandLineUsed: run_autometa.py -a marmgCAMI2_short_read_pooled_gold_standard_ assembly.fasta.gz -i marmgCAMI2_short_reads.fq.gz -o . -m --HGT -p 10 -l 3000 -db 2019.01.09.cami2challenge.db/
+description: nr database provided must first be formatted into a diamond database with `diamond makedb`.
+Note, when applicable, if Archaea and Bacteria are detected. Both are binned and concatenated with distinct bin names into the final output file. Contigs remaining unclustered by Autometa are classified under "bin_0."
+
+This is the binning of the marine gold assembly.

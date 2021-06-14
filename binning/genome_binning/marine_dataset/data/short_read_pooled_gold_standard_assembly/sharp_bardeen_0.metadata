@@ -1,0 +1,11 @@
+anonymousName: sharp_bardeen_0
+name: Autometa
+version: binning format 0.9.0
+authors: Ian J. Miller, Evan R. Rees, Jennifer Ross, Izaak Miller, Jared Baxa,  Juan Lopera, Robert L. Kerby, Federico E. Rey, Jason C. Kwan
+gitHubRepo: https://bitbucket.org/jason_c_kwan/autometa/src/cami2/
+biocondaRecipe: nan
+commandLineUsed: run_autometa.py --assembly marmgCAMI2_short_read_pooled_gold_standard_assembly.fasta.gz --i_reads marmgCAMI2_short_reads.fq.gz --db_dir CAMI2_databases --maketaxtable --length_cutoff 3000 --processors 10 --output_dir binning
+description: nr database provided must first be formatted into a diamond database with `diamond makedb`.
+Note, when applicable, if Archaea and Bacteria are detected. Both are binned and concatenated with distinct bin names into the final output file. Contigs remaining unclustered by Autometa are classified under "bin_0."
+
+

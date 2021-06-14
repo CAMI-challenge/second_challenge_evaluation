@@ -1,0 +1,8 @@
+anonymousName: elated_bardeen_0
+name: MaxBin
+version: 2.2.7
+authors: Wu et al.
+gitHubRepo: nan
+biocondaRecipe: nan
+commandLineUsed: ./run_MaxBin.pl -contig marmgCAMI2_short_read_pooled_gold_standard_assembly.fasta -out output.out -reads marmgCAMI2_short_read_sample_0_reads.fq -reads2 marmgCAMI2_short_read_sample_1_reads.fq -reads3 marmgCAMI2_short_read_sample_2_reads.fq -reads4 marmgCAMI2_short_read_sample_3_reads.fq -reads5 marmgCAMI2_short_read_sample_4_reads.fq -reads6 marmgCAMI2_short_read_sample_5_reads.fq -reads7 marmgCAMI2_short_read_sample_6_reads.fq -reads8 marmgCAMI2_short_read_sample_7_reads.fq -reads9 marmgCAMI2_short_read_sample_8_reads.fq -reads10 marmgCAMI2_short_read_sample_9_reads.fq -thread 16
+description: Genome binning of marmgCAMI2_short_read_pooled_gold_standard_assembly.fasta. Used the short reads of all samples as input as well.

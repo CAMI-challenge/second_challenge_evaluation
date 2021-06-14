@@ -1,0 +1,8 @@
+anonymousName: clever_bohr_0
+name: MetaWRAP
+version: v1.2.3
+authors: nan
+gitHubRepo: https://github.com/bxlab/metaWRAP
+biocondaRecipe: metawrap
+commandLineUsed: `metawrap binning -a assembly.fasta -t 20 -m 1000 -l 500 -o initial_binning --metabat2 --metabat1 --maxbin2 --concoct --run-checkm READS/*`, `metawrap bin_refinement -o refinement -t 20 -m 1000 -c 50 -x 10 -A initial_binning/metabat2_bins -B initial_binning/maxbin2_bins -C initial_binning/metabat1_bins`
+description: The provided megahit co-assembly was binned with the metaWRAP, hybrid pipeline and using all available samples to inform the binning process. First, the assembly was binned using all the available binners in the "metawrap binning" module (concoct, metabat1, metabat2, maxbin2), then the top 3 bin sets (in this case they were metabat1, maxbin2, and metabat2) were combined into one final set with "metawrap bin_refinement" module (-c 50 -x 10). The remaining unbinned contigs were re-binned again using the same binners, and the best set (in this case from concoct) was appended to the clean metaWRAP bins for a more complete binning result.
