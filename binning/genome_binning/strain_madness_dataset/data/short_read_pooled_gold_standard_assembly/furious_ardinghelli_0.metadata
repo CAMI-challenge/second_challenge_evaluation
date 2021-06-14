@@ -1,0 +1,15 @@
+anonymousName: furious_ardinghelli_0
+name: MetaBinner
+version: MetaBinner v1.0
+authors: Ziye Wang, Ronghui You, Pingqin Huang, Zhengyang Wang, Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/ziyewang/MetaBinner
+biocondaRecipe: nan
+commandLineUsed: OPENBLAS_NUM_THREADS=2 python Metabinner.py --contig_file input_path/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta --coverage_profiles input_path/coverage_sr_new.tsv --composition_profiles input_path/kmer_4_f0.csv --output output_path/strain_gold_assembly_metabinner_binscore02_result.tsv --log output_path/result.log --pacbio_read_profiles input_path/coverage_pb_new.tsv --use_hmm --hmm_icm_path path_to_MetaBinner/hmm_data/hmm/ --binscore 0.2
+description: contig lengths and single-copy marker genes into consideration. CheckM is applied for post-processing.
+samples used: Simulated long read and short read shotgun metagenome data and strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta
+#code to generate input files
+#./gen_cov.sh #need do some slight changes, scripts/gen_cov.sh (to get coverage_new.tsv)
+#move the coverage_new.tsv to the input path
+#./run.sh /input/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta 0 4
+#details are shown in Github repo
+#difference: --binscore 0.2

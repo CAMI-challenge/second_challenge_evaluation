@@ -1,0 +1,18 @@
+anonymousName: compassionate_brown_0
+name: SolidBin-coalign
+version: SolidBin V1.3
+authors: Ziye Wang, Zhengyang Wang, Pingqin Huang, Ronghui You, Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/sufforest/SolidBin
+biocondaRecipe: nan
+commandLineUsed: python SolidBin.py --contig_file input_path/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta --coverage_profiles input_path/coverage_new.tsv --composition_profiles input_path/kmer_4_f0.csv --priori_ml_list input_path/strmgCAMI2_short_read_pooled_gold_standard_assembly_ASSIGNMENTS.csv.filter_unclassified.csv.coalign.csv --output output_path/coalign_python_seed.csv --log output_path/coalign_python_seed.log
+description: It is the SolidBin-coalign mode of SolidBin v1.2, the method is based on semi-supervised spectral clustering and takes the contig lengths and single-copy marker genes into consideration. Taxa assignments obtained by TAXAassign are be used for generating constraints. CheckM (adapted from python2 version to python 3 version) is applied for post-processing.
+samples used: Simulated long read and short read shotgun metagenome data and gold assembly fasta file.
+#code to generate input files
+python /scripts/gen_kmer.py strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta 0 4 #to get kmer_4_f0.csv
+./gen_cov.sh #need do some slight changes, (to get coverage_new.tsv)
+./TAXAassign.sh -p -c 35 -r 10 -m 98 -q 98 -t 95 -a "60,70,80,95,95,98" -f input_path/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta # to generate TAXAassign_output_file
+#move TAXAassign_output_file to the input_path
+python /scripts/filter_unclassified_taxaassign_output.py --TAXAassign_file TAXAassign_output_file # TAXAassign_output_file : strmgCAMI2_short_read_pooled_gold_standard_assembly_ASSIGNMENTS.csv
+python /scripts/gen_constraints.py --TAXAassign_file strmgCAMI2_short_read_pooled_gold_standard_assembly_ASSIGNMENTS.csv.filter_unclassified.csv #to generate constraints; eg: strmgCAMI2_short_read_pooled_gold_standard_assembly_ASSIGNMENTS.csv.filter_unclassified.csv.coalign.csv
+#details are shown in Github repo
+#If you meet the "OpenBLAS blas_thread_init..." problem, you can run "OPENBLAS_NUM_THREADS=2 python SolidBin.py ...... "instead of "python SolidBin.py ......"

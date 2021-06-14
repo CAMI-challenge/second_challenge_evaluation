@@ -1,0 +1,21 @@
+anonymousName: naughty_sammet_1
+name: Vamb
+version: fa045c0a4dcd78ca0098474d8f9d93ddb76a9bba
+authors: Jakob Nybo Nissen, Joachim Johansen, Rosa Lundbye Allesøe, Casper Kaae Sønderby, Jose Juan Almagro Armenteros, Christopher Heje Grønbech, Henrik Bjørn Nielsen, Thomas Nordahl Petersen, Ole Winther, Simon Rasmussen
+gitHubRepo: https://github.com/rasmussenlab/vamb
+biocondaRecipe: nan
+commandLineUsed: vamb --outdir madness_vamb --fasta megahit_assembly_filtered750bp.fna --bamfiles *.bam
+description: Samples used: MEGAHIT assembly, all samples. Our tool was used with pooled assembly, degraded performance expected compared to single-sample assembly.
+Some preprocessing was done using minimap2 (version 2.6.r623) and Samtools (version 1.9). The commands used were:
+# unzip assembly
+gunzip strmgCAMI2_short_read_pooled_megahit_assembly.fasta.gz;
+# remove all sequences < 750 bp to create output megahit_assembly_filtered750bp.fna
+# (used a homemade Python script for this, elided here)
+# index contigs using minimap2
+minimap2 -x sr -d index.mmi megahit_assembly_filtered750bp.fna;
+# map reads to contigs using BWA MEM to get BAM files
+for i in {0..99}
+do
+minimap2 -t 4 -N 50 -ax sr index.mmi strmgCAMI2_short_read_sample_${i}_reads.fq.gz | samtools view -F 3584 -b --threads 3 > ${i}.bam
+end
+# then run our tool, see the field "command line used" in your submission form

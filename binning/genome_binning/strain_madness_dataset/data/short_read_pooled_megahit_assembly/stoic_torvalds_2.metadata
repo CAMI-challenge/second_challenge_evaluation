@@ -1,0 +1,11 @@
+anonymousName: stoic_torvalds_2
+name: UltraBinner
+version: DAS Tool(version 1.1.1), MetaBinner, CONCOCT(v1.1.0), MetaBAT(v2.12.1)
+authors: Ziye Wang, Pingqin Huang, Fengzhu Sun, Shanfeng Zhu
+
+gitHubRepo: https://github.com/Huangpq2019/UltraBinner
+biocondaRecipe: nan
+commandLineUsed: nan
+description: It is a method to use DAS Tool(v1.1.1) to integrate the results of three binners (CONCOCT V1.1.0, MetaBAT V2.12.1, MetaBinner) to calculate an optimized, non-redundant set of bins.
+In MetaBinner, the contigs_length_threshold we use to run run.sh is 1000 and the cluster number is 410.
+samples used: the megahit assembly of Simulated long read and short read shotgun metagenome data, including a large amount of strain-level variation.

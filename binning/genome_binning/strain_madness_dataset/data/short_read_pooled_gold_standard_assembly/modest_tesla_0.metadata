@@ -1,0 +1,11 @@
+anonymousName: modest_tesla_0
+name: SolidBin-SFS
+version: SolidBin V1.3
+authors: Ziye Wang, Zhengyang Wang, Pingqin Huang, Ronghui You, Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/sufforest/SolidBin
+biocondaRecipe: nan
+commandLineUsed: python SolidBin.py --contig_file /input_path/strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta --coverage_profiles /input_path/coverage_new.tsv --composition_profiles /input_path/kmer_4_f0.csv --output /output_path/sfs_python_seed.csv --log /output_path/sfs_python_seed.log --use_sfs
+description: It is the SolidBin-SFS mode of SolidBin v1.2, the method is based on semi-supervised spectral clustering and takes the contig lengths and single-copy marker genes into consideration. CheckM (adapted from python2 version to python 3 version) is applied for post-processing.
+samples used: Simulated long read and short read shotgun metagenome data and gold assembly fasta file.
+#code to generate input files
+#python /scripts/gen_kmer.py strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta 0 4 #to get kmer_4_f0.csv #./gen_cov.sh #need do some slight changes, (to get coverage_new.tsv) #details are shown in Github repo.

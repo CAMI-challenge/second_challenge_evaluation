@@ -1,0 +1,9 @@
+anonymousName: sleepy_bohr_1
+name: UltraBinner
+version: DAS Tool(version 1.1.1), MetaBinner, CONCOCT(v1.1.0), MetaBAT(v2.12.1), MaxBin(v2.2.6), SolidBin(v1.2)
+authors: Ziye Wang, Pingqin Huang,  Fengzhu Sun, Shanfeng Zhu
+gitHubRepo: https://github.com/Huangpq2019/UltraBinner; https://downloads.jbei.org/data/microbial_communities/MaxBin/README.txt; https://github.com/sufforest/SolidBin
+biocondaRecipe: nan
+commandLineUsed: nan
+description: It is a method to use DAS Tool(v1.1.1) to integrate the results of five binners (CONCOCT V1.1.0, MetaBAT V2.12.1, MetaBinner, MaxBin V2.2.6 and SolidBin V1.2) to calculate an optimized, non-redundant set of bins.In MetaBinner,contigs_length_threshold we use to run "run.sh" is 0 and the cluster number is estimated by single-copy genes. For MaxBin, we only use the the short read samples. For SolidBin, we use the SolidBin-SFS-CL model.
+samples used: the gold standard assembly of Simulated long read and short read shotgun metagenome data, including a large amount of strain-level variation.

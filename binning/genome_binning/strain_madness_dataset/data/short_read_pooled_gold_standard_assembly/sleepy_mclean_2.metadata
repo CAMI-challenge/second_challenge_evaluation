@@ -1,0 +1,8 @@
+anonymousName: sleepy_mclean_2
+name: CONCOCT
+version: 1.1.0
+authors: Alneberg et al.
+gitHubRepo: https://github.com/BinPro/CONCOCT
+biocondaRecipe: nan
+commandLineUsed: same as for marine dataset
+description: Genome binning of strmgCAMI2_short_read_pooled_gold_standard_assembly.fasta.
