@@ -1,0 +1,8 @@
+anonymousName: focused_poincare_5
+name: MetaBAT 2
+version: v2.15-5-g1a9bac2
+authors: D. Kang, F. Li, E. Kirton, A. Thomas, R. Egan, H. An, Z. Wang
+gitHubRepo: https://bitbucket.org/berkeleylab/metabat/
+biocondaRecipe: nan
+commandLineUsed: metabat2 -i rhimgCAMI2_short_read_pooled_megahit.fasta -a rhimgCAMI2_short_read_pooled_megahit.depth.txt -o rhimgCAMI2_short_read_pooled_megahit.metabat2-bins  -m 1500 -v
+description: short megahit assembly all short read samples with min contig length 1500

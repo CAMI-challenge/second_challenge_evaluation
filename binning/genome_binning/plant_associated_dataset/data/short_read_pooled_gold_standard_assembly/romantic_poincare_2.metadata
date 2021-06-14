@@ -1,0 +1,10 @@
+anonymousName: romantic_poincare_2
+name: VAMB
+version: v.3.0.1
+authors: Jakob Nybo Nissen & Simon Rasmussen
+gitHubRepo: https://github.com/RasmussenLab/vamb
+biocondaRecipe: nan
+commandLineUsed: vamb --outdir vamb --fasta contigs.flt.fna.gz --rpkm jgi_matrix/jgi.abundance.npz --minfasta 500000
+description: Samples used: GSA assembly, all samples. Our tool was used with pooled assembly, which will give degraded performance expected compared to having access to all single-sample assemblies.
+
+Some preprocessing was done using minimap2 (version 2.6.r623), Samtools (version 1.9) and jgi_summarize_bam_contig_depths (metabat2 v2.10.2). A Snakemake pipeline is available to reproduce the results here: https://github.com/RasmussenLab/vamb_cami2

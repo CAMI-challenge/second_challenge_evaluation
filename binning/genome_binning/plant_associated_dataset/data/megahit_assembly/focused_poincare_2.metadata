@@ -1,0 +1,8 @@
+anonymousName: focused_poincare_2
+name: MetaBAT 2
+version: v2.15-5-g1a9bac2
+authors: D. Kang, F. Li, E. Kirton, A. Thomas, R. Egan, H. An, Z. Wang
+gitHubRepo: https://bitbucket.org/berkeleylab/metabat/
+biocondaRecipe: nan
+commandLineUsed: runMetaBat.sh rhimgCAMI2_short_read_pooled_megahit.fasta rhimgCAMI2_short_read_pooled_megahit.fasta.d/*.bam
+description: Default options - all 21 short reads alignments (using bbmap) and  rhimgCAMI2_short_read_pooled_megahit.fasta

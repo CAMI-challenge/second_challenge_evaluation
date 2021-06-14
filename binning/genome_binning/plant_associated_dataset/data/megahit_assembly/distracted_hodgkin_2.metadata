@@ -1,0 +1,8 @@
+anonymousName: distracted_hodgkin_2
+name: MetaBAT 1
+version: v2.15-5-g1a9bac2
+authors: D. Kang, F. Li, E. Kirton, A. Thomas, R. Egan, H. An, Z. Wang
+gitHubRepo: https://bitbucket.org/berkeleylab/metabat/
+biocondaRecipe: nan
+commandLineUsed: assem=rhimgCAMI2_short_read_pooled_megahit.fasta; metabat1 -v -i ../assemblies/$assem -a $assem.depth.txt -o metabat1-$assem-bins/bin
+description: short megahit with all short read samples, default options

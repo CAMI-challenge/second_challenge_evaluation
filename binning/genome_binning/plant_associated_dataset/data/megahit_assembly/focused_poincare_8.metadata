@@ -1,0 +1,8 @@
+anonymousName: focused_poincare_8
+name: MetaBAT 2
+version: v2.15-5-g1a9bac2
+authors: D. Kang, F. Li, E. Kirton, A. Thomas, R. Egan, H. An, Z. Wang
+gitHubRepo: https://bitbucket.org/berkeleylab/metabat/
+biocondaRecipe: nan
+commandLineUsed: assem=rhimgCAMI2_short_read_pooled_megahit.fasta; metabat2 -v -i ../assemblies/$assem -a $assem.depth.txt -o metabat2-mincv-$assem.bins/bin --minCV 0.05 --minContig 1500
+description: short megahit assembly all short read samples with min contig length 1500 and minCV 0.05

@@ -1,0 +1,18 @@
+anonymousName: modest_leakey_0
+name: MetaBinner
+version: metabinner_cami2b v1.2
+authors: Ziye Wang, Pingqin Huang, Ronghui You, Shanfeng Zhu
+gitHubRepo: https://github.com/ziyewang/metabinner_cami2b
+biocondaRecipe: nan
+commandLineUsed: bash ${metabinner_path}/code_for_cami2b/metabinner_cami2b_pipeline_v1.2.sh ${contig_file} ${output_dir} ${coverage_profiles} ${kmer_profile} ${metabinner_path}
+description: Samples used: all the short read files
+Fasta_file: rhimgCAMI2_short_read_pooled_megahit.fasta
+#using MetaWRAP pipeline to generate the coverage profiles files -> metabinner_depth_f1k.txt
+#conda activate metawrap-env
+metawrap binning -o INITIAL_BINNING -t 20 -a${path_to_fasta_file}/rhimgCAMI2_short_read_pooled_megahit.fasta --universal --maxbin2 --interleaved ${path_to_short_read_files}/*fastq -m 1000
+cat INITIAL_BINNING/work_files/mb2_master_depth.txt | awk '{if ($2>999) print $0 }' | cut -f 1,4-24 > metabinner_depth_f1k.txt
+#code to generate kmer file -> ${path_to_fasta_file}/kmer_4_f999.csv
+cd ${path_to_metabinner}
+python scripts/filter_tooshort_for_contig_file.py ${path_to_fasta_file}/rhimgCAMI2_short_read_pooled_megahit.fasta 999
+python scripts/gen_kmer.py ${path_to_fasta_file}/rhimgCAMI2_short_read_pooled_megahit.fasta 999 4
+#The file "final_result_combo_greedy_combo2_mypipeline.tsv" in the "${output_dir}/metabinner_res" is the final output.
