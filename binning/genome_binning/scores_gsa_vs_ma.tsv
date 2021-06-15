@@ -1,0 +1,11 @@
+	mar_gsaCAMI 1 average completeness (bp)rank	str_gsaCAMI 1 average completeness (bp)rank	completeness_gsa	mar_maCAMI 1 average completeness (bp)rank	str_maCAMI 1 average completeness (bp)rank	completeness_ma	completeness_all	mar_gsaAverage purity (bp)rank	str_gsaAverage purity (bp)rank	purity_gsa	mar_maAverage purity (bp)rank	str_maAverage purity (bp)rank	purity_ma	purity_all	mar_gsaAdjusted Rand index (bp)rank	str_gsaAdjusted Rand index (bp)rank	ari_gsa	mar_maAdjusted Rand index (bp)rank	str_maAdjusted Rand index (bp)rank	ari_ma	ari_all	mar_gsaPercentage of binned bprank	str_gsaPercentage of binned bprank	percentage_gsa	mar_maPercentage of binned bprank	str_maPercentage of binned bprank	percentage_ma	percentage_all	all_gsa	all_ma	score
+SolidBin		2.0	2.0			0.0	2.0		9.0	9.0			0.0	9.0		4.0	4.0			0.0	4.0		0.0	0.0			0.0	0.0	15.0	0.0	15.0
+LSHVec		8.0	8.0			0.0	8.0		2.0	2.0			0.0	2.0		7.0	7.0			0.0	7.0		3.0	3.0			0.0	3.0	20.0	0.0	20.0
+MetaBinner	1.0	1.0	2.0	1.0	1.0	2.0	4.0	4.0	8.0	12.0	6.0	6.0	12.0	24.0	2.0	5.0	7.0	3.0	6.0	9.0	16.0	1.0	1.0	2.0	1.0	0.0	1.0	3.0	23.0	24.0	47.0
+UltraBinner	0.0	3.0	3.0	3.0	4.0	7.0	10.0	3.0	3.0	6.0	3.0	5.0	8.0	14.0	0.0	1.0	1.0	1.0	1.0	2.0	3.0	3.0	8.0	11.0	4.0	6.0	10.0	21.0	21.0	27.0	48.0
+CONCOCT	4.0	0.0	4.0	2.0	2.0	4.0	8.0	7.0	5.0	12.0	4.0	3.0	7.0	19.0	6.0	3.0	9.0	4.0	3.0	7.0	16.0	1.0	2.0	3.0	1.0	5.0	6.0	9.0	28.0	24.0	52.0
+MetaWRAP	2.0	4.0	6.0	0.0	0.0	0.0	6.0	5.0	4.0	9.0	5.0	7.0	12.0	21.0	5.0	0.0	5.0	6.0	5.0	11.0	16.0	0.0	9.0	9.0	0.0	2.0	2.0	11.0	29.0	25.0	54.0
+Vamb	7.0	9.0	16.0	7.0	7.0	14.0	30.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0	6.0	9.0	2.0	2.0	4.0	13.0	4.0	4.0	8.0	5.0	3.0	8.0	16.0	33.0	26.0	59.0
+MaxBin	3.0	6.0	9.0	4.0	3.0	7.0	16.0	6.0	6.0	12.0	7.0	4.0	11.0	23.0	1.0	2.0	3.0	5.0	4.0	9.0	12.0	6.0	7.0	13.0	3.0	4.0	7.0	20.0	37.0	34.0	71.0
+MetaBAT	6.0	5.0	11.0	5.0	5.0	10.0	21.0	2.0	7.0	9.0	2.0	2.0	4.0	13.0	4.0	8.0	12.0	0.0	0.0	0.0	12.0	7.0	6.0	13.0	7.0	7.0	14.0	27.0	45.0	28.0	73.0
+Autometa	5.0	7.0	12.0	6.0	6.0	12.0	24.0	1.0	1.0	2.0	1.0	1.0	2.0	4.0	7.0	9.0	16.0	7.0	7.0	14.0	30.0	5.0	5.0	10.0	6.0	1.0	7.0	17.0	40.0	35.0	75.0
