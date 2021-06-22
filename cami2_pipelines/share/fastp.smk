@@ -1,7 +1,8 @@
 if interleave:
     rule fastp:
         input:
-            lambda wc: path.join(fq_dir, wc.sample + "_reads.fq.gz")
+            # lambda wc: path.join(fq_dir, wc.sample + ".fq.gz")
+            fq_dir + '/{sample}.fq.gz'
         output:
             or1 = qc_dir + "/{sample}.qc_1.fq",
             or2 = qc_dir + "/{sample}.qc_2.fq",

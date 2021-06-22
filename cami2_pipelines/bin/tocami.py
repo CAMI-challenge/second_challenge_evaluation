@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-File: tocami.py --- generate CAMI profile, currently supports bracken and motus
+File: tocami.py --- convert to CAMI profiling format
 Created Date: July 17th 2019
 Author: ZL Deng <dawnmsg(at)gmail.com>
 ---------------------------------------
@@ -20,7 +20,8 @@ from ete3 import NCBITaxa
 @click.option(
     "-f",
     "--format",
-    type=click.Choice(["bracken", "motus"]),
+    type=click.Choice(["bracken", "motus", "centrifuge",
+                       "tipp", "metaphyler"]),
     help="The input profile format",
     required=True)
 @click.argument(
@@ -71,6 +72,13 @@ def to_cami(format, profile, sampleid, taxdump, db, output):
         bracken_to_cami(profile, outstream)
     elif format == "motus":
         motus_to_cami(profile, outstream)
+    elif format == "centrifuge":
+        centrifuge_to_cami(profile, outstream)
+    elif format == "metaphyler":
+        metaphyler_to_cami(profile, outstream)
+    elif format == "tipp":
+        tipp_to_cami(profile, outstream)
+
     if output:
         outstream.close()
 
@@ -96,7 +104,7 @@ def bracken_to_cami(profile, outstream):
                 except ValueError:
                     continue
                 out_cols = [taxid, level, taxon_path[0],
-                            taxon_path[1], rel_abd]
+                            taxon_path[1], str(100 * float(rel_abd))]
                 outline = "\t".join(out_cols)
                 outstream.write(outline + '\n')
 
@@ -115,11 +123,79 @@ def motus_to_cami(profile, outstream):
                 if taxid:
                     taxon_path = get_taxon_path(taxid)
                     out_cols = [taxid, level, taxon_path[0],
-                                taxon_path[1], rel_abd]
+                                taxon_path[1], str(100 * float(rel_abd))]
                     outline = "\t".join(out_cols)
                     outstream.write(outline + '\n')
             else:
                 continue
+
+
+def centrifuge_to_cami(profile, outstream):
+
+    tax_level_dict = {"S": "species",
+                      "G": "genus",
+                      "F": "family",
+                      "O": "order",
+                      "C": "class",
+                      "P": "phylum"}
+    with open(profile, 'r') as fh:
+        for line in fh:
+            (rel_abd, count, specific_count, level, taxid, name) = [
+                col.strip() for col in line.strip().split("\t")]
+
+            if level in tax_level_dict:  # ['U', '-']:
+                level = tax_level_dict[level]
+                try:
+                    taxon_path = get_taxon_path(taxid)
+                except ValueError:
+                    continue
+                out_cols = [taxid, level, taxon_path[0],
+                            taxon_path[1], rel_abd]
+                outline = "\t".join(out_cols)
+                outstream.write(outline + '\n')
+
+
+def tipp_to_cami(profile, outstream):
+    with open(profile, 'r') as fh:
+        for line in fh:
+            if not (line.startswith("taxa") or line.startswith("unclassified")):
+                (taxid, rel_abd) = line.strip().split("\t")
+                rel_abd = str(float(rel_abd) * 100)
+
+                try:
+                    # name = get_name(taxid)
+                    level = get_level(taxid)
+                    taxon_path = get_taxon_path(taxid)
+                except ValueError:
+                    continue
+                out_cols = [taxid, level, taxon_path[0],
+                            taxon_path[1], rel_abd]
+
+                outline = "\t".join(out_cols)
+                outstream.write(outline + '\n')
+
+
+def metaphyler_to_cami(profile, outstream):
+    with open(profile, 'r') as fh:
+        for line in fh:
+            if not (line.startswith("Name") or line.startswith("Other")):
+                (name, rel_abd, _reads) = line.strip().split("\t")
+
+                try:
+                    taxid = get_taxid(name)
+                    if taxid is None:
+                        print(name, "not found")
+                        continue
+
+                    level = get_level(taxid)
+                    taxon_path = get_taxon_path(taxid)
+                except ValueError:
+
+                    continue
+                out_cols = [taxid, level, taxon_path[0],
+                            taxon_path[1], rel_abd]
+                outline = "\t".join(out_cols)
+                outstream.write(outline + '\n')
 
 
 def generate_header(sampleid):
@@ -143,13 +219,30 @@ def get_taxid(name):
         return None
 
 
+def get_name(taxid):
+    name = ncbi.get_taxid_translator([taxid])
+    try:
+        return str(name[taxid][0])
+    except KeyError:
+        return None
+
+
+def get_level(taxid):
+    taxid = int(taxid)
+    level = ncbi.get_rank([taxid])
+    try:
+        return str(level[taxid])
+    except KeyError:
+        return None
+
+
 def get_taxon_path(taxid):
     try:
         taxid_list = ncbi.get_lineage(taxid)
     except ValueError:
         raise
     kept_levels = ["superkingdom", "phylum", "class",
-                   "order", "family", "genus", "species"]
+                   "order", "family", "genus", "species", "strain"]
 
     rank_dict = ncbi.get_rank(taxid_list)
     kept_taxids = []
