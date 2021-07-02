@@ -2,6 +2,7 @@
 
 import sys
 import os
+import statistics
 from matplotlib import pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -61,8 +62,12 @@ divergence = []
 for assembler in assemblers:
     if assembler not in subset:
         continue
+    print(assembler)
+    print("mean: %s" % statistics.mean(assemblers[assembler][0]))
+    print("median: %s" % statistics.median(assemblers[assembler][0]))
     completeness.append(assemblers[assembler][0])
     divergence.append(assemblers[assembler][2])
+
 
 plot1 = ax1.violinplot(completeness, vert=False)
 plot2 = ax2.violinplot(divergence, vert=False)
@@ -81,4 +86,3 @@ for patch, color in zip(plot2['bodies'], colors):
     patch.set_edgecolor('black')
 fig.suptitle("16S rRNA gene assembly quality", fontsize=15)
 plt.savefig("16S_violins.png")
-

@@ -1,0 +1,17 @@
+dataset: marine
+#fq_dir: /net/sgi/cami/data/CAMI2/roter_data/lotus_rhizosphere/rhimgCAMI2/reads
+fq_dir: /net/sgi/metagenomics/cami2_benchmark/datasets/marine/reads/short
+#fq_dir: /net/sgi/metagenomics/cami2_benchmark/datasets/madness/reads/short
+long_fq_dir: ../datasets/madness/reads/long
+interleave: true
+read_length: 150
+out_dir: ../outputs
+profile_db_dir: /net/sgi/metagenomics/data/tax_profile/dbs
+profile_conda_env: config/conda_env.yaml
+assembly_conda_env: config/conda_assembly.yaml
+binning_conda_env: config/conda_binning.yaml
+#nodedmp: /net/sgi/metagenomics/cami2_benchmark/cami_dbs/ncbi_taxonomy/nodes.dmp
+taxdmp: ../cami_dbs/ncbi_taxonomy/taxdump.tar.gz
+taxdb: ../cami_dbs/.ete3tax
+
+threads: 48
