@@ -1,0 +1,3 @@
+CP001842.1_16S	1477	0	1172	-	Scaffold686417	4668	0	1172	1172	1172	60	NM:i:0	ms:i:2344	AS:i:2344	nn:i:0	tp:A:P	cm:i:210	s1:i:1165	s2:i:0	de:f:0	rl:i:0	cg:Z:1172=
+CP001842.1_16S	1477	1140	1477	-	Scaffold353764	2566	2229	2566	337	337	0	NM:i:0	ms:i:674	AS:i:674	nn:i:0	tp:A:P	cm:i:57	s1:i:321	s2:i:321	de:f:0	rl:i:0	cg:Z:337=
+CP001842.1_16S	1477	1140	1477	+	Scaffold463218	3887	0	337	337	337	0	NM:i:0	ms:i:674	AS:i:674	nn:i:0	tp:A:S	cm:i:57	s1:i:321	de:f:0	rl:i:0	cg:Z:337=

@@ -1,0 +1,4 @@
+CP003845.1_16S	1534	794	1410	-	strain87_opera_contig_30	31687	2195	2813	595	618	60	NM:i:23	ms:i:1094	AS:i:1094	nn:i:0	tp:A:P	cm:i:71	s1:i:478	s2:i:447	de:f:0.0372	rl:i:0	cg:Z:48=1X3=2X1=1X7=1X1=2X17=1X20=1X52=1X27=1X17=1X4=2X6=1D17=1X10=1D151=1X2=1X1=1X6=1X1=1X2=1X202=
+CP003845.1_16S	1534	1055	1534	-	strain87_opera_contig_30	31687	3724	4203	477	479	0	NM:i:2	ms:i:946	AS:i:946	nn:i:0	tp:A:S	cm:i:78	s1:i:447	de:f:0.0042	rl:i:0	cg:Z:407=1X2=1X68=
+CP003845.1_16S	1534	1308	1534	+	strain168_opera_contig_188	750	0	226	226	226	60	NM:i:0	ms:i:452	AS:i:452	nn:i:0	tp:A:P	cm:i:39	s1:i:218	s2:i:41	de:f:0	rl:i:0	cg:Z:226=
+CP003845.1_16S	1534	6	229	-	strain147_opera_contig_757	1916	0	223	223	223	60	NM:i:0	ms:i:446	AS:i:446	nn:i:0	tp:A:P	cm:i:37	s1:i:208	s2:i:150	de:f:0	rl:i:0	cg:Z:223=
