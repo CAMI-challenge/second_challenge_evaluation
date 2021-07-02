@@ -52,9 +52,6 @@ def format_pd(runtimes, metric):
     sorted_pd = pd.concat([sorted_pd, get_sorted(runtimes, profilers, metric)])
     n3 = len(sorted_pd) - n0 - n1 - n2
 
-    sorted_pd = sorted_pd * 100
-    sorted_pd = np.log2(sorted_pd).clip(lower=0)
-
     colors1_as = [COLORS1_AS] * n0
     colors2_as = [COLORS2_AS] * n0
     colors1_gb = [COLORS1_GB] * n1
@@ -128,9 +125,9 @@ def doit(sorted_pd, my_colors, metric):
     ax.tick_params(axis='y', which='both', labelsize=12, labelbottom=True)
     ax.tick_params(axis='x', which='both', labelsize=12, labelbottom=True)
 
-    ax.xaxis.set_major_locator(plt.MaxNLocator(6))
+    ax.set_xscale('symlog', linthreshx=1)
     vals = ax.get_xticks()
-    ax.set_xticklabels(['{:,.1f}'.format(np.exp2(x) / 100) for x in vals], fontsize=12)
+    ax.set_xticklabels(['{:,.0f}'.format(x) for x in vals], fontsize=12, ha='right')
 
     plt.gca().invert_yaxis()
 
