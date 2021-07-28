@@ -98,11 +98,11 @@ plot1 <- ggplot(df_melted1,aes(x=coverage,y=genome_fraction,colour=unique,group=
 #   geom_vline(xintercept=20, color="gray") +
    geom_vline(data=vals1, mapping = aes(xintercept=vals1$coverage), color=" dark gray") + 
    scale_y_continuous(breaks=c(0,50,100)) +
-   scale_color_manual(values=c("#d95f02", "#1b9e77", "#7570b3"), name="Genome groups", label=c("Circular elements", "Strains (ANI \u2265 95%)", "Unique (ANI <95%)")) + 
+   scale_color_manual(values=c("#d95f02", "#1b9e77", "#7570b3"), name="Genome groups", label=c("Circular elements", "Common (ANI \u2265 95%)", "Unique (ANI <95%)")) + 
   theme(strip.text.y = element_text(size = 6), legend.position='top', panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black")) +
    guides(colour = guide_legend(override.aes = list(size=2.5))) +
-  xlab("Sequencing coverage") + ylab("Genome fraction")
+  xlab("Sequencing coverage") + ylab("Genome fraction (%)")
 
 plot2 <- ggplot(df_melted3,aes(x=coverage,y=genome_fraction,colour=unique,group=assembler)) + 
    geom_point(shape=16, size=0.7) +
@@ -117,7 +117,7 @@ plot2 <- ggplot(df_melted3,aes(x=coverage,y=genome_fraction,colour=unique,group=
    theme(strip.text.y = element_text(size = 6), legend.position='top', panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
          panel.background = element_blank(), axis.line = element_line(colour = "black")) +
    guides(colour = guide_legend(override.aes = list(size=2.5))) +
-   xlab("Sequencing coverage") + ylab("Genome fraction")
+   xlab("Sequencing coverage") + ylab("Genome fraction (%)")
 
 p <- ggarrange(plot1, plot2, ncol=2, common.legend=TRUE)
 
