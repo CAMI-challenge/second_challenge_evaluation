@@ -24,9 +24,9 @@ DATASET_TO_PATH = {'mar': '../marine_dataset/data/results/',
                    'sm': '../strain_madness_dataset/data/results/',
                    'rhi': '../plant_associated_dataset/data/results/'}
 
-DATASET_TO_TOOLS = {'mar': ['MEGAN (gsa)', 'Kraken (gsa)', 'Kraken (sr)', 'PhyloPythiaS+ (gsa)', 'Ganon (sr)', 'DIAMOND (gsa)', 'DIAMOND (sr)', 'NBC++ (sr)', 'LSHVec (gsa)', 'LSHVec (lr)'],
-                    'sm': ['MEGAN (gsa)', 'Kraken (gsa)', 'Kraken (sr)', 'PhyloPythiaS+ (gsa)', 'Ganon (sr)', 'DIAMOND (gsa)', 'Kraken cami1 (sr)', 'LSHVec (gsa)', 'LSHVec (lr)'],
-                    'rhi': ['MEGAN (gsa)', 'Kraken (gsa)', 'Kraken (sr)', 'PhyloPythiaS+ (gsa)', 'Ganon (sr)', 'DIAMOND (gsa)', 'Kraken cami1 (sr)']}
+DATASET_TO_TOOLS = {'mar': ['MEGAN (GSA)', 'Kraken (GSA)', 'Kraken (SR)', 'PhyloPythiaS+ (GSA)', 'Ganon (SR)', 'DIAMOND (GSA)', 'DIAMOND (SR)', 'NBC++ (SR)', 'LSHVec (GSA)', 'LSHVec (LR)'],
+                    'sm': ['MEGAN (GSA)', 'Kraken (GSA)', 'Kraken (SR)', 'PhyloPythiaS+ (GSA)', 'Ganon (SR)', 'DIAMOND (GSA)', 'Kraken cami1 (SR)', 'LSHVec (GSA)', 'LSHVec (LR)'],
+                    'rhi': ['MEGAN (GSA)', 'Kraken (GSA)', 'Kraken (SR)', 'PhyloPythiaS+ (GSA)', 'Ganon (SR)', 'DIAMOND (GSA)', 'Kraken cami1 (SR)']}
 
 
 def get_colors():
@@ -117,7 +117,7 @@ def plot_taxonomic_results(df_summary_t, metrics_list, errors_list, dataset, out
 def main(dataset):
     df_summary = pd.read_csv(DATASET_TO_PATH[dataset] + 'results_all.tsv', sep='\t')
 
-    sample_dict = {'contigs': 'gsa', 'short reads': 'sr', 'long reads': 'lr'}
+    sample_dict = {'contigs': 'GSA', 'short reads': 'SR', 'long reads': 'LR'}
     df_summary['Tool'] = df_summary.apply(lambda row: '{} ({})'.format(row['Tool'], sample_dict[row['Sample']]), axis=1)
 
     df_summary = df_summary[df_summary['rank'].isin(RANKS)]

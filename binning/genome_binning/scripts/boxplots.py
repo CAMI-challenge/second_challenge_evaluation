@@ -37,20 +37,20 @@ DATASET_TO_PATH = {'mar_gsa': '../marine_dataset/results/amber_marine_nocircular
                    'str_ma': '../strain_madness_dataset/results/amber_strain_madness_megahit/',
                    'rhi_gsa': '../plant_associated_dataset/results/amber_rhizosphere_noplasmids/',
                    'rhi_ma': '../plant_associated_dataset/results/amber_rhizosphere_megahit_noplasmids/',
-                   'mar_unique': '../strain_madness_dataset/results/amber_marine_unique_strains_nocircular/',
-                   'mar_common': '../strain_madness_dataset/results/amber_marine_common_strains_nocircular/',
+                   'mar_unique': '../marine_dataset/results/amber_marine_unique_strains_nocircular/',
+                   'mar_common': '../marine_dataset/results/amber_marine_common_strains_nocircular/',
                    'str_unique': '../strain_madness_dataset/results/amber_strain_madness_unique_strains/',
                    'str_common': '../strain_madness_dataset/results/amber_strain_madness_common_strains/'}
 
-DATASETS_L = {'mar_gsa': 'Marine\ngsa', 'mar_ma': 'Marine\nma',
-              'str_gsa': 'Strain\nmadness\ngsa', 'str_ma': 'Strain\nmadness\nma',
-              'rhi_gsa': 'Plant-\nassociated\ngsa', 'rhi_ma': 'Plant-\nassociated\nma',
+DATASETS_L = {'mar_gsa': 'Marine\nGSA', 'mar_ma': 'Marine\nMA',
+              'str_gsa': 'Strain\nmadness\nGSA', 'str_ma': 'Strain\nmadness\nMA',
+              'rhi_gsa': 'Plant-\nassociated\nGSA', 'rhi_ma': 'Plant-\nassociated\nMA',
               'mar_unique': 'Marine\nunique\nstrains', 'mar_common': 'Marine\ncommon\nstrains',
               'str_unique': 'Strain\nmadness\nunique\nstrains', 'str_common': 'Strain\nmadness\ncommon\nstrains'}
 
-DATASETS_L2 = {'mar_gsa': 'Marine gsa', 'mar_ma': 'Marine ma',
-               'str_gsa': 'Strain m. gsa', 'str_ma': 'Strain m. ma',
-               'rhi_gsa': 'Plant-a. gsa', 'rhi_ma': 'Plant-a. ma'}
+DATASETS_L2 = {'mar_gsa': 'Marine GSA', 'mar_ma': 'Marine MA',
+               'str_gsa': 'Strain m. GSA', 'str_ma': 'Strain m. MA',
+               'rhi_gsa': 'Plant-a. GSA', 'rhi_ma': 'Plant-a. MA'}
 
 
 def get_ranked(results_path):
@@ -263,14 +263,14 @@ def main():
                 {'label': 'Purity (%)', 'metric': 'precision_bp', 'metric_': AVG_PRECISION_BP},
                 {'label': 'ARI (%)', 'metric_': ARI_BY_BP},
                 {'label': 'Binned bp (%)', 'metric_': PERCENTAGE_ASSIGNED_BPS},
-                {'label': 'HQ genomes (%)', 'metric_': MIN_RECALL}]
+                {'label': 'Genomes (%)', 'metric_': MIN_RECALL}]
 
     num_cols = 5
     num_rows = 7
     fig, axs = plt.subplots(num_rows, num_cols, figsize=(8, 11), sharex=True)
     go(pdres, plotcols, DATASETS, 0, axs, num_rows, pdres_u)
     plt.subplots_adjust(wspace=0.1, hspace=0.105)
-    fig.savefig(DATASET_TO_PATH['mar_gsa'] + 'boxplots.pdf', dpi=100, format='pdf', bbox_inches='tight')
+    fig.savefig('../boxplots.pdf', dpi=100, format='pdf', bbox_inches='tight')
     plt.close()
 
     # num_rows = 4

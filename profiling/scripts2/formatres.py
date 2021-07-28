@@ -82,9 +82,6 @@ def load_results(path):
 
 
 def append_stats(formattepd, bestpd):
-    if 'mOTUs 2.0.1_1' in bestpd.index:
-        bestpd = bestpd.drop(index='mOTUs 2.0.1_1')
-
     mean_series = pd.DataFrame(bestpd.mean()).T.round(DECIMALS).iloc[0]
     sem_series = pd.DataFrame(bestpd.sem()).T.round(DECIMALS).iloc[0]
     var_series = pd.DataFrame(bestpd.var()).T.round(DECIMALS).iloc[0]
