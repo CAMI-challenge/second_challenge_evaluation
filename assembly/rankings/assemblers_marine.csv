@@ -1,0 +1,19 @@
+tool	Strain recall	# mismatches per 100 kbp	Duplication ratio	# misassemblies	Genome fraction (%)	Strain precision	NGA50	Sum of scores
+marmgCAMI2_short_read_pooled_gsa	0	0	15	0	0	0	0	15
+HipMer_cgraph_short	2	5	0	7	12	6	5	37
+HipMer_Metagenome_short	3	1	1	2	13	0	9	29
+HipMer_cgraph-ono_short	1	7	2	11	11	5	2	39
+Miniasm_GATB_hybrid	10	6	12	9	10	7	6	60
+Megahit_v1.1.2_short	6	11	6	14	4	12	4	57
+SPAdes_v3.14-dev_hybrid	11	16	4	4	14	8	1	58
+OPERA-MS-hybrid	17	15	10	10	8	17	3	80
+Megahit_V1.2.7-short	7	12	5	12	3	13	15	67
+A-STAR_contig_hybrid	14	13	16	16	5	15	12	91
+A-STAR_scaffold_hybrid	14	14	17	17	2	16	11	91
+Megahit_v1.1.4-2_short	12	17	13	13	1	14	13	83
+metaSPAdes_v3.13.1_short	4	9	7	6	6	10	8	50
+ABySS_short	13	3	3	1	16	0	16	52
+metaSPAdes_v3.13.0_short	4	10	8	8	7	9	7	53
+Ray-Meta_short	8	2	11	3	15	0	14	53
+metaSPAdes_v3.13.1-short	9	8	9	5	9	11	10	61
+Flye_long	16	4	14	15	17	0	17	83
