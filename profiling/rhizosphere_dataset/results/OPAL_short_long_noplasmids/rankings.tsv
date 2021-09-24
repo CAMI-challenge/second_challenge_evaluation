@@ -1,7 +1,7 @@
-Completeness	Purity	F1 score	L1 norm error	Bray-Curtis distance	Shannon equitability	Weighted UniFrac error	sum
-Bracken 2.6 (3)	MetaPhlAn 2.9.21 (6)	sourmash gather 3.3.2 k31 (sr) (6)	Bracken 2.6 (6)	Bracken 2.6 (6)	mOTUs 2.5.1 (13)	Bracken 2.6 (0)	mOTUs 2.5.1 (60)
-sourmash gather 3.3.2 k31 (sr) (8)	MetaPhlAn 3.0.7 (6)	MetaPhlAn 2.9.21 (10)	mOTUs 2.5.1 (8)	mOTUs 2.5.1 (7)	MetaPhlAn 2.9.21 (14)	sourmash gather 3.3.2 k31 (sr) (1)	MetaPhlAn 2.9.21 (90)
-mOTUs 2.5.1 (14)	mOTUs 2.5.1 (6)	mOTUs 2.5.1 (10)	mOTUs cami1 (15)	mOTUs cami1 (15)	mOTUs cami1 (14)	mOTUs 2.5.1 (2)	Bracken 2.6 (96)
-MetaPhlAn 2.9.21 (18)	sourmash gather 3.3.2 k31 (sr) (12)	mOTUs cami1 (23)	MetaPhlAn 2.9.21 (21)	MetaPhlAn 2.9.21 (17)	MetaPhlAn 3.0.7 (15)	mOTUs cami1 (3)	sourmash gather 3.3.2 k31 (sr) (100)
-mOTUs cami1 (26)	mOTUs cami1 (24)	MetaPhlAn 3.0.7 (25)	sourmash gather 3.3.2 k31 (sr) (21)	MetaPhlAn 3.0.7 (23)	Bracken 2.6 (16)	MetaPhlAn 2.9.21 (4)	mOTUs cami1 (120)
-MetaPhlAn 3.0.7 (34)	Bracken 2.6 (35)	Bracken 2.6 (30)	MetaPhlAn 3.0.7 (28)	sourmash gather 3.3.2 k31 (sr) (29)	sourmash gather 3.3.2 k31 (sr) (23)	MetaPhlAn 3.0.7 (5)	MetaPhlAn 3.0.7 (136)
+	Completeness	Purity	F1 score	L1 norm error	Bray-Curtis distance	Shannon equitability	Weighted UniFrac error	sum
+0	Bracken 2.6 (3)	MetaPhlAn 2.9.21 (6)	sourmash gather 3.3.2 k31 (sr) (6)	Bracken 2.6 (6)	Bracken 2.6 (6)	mOTUs 2.5.1 (13)	Bracken 2.6 (0)	mOTUs 2.5.1 (60)
+1	sourmash gather 3.3.2 k31 (sr) (8)	MetaPhlAn 3.0.7 (6)	MetaPhlAn 2.9.21 (10)	mOTUs 2.5.1 (8)	mOTUs 2.5.1 (7)	MetaPhlAn 2.9.21 (14)	sourmash gather 3.3.2 k31 (sr) (1)	MetaPhlAn 2.9.21 (90)
+2	mOTUs 2.5.1 (14)	mOTUs 2.5.1 (6)	mOTUs 2.5.1 (10)	mOTUs cami1 (15)	mOTUs cami1 (15)	mOTUs cami1 (14)	mOTUs 2.5.1 (2)	Bracken 2.6 (96)
+3	MetaPhlAn 2.9.21 (18)	sourmash gather 3.3.2 k31 (sr) (12)	mOTUs cami1 (23)	MetaPhlAn 2.9.21 (21)	MetaPhlAn 2.9.21 (17)	MetaPhlAn 3.0.7 (15)	mOTUs cami1 (3)	sourmash gather 3.3.2 k31 (sr) (100)
+4	mOTUs cami1 (26)	mOTUs cami1 (24)	MetaPhlAn 3.0.7 (25)	sourmash gather 3.3.2 k31 (sr) (21)	MetaPhlAn 3.0.7 (23)	Bracken 2.6 (16)	MetaPhlAn 2.9.21 (4)	mOTUs cami1 (120)
+5	MetaPhlAn 3.0.7 (34)	Bracken 2.6 (35)	Bracken 2.6 (30)	MetaPhlAn 3.0.7 (28)	sourmash gather 3.3.2 k31 (sr) (29)	sourmash gather 3.3.2 k31 (sr) (23)	MetaPhlAn 3.0.7 (5)	MetaPhlAn 3.0.7 (136)
