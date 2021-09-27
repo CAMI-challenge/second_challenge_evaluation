@@ -96,14 +96,15 @@ for patch, color in zip(plot2['bodies'], colors):
     patch.set_edgecolor('black')
 fig.suptitle("16S rRNA gene assembly quality", fontsize=15)
 plt.savefig("16S_violins.png")
+plt.close()
 
-plot3 = plt.violinplot(lengths, vert=False)
+plot3 = plt.boxplot(lengths, vert=False, patch_artist=True)
 plt.yticks(np.arange(1, len(subset2_no_gsa) + 1),names)
 #plt.ticklabel_format(axis='x',style='sci',scilimits=(0,0))
-plt.xlabel("Mapped contig lengths")
+plt.xlabel("Mapped contig lengths (bp)")
+plt.xscale("log")
 colors = sns.color_palette("tab10")
-for patch, color in zip(plot3['bodies'], colors):
-    patch.set_color(color)
-    patch.set_edgecolor('black')
+for patch, color in zip(plot3['boxes'], colors):
+    patch.set(facecolor = color)
 plt.title("16S rRNA gene assembly contig lengths", fontsize=12)
-plt.savefig("16S_violins_lengths.png", bbox_inches='tight')
+plt.savefig("16S_boxes_lengths.png", bbox_inches='tight')

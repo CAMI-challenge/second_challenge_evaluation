@@ -18,6 +18,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-files", type=argparse.FileType('r'), nargs='+')
 # Here we don't need scales and will do the scaling ourselves!
 # multiple files, these will get merged via their assemblers
+# tsv files with assemblers on x and metrics on y
 parser.add_argument("-o", type=str, help="out folder")
 # one file/plot per metric is created
 args = parser.parse_args()
@@ -217,7 +218,7 @@ for ax, metric in zip(axes.flat, metrics):
             rgrids = [int(100*x) for x in rgrids]
         #print(rgrids)
         ax.set_rgrids([all_min + diff/3,all_min+2*diff/3,all_max], rgrids, fontsize=14)
-    ax.set_title(metric, weight='bold', size=15, position=(0.5, 1.1), horizontalalignment='center', verticalalignment='center')
+    ax.set_title(metric, size=15, position=(0.5, 1.12), horizontalalignment='center', verticalalignment='center')
     labels = assemblers.keys()
     ax.set_varlabels(labels, fontsize=14)
     angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False).tolist()
@@ -230,5 +231,5 @@ for ax, metric in zip(axes.flat, metrics):
         else:
             label.set_horizontalalignment('left')
     ax = axes[0, 0]
-    ax.legend(subsets, loc=(2.0 - 0.353 * len(subsets), 1.25), labelspacing=0.1, fontsize=15, ncol=len(subsets), frameon=False)
+    ax.legend(subsets, loc=(1.4 - 0.353 * len(subsets), 1.25), labelspacing=0.1, fontsize=15, ncol=len(subsets), frameon=False)
 plt.savefig(args.o, dpi=150, format='png', bbox_inches='tight')
