@@ -59,12 +59,11 @@ subset = ['ABySS_short','A-STAR_contig_hybrid','HipMer_Metagenome_short','marmgC
 subset2_no_gsa = ['ABySS_short','A-STAR_contig_hybrid','HipMer_Metagenome_short','Megahit_v1-1-4-2_short','metaSPAdes_v3-13-1_short','Miniasm_GATB_hybrid','OPERA-MS-inhouse_hybrid']
 subset_names = {'ABySS_short':"ABySS",'A-STAR_contig_hybrid':"A-STAR",'HipMer_Metagenome_short':"HipMer",'marmgCAMI2_short_read_pooled_gsa':"gsa",'Megahit_v1-1-4-2_short':"MEGAHIT",'metaSPAdes_v3-13-1_short':"metaSPAdes",'Miniasm_GATB_hybrid':"GATB",'OPERA-MS-inhouse_hybrid':"OPERA-MS"}
 fig, (ax1, ax2) = plt.subplots(figsize=(14, 12), nrows=1, ncols=2, sharey = True)
-ax1.set_title("Completeness")
-ax2.set_title("Divergence")
-completeness = []
-divergence = []
-names = []
-lengths = []
+ax1.set_title("Completeness", fontsize=19)
+ax2.set_title("Divergence", fontsize=19)
+completeness = {}
+divergence = {}
+lengths = {}
 for assembler in assemblers:
     if assembler not in subset:
         continue
@@ -73,20 +72,19 @@ for assembler in assemblers:
     print("median: %s" % statistics.median(assemblers[assembler][0]))
     print("mean contig length: %s" % statistics.mean(assemblers[assembler][3]))
     print("median contig length: %s" % statistics.median(assemblers[assembler][3]))
-    completeness.append(assemblers[assembler][0])
-    divergence.append(assemblers[assembler][2])
-    if (assembler != 'marmgCAMI2_short_read_pooled_gsa'):
-        lengths.append(assemblers[assembler][3])
-        names.append(subset_names[assembler])
+    completeness[assembler] = assemblers[assembler][0]
+    divergence[assembler] = assemblers[assembler][2]
+    #if (assembler != 'marmgCAMI2_short_read_pooled_gsa'):
+    lengths[assembler] = assemblers[assembler][3]
 
-plot1 = ax1.violinplot(completeness, vert=False)
-plot2 = ax2.violinplot(divergence, vert=False)
+plot1 = ax1.violinplot([completeness[x] for x in subset_names], vert=False)
+plot2 = ax2.violinplot([divergence[x] for x in subset_names], vert=False)
 ax1.set_yticks(np.arange(1, len(subset) + 1))
 #ax2.set_yticks(np.arange(1, len(subset) + 1))
-ax1.set_yticklabels(["%s (%s)" % (subset_names[x], len(assemblers[x][1])) for x in subset])
+ax1.set_yticklabels(["%s (%s)" % (subset_names[x], len(assemblers[x][1])) for x in subset], fontsize=19)
 #ax2.set_yticklabels([subset_names[x] for x in subset])
-ax1.set_xlabel("Genome fraction (%)")
-ax2.set_xlabel("Mismatched bases (%)")
+ax1.set_xlabel("Genome fraction (%)", fontsize=19)
+ax2.set_xlabel("Mismatched bases (%)", fontsize=19)
 colors = sns.color_palette("tab10")
 for patch, color in zip(plot1['bodies'], colors):
     patch.set_color(color)
@@ -94,17 +92,17 @@ for patch, color in zip(plot1['bodies'], colors):
 for patch, color in zip(plot2['bodies'], colors):
     patch.set_color(color)
     patch.set_edgecolor('black')
-fig.suptitle("16S rRNA gene assembly quality", fontsize=15)
-plt.savefig("16S_violins.png")
+fig.suptitle("16S rRNA gene assembly quality", fontsize=22)
+plt.savefig("16S_violins.png", bbox_inches='tight')
 plt.close()
 
-plot3 = plt.boxplot(lengths, vert=False, patch_artist=True)
-plt.yticks(np.arange(1, len(subset2_no_gsa) + 1),names)
+plot3 = plt.boxplot([lengths[x] for x in subset_names], vert=False, patch_artist=True)
+plt.yticks(np.arange(1, len(subset) + 1),[subset_names[x] for x in subset_names])
 #plt.ticklabel_format(axis='x',style='sci',scilimits=(0,0))
 plt.xlabel("Mapped contig lengths (bp)")
 plt.xscale("log")
 colors = sns.color_palette("tab10")
 for patch, color in zip(plot3['boxes'], colors):
-    patch.set(facecolor = color)
-plt.title("16S rRNA gene assembly contig lengths", fontsize=12)
-plt.savefig("16S_boxes_lengths.png", bbox_inches='tight')
+    patch.set(facecolor = color, alpha = 0.3)
+plt.title("16S rRNA gene carrying contig lengths", fontsize=12)
+plt.savefig("16S_boxes_lengths.png", dpi=200, bbox_inches='tight')
