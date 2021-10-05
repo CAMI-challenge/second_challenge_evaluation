@@ -21,6 +21,7 @@ parser.add_argument("-sf", "--subset", type=str, help="file with subsets of geno
 parser.add_argument("-sx", "--suffix", type=str, help="suffix for file names")
 parser.add_argument("-x", "--exclude", default=True, action='store_false', help="Do not exclude circular elements")
 parser.add_argument("-sum", "--summary", default=False, action='store_true', help="Only summary is available not runs per reference")
+parser.add_argument("-am", "--add-metrics", default=False, action='store_true', help="Additional misassembly metrics")
 args = parser.parse_args()
 
 if not len(sys.argv) > 1:
@@ -101,6 +102,10 @@ else:
 
 if args.summary:
     metrics = ["assembler","Genome_fraction","num_mismatches_per_100_kbp", "num_misassemblies", "NGA50", "Strain recall", "Strain precision", "Duplication_ratio"]
+
+if args.add_metrics:
+    metrics.append("Misassembled contigs length")
+    metrics.append("Total length")
 
 small_good = ["# mismatches per 100 kbp", "# misassemblies", "Duplication ratio"]
 small_good.extend(["num_mismatches_per_100_kbp", "num_misassemblies", "Duplication_ratio"])
@@ -281,6 +286,10 @@ if args.d:
     header = "assembler\t# contigs\t# mismatches per 100 kbp\tDuplication ratio\t# misassemblies\tGenome fraction (%)\tLargest alignment\tNGA50\n"
 else:
     header = "assembler\tStrain recall\t# mismatches per 100 kbp\tDuplication ratio\t# misassemblies\tGenome fraction (%)\tStrain precision\tNGA50\n"
+
+if args.add_metrics:
+    header = header.strip() + "\tTotal length\tMisassembled contigs length\n"
+
 for subset in result_files:
     if args.suffix:
         collected = os.path.join(args.o,"%s%s.tsv" % (subset, args.suffix))
@@ -316,18 +325,34 @@ for subset in result_files:
                 align = assemblers[assembler]["Largest alignment"]
             else:
                 align = assemblers[assembler]["Strain precision"]
+            if args.add_metrics:
+                ma2 = assemblers[assembler]["Misassembled contigs length"]
+                tl = assemblers[assembler]["Total length"]
             try:
                 nga = assemblers[assembler]["NGA50"]
             except ValueError:
                 nga = 0.
-            line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\n" .format(
-                method = assembler, 
-                contigs = contigs,
-                mismatches = mismatches,
-                dup = dup,
-                ma = ma,
-                gf = gf,
-                align = align,
-                nga = nga)
+            if args.add_metrics:
+                line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\t{ma2}\t{tl}\n" .format(
+                    method = assembler, 
+                    contigs = contigs,
+                    mismatches = mismatches,
+                    dup = dup,
+                    ma = ma,
+                    gf = gf,
+                    align = align,
+                    nga = nga,
+                    ma2 = ma2,
+                    tl = tl)
+            else:
+                line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\n" .format(
+                    method = assembler, 
+                    contigs = contigs,
+                    mismatches = mismatches,
+                    dup = dup,
+                    ma = ma,
+                    gf = gf,
+                    align = align,
+                    nga = nga)
             q.write(line)
 
