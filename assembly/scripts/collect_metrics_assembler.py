@@ -55,12 +55,17 @@ except TypeError: #?
     quit()
 
 subsets = {}
-with open(args.subset, 'r') as s:
-    for line in s:
-        name, members = line.split('\t')
-        l = ast.literal_eval(members)
-        subset = [gid[x] for x in l]
-        subsets[name] = subset
+if args.subset is None:
+    subsets["all"] = []
+    for x in gid:
+        subsets["all"].append(gid[x])
+else:
+    with open(args.subset, 'r') as s:
+        for line in s:
+            name, members = line.split('\t')
+            l = ast.literal_eval(members)
+            subset = [gid[x] for x in l]
+            subsets[name] = subset
 
 db = []
 new = []
