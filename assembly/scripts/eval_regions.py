@@ -56,11 +56,12 @@ for f in files:
             assemblers[assembler] = [frags, cigs, diffs, c_lengths]
 
 subset = ['ABySS_short','A-STAR_contig_hybrid','HipMer_Metagenome_short','marmgCAMI2_short_read_pooled_gsa','Megahit_v1-1-4-2_short','metaSPAdes_v3-13-1_short','Miniasm_GATB_hybrid','OPERA-MS-inhouse_hybrid']
-subset2_no_gsa = ['ABySS_short','A-STAR_contig_hybrid','HipMer_Metagenome_short','Megahit_v1-1-4-2_short','metaSPAdes_v3-13-1_short','Miniasm_GATB_hybrid','OPERA-MS-inhouse_hybrid']
 subset_names = {'ABySS_short':"ABySS",'A-STAR_contig_hybrid':"A-STAR",'HipMer_Metagenome_short':"HipMer",'marmgCAMI2_short_read_pooled_gsa':"gsa",'Megahit_v1-1-4-2_short':"MEGAHIT",'metaSPAdes_v3-13-1_short':"metaSPAdes",'Miniasm_GATB_hybrid':"GATB",'OPERA-MS-inhouse_hybrid':"OPERA-MS"}
 fig, (ax1, ax2) = plt.subplots(figsize=(14, 12), nrows=1, ncols=2, sharey = True)
-ax1.set_title("Completeness", fontsize=19)
-ax2.set_title("Divergence", fontsize=19)
+#ax1.set_title("Completeness", fontsize=20)
+ax1.tick_params(labelsize=20)
+#ax2.set_title("Divergence", fontsize=20)
+ax2.tick_params(labelsize=20)
 completeness = {}
 divergence = {}
 lengths = {}
@@ -81,10 +82,10 @@ plot1 = ax1.violinplot([completeness[x] for x in subset_names], vert=False)
 plot2 = ax2.violinplot([divergence[x] for x in subset_names], vert=False)
 ax1.set_yticks(np.arange(1, len(subset) + 1))
 #ax2.set_yticks(np.arange(1, len(subset) + 1))
-ax1.set_yticklabels(["%s (%s)" % (subset_names[x], len(assemblers[x][1])) for x in subset], fontsize=19)
+ax1.set_yticklabels(["%s (%s)" % (subset_names[x], len(assemblers[x][1])) for x in subset], fontsize=20)
 #ax2.set_yticklabels([subset_names[x] for x in subset])
-ax1.set_xlabel("Genome fraction (%)", fontsize=19)
-ax2.set_xlabel("Mismatched bases (%)", fontsize=19)
+ax1.set_xlabel("Genome fraction (%)", fontsize=20)
+ax2.set_xlabel("Mismatched bases (%)", fontsize=20)
 colors = sns.color_palette("tab10")
 for patch, color in zip(plot1['bodies'], colors):
     patch.set_color(color)
