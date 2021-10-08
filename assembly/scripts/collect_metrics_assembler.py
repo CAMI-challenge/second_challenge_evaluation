@@ -278,9 +278,9 @@ for subset in result_files:
     assemblers = result_files[subset]
     if not (subset == "total" or subset == "non_circular_common_genomes" or subset == "non_circular_unique_genomes"):
         continue
-    print(subset)
-    for assembler in assemblers:
-        print("%s\t%s\t%s" % (assembler, assemblers[assembler]["Strain recall"], assemblers[assembler]["Strain precision"]))
+    #print(subset)
+    #for assembler in assemblers:
+    #    print("%s\t%s\t%s" % (assembler, assemblers[assembler]["Strain recall"], assemblers[assembler]["Strain precision"]))
 
 if args.d:
     header = "assembler\t# contigs\t# mismatches per 100 kbp\tDuplication ratio\t# misassemblies\tGenome fraction (%)\tLargest alignment\tNGA50\n"
@@ -333,7 +333,7 @@ for subset in result_files:
             except ValueError:
                 nga = 0.
             if args.add_metrics:
-                line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\t{ma2}\t{tl}\n" .format(
+                line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\t{tl}\t{ma2}\n" .format(
                     method = assembler, 
                     contigs = contigs,
                     mismatches = mismatches,
@@ -342,8 +342,9 @@ for subset in result_files:
                     gf = gf,
                     align = align,
                     nga = nga,
-                    ma2 = ma2,
-                    tl = tl)
+                    tl = tl,
+                    ma2 = ma2
+                    )
             else:
                 line = "{method}\t{contigs}\t{mismatches}\t{dup}\t{ma}\t{gf}\t{align}\t{nga}\n" .format(
                     method = assembler, 
