@@ -1,0 +1,27 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+5945	6799	55960	55106	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_391463	99.18		True
+unknown
+1221	2201	60938	59958	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_391463	100.0		True
+unknown
+CONTIG	contig_391463	76281	mis_unaligned
+3777	3882	106	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_519814	95.28		True
+relocation, inconsistency = -2317
+5126	6068	1074	132	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_519814	99.89		True
+CONTIG	contig_519814	1074	misassembled
+3402	3988	587	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_758804	100.0		True
+CONTIG	contig_758804	587	correct
+1	769	769	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	contig_951229	100.0		True
+CONTIG	contig_951229	790	correct
+5945	6799	55960	55106	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	strain89_opera_contig_14	99.18		True
+unknown
+1221	2201	60938	59958	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	strain89_opera_contig_14	100.0		True
+unknown
+CONTIG	strain89_opera_contig_14	76281	mis_unaligned
+3777	3882	106	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	strain89_opera_contig_75	95.28		True
+relocation, inconsistency = -2317
+5126	6068	1074	132	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	strain89_opera_contig_75	99.89		True
+CONTIG	strain89_opera_contig_75	1074	misassembled
+3402	3988	587	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	opera_contig_357063	100.0		True
+CONTIG	opera_contig_357063	587	correct
+1	769	769	1	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1	opera_contig_234645	100.0		True
+CONTIG	opera_contig_234645	790	correct

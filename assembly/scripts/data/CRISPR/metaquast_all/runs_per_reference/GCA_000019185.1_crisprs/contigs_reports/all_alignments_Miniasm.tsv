@@ -1,0 +1,6 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+252	379	26494	26367	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	13325	95.31		True
+unknown
+328	424	27108	27012	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	13325	96.91		True
+unknown
+CONTIG	13325	27129	mis_unaligned

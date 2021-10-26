@@ -1,0 +1,82 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_]
+	Total Regions: 1
+	Total Region Length: 652
+Analyzing contigs...
+CONTIG: k131_222987 (6394bp)
+Best alignment score: 231.0 (LEN: 238, IDY: 97.06), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 231.0, number of alignments: 1, unaligned bases: 6156
+		This contig is partially unaligned. (Aligned 238 out of 6394 non-N bases (3.72%))
+		Alignment: 238 475 | 238 1 | 238 238 | 97.06 | GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_ k131_222987
+		Unaligned bases: 239 to 6394 (6156)
+
+CONTIG: k131_393700 (597bp)
+Best alignment score: 231.0 (LEN: 234, IDY: 98.72), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 231.0, number of alignments: 1, unaligned bases: 363
+		Alignment: 79 312 | 108 341 | 234 234 | 98.72 | GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_ k131_393700
+
+CONTIG: k141_449850 (1028bp)
+Best alignment score: 177.0 (LEN: 179, IDY: 98.88), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 177.0, number of alignments: 1, unaligned bases: 849
+		This contig is partially unaligned. (Aligned 179 out of 1028 non-N bases (17.41%))
+		Alignment: 1 179 | 739 917 | 179 179 | 98.88 | GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_ k141_449850
+		Unaligned bases: 1 to 738 (738)
+		Unaligned bases: 918 to 1028 (111)
+
+CONTIG: k141_624139 (4395bp)
+Best alignment score: 154.0 (LEN: 161, IDY: 95.65), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 154.0, number of alignments: 1, unaligned bases: 4234
+		This contig is partially unaligned. (Aligned 161 out of 4395 non-N bases (3.66%))
+		Alignment: 492 652 | 4380 4220 | 161 161 | 95.65 | GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_ k141_624139
+		Unaligned bases: 1 to 4219 (4219)
+		Unaligned bases: 4381 to 4395 (15)
+
+CONTIG: k91_1096044 (849bp)
+Best alignment score: 248.0 (LEN: 253, IDY: 98.02), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 248.0, number of alignments: 1, unaligned bases: 596
+		This contig is partially unaligned. (Aligned 253 out of 849 non-N bases (29.80%))
+		Alignment: 1 253 | 585 837 | 253 253 | 98.02 | GCA_000299995.1_crisprs_GCA_000299995.1_CRISPR_0_from_3959260__crt_ k91_1096044
+		Unaligned bases: 1 to 584 (584)
+		Unaligned bases: 838 to 849 (12)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000299995.1_crisprs/contigs_reports/minimap_output/Megahit.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000299995.1_crisprs/contigs_reports/minimap_output/Megahit.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 4 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 11835
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 636
+
+	SNPs: 24
+	Insertions: 0
+	Deletions: 0
+

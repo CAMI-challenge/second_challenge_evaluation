@@ -1,0 +1,13 @@
+1 3437 | 28259 31561 | 3437 3303 | 96.1 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_0_from_735977__all_ k131_108480 | cs:Z::2471-gttccaataagactttagaagtattgaaagttacagctgatggaatcaataatgaactcaatacaaagttccaataagactttagaagtattgaaagttacagctgatggaatcaataatgaactcaatacaaa:832
+1 3437 | 28239 31742 | 3437 3504 | 97.6 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_0_from_735977__all_ k141_451556 | cs:Z::938*at:68*ta:818*at:4*tc:9*at:11*tc:11*tg:23*ga:57*at:580+tcaatactaagttccaataagactttaggagtattgacaggtacagctgatggaagcaataatgaag:51*gt:3*tg:34*tg:11*gc:83*tc:184*ac:329*tc:8*tc:198
+1 967 | 967 1 | 967 967 | 99.79 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_0_from_735977__all_ k91_1450455 | cs:Z::142*gc:88*ga:735
+2547 3437 | 24487 23597 | 891 891 | 99.89 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_0_from_735977__all_ k91_617132 | cs:Z::22*tc:868
+1 1776 | 320049 318274 | 1776 1776 | 99.66 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k131_172566 | cs:Z::1106*gt:14*ta:31*ta:7*at:17*at:8*at:587
+68 1776 | 319925 318284 | 1709 1642 | 95.73 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k141_733452 | cs:Z::1205-gttccaataagactttagaagtattgaaatttccttggaagatcaattgagttgttagtaagtgtaa:85*ac:33*tc:39*ag:134*ga:65*gc:4*gt:71
+1340 1708 | 56 424 | 369 369 | 96.75 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k141_1506923 | cs:Z::121*ca:21*ag:44*cg:5*cg:11*ta:32*ag:18*ac:33*ag:22*gt:2*tg:33*ca:8*at:7
+1369 1631 | 425 687 | 263 263 | 98.29 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k141_1506923 | cs:Z::23*tc:6*ac:1*ga:16*at:213
+1351 1776 | 134345 133920 | 426 426 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k91_321786 | cs:Z::426
+68 937 | 870 1 | 870 870 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1_from_1003934__all_ k91_1412220 | cs:Z::870
+1 2095 | 96826 98920 | 2095 2095 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2_from_1426423__all_ k131_270697 | cs:Z::2095
+1 2095 | 97763 95669 | 2095 2095 | 99.81 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2_from_1426423__all_ k141_193881 | cs:Z::129*at:153*at:1287*cg:6*ta:516
+1 2095 | 97713 95619 | 2095 2095 | 99.81 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2_from_1426423__all_ k91_850616 | cs:Z::169*ga:1896*tc:7*cg:3*tg:16

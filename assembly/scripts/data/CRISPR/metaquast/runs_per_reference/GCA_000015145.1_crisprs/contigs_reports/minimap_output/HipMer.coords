@@ -1,0 +1,5 @@
+1 3306 | 73180 69875 | 3306 3306 | 100.00 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 Scaffold138633 | cs:Z::3306
+1 3182 | 3359 313 | 3182 3047 | 95.76 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 Scaffold138633 | cs:Z::889-tatcttgcaattctcttttgagttgttcagatgagatagagcagctgctagaggagtgcgaagccgttgacttgcaattctcttttgagttgttccaaacctgcgctacctcaacgacctaccaccaactattga:2158
+939 3182 | 2314 118 | 2244 2197 | 97.84 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 Scaffold673753 | cs:Z::65*cg:47-cagatgagatagagcagctgctagaggagtgcgaagccgttgacttg*cn*an*an*tn*tn*cn*tn*cn*tn*tn*tn*tn*gn*an*gn*tn*tn*gn*tn:2065
+1 3306 | 121 3426 | 3306 3306 | 100.00 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 Scaffold673777 | cs:Z::3306
+1 1051 | 69942 70992 | 1051 1051 | 100.00 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 Scaffold673777 | cs:Z::923*gn*an*tn:125

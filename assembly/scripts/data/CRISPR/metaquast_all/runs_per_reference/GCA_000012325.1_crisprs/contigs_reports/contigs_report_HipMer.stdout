@@ -1,0 +1,78 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_]
+	Total Regions: 1
+	Total Region Length: 913
+Analyzing contigs...
+CONTIG: Scaffold0 (180083bp)
+Best alignment score: 396.0 (LEN: 400, IDY: 99.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 388 658 | 1 271 | 271 271 | 99.26 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold0
+			The best set is below. Score: 396.0, number of alignments: 1, unaligned bases: 179683
+		This contig is partially unaligned. (Aligned 400 out of 180080 non-N bases (0.22%))
+		Alignment: 514 913 | 1 400 | 400 400 | 99.0 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold0
+		Unaligned bases: 401 to 180083 (179683)
+
+CONTIG: Scaffold151251 (522768bp)
+Best alignment score: 256.0 (LEN: 256, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 256.0, number of alignments: 1, unaligned bases: 522512
+		This contig is partially unaligned. (Aligned 256 out of 522768 non-N bases (0.05%))
+		Alignment: 1 256 | 522513 522768 | 256 256 | 100.0 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold151251
+		Unaligned bases: 1 to 522512 (522512)
+
+CONTIG: Scaffold7472797 (1696bp)
+Best alignment score: 303.0 (LEN: 303, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 303.0, number of alignments: 1, unaligned bases: 1393
+		This contig is partially unaligned. (Aligned 303 out of 1696 non-N bases (17.87%))
+		Alignment: 1 303 | 1394 1696 | 303 303 | 100.0 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold7472797
+		Unaligned bases: 1 to 1393 (1393)
+
+CONTIG: Scaffold533433 (55387bp)
+Best alignment score: 192.0 (LEN: 192, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 317.0, number of alignments: 2, unaligned bases: 55070
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 317 out of 55384 non-N bases (0.57%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 55387 (number of Ns: 3) and total length of all aligns is 317
+		Alignment: 722 913 | 55239 55048 | 192 192 | 100.0 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold533433
+		Alignment: 597 721 | 55387 55263 | 125 125 | 100.0 | GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_ Scaffold533433
+		Unaligned bases: 55070
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000012325.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000012325.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 4 part
+Half Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 758652
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 703
+
+	SNPs: 4
+	Insertions: 0
+	Deletions: 0
+

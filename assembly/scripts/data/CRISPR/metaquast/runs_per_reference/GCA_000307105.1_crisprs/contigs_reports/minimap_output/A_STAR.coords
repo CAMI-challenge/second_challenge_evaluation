@@ -1,0 +1,16 @@
+1 1985 | 2051 1 | 1985 2051 | 96.68 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 contig_70940 | cs:Z::67*ta:8*ca:1325+tgtggaattgaaacttttgcatctctttttcttgctcatgactttttatcaccttttaatcagatn:491*ta:91
+1 445 | 445 1 | 445 445 | 99.33 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 contig_124653 | cs:Z::338*at:8*ta:62*gc:34
+3962 4504 | 2898 2356 | 543 543 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 contig_457623 | cs:Z::543
+1 396 | 956 1351 | 396 396 | 99.49 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 contig_713565 | cs:Z::365*ct:6*ct:23
+1 1985 | 2051 1 | 1985 2051 | 96.68 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 opera_contig_6043_3 | cs:Z::67*ta:8*ca:1325+tgtggaattgaaacttttgcatctctttttcttgctcatgactttttatcaccttttaatcagatn:491*ta:91
+1 445 | 445 1 | 445 445 | 99.33 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 opera_contig_296_6 | cs:Z::338*at:8*ta:62*gc:34
+3962 4504 | 2898 2356 | 543 543 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 opera_contig_48384 | cs:Z::543
+1 396 | 956 1351 | 396 396 | 99.49 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 opera_contig_119700 | cs:Z::365*ct:6*ct:23
+1 622 | 23715 24345 | 622 631 | 98.10 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 contig_72054 | cs:Z::53+g:8*at:4*at:4+cttggtct:538*ca:12
+1 622 | 16313 15692 | 622 622 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 contig_124711 | cs:Z::622
+1 622 | 23715 24345 | 622 631 | 98.10 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 opera_contig_488_3 | cs:Z::53+g:8*at:4*at:4+cttggtct:538*ca:12
+1 622 | 16313 15692 | 622 622 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 opera_contig_467_6 | cs:Z::622
+167 292 | 31393 31268 | 126 126 | 96.83 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 contig_72057 | cs:Z::26*tg:23*ga:35*ga:19*gc:19
+1 292 | 214 505 | 292 292 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 contig_124654 | cs:Z::292
+167 292 | 31393 31268 | 126 126 | 96.83 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 opera_contig_576_3 | cs:Z::26*tg:23*ga:35*ga:19*gc:19
+1 292 | 214 505 | 292 292 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 opera_contig_412_6 | cs:Z::292

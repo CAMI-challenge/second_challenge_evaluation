@@ -1,0 +1,50 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1]
+	Total Regions: 1
+	Total Region Length: 6799
+Analyzing contigs...
+CONTIG: opera_contig_2804 (44893bp)
+Best alignment score: 6665.3 (LEN: 6734, IDY: 98.98), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 6665.3, number of alignments: 1, unaligned bases: 38159
+		This contig is partially unaligned. (Aligned 6734 out of 44893 non-N bases (15.00%))
+		Alignment: 1 6795 | 14287 21020 | 6795 6734 | 98.98 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 opera_contig_2804
+		Unaligned bases: 1 to 14286 (14286)
+		Unaligned bases: 21021 to 44893 (23873)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/runs_per_reference/GCA_000012885.1_crisprs/contigs_reports/minimap_output/OPERA_MS_inhouse.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/runs_per_reference/GCA_000012885.1_crisprs/contigs_reports/minimap_output/OPERA_MS_inhouse.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 38159
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 6795
+
+	SNPs: 8
+	Insertions: 0
+	Deletions: 61
+

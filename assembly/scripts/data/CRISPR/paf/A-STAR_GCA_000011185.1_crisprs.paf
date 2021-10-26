@@ -1,0 +1,4 @@
+GCA_000011185.1_CRISPR_0_from_109188_(all)	1251	371	1251	+	strain26_opera_contig_70_2	10411	9440	10320	872	880	0	NM:i:8	ms:i:1712	AS:i:1712	nn:i:0	tp:A:P	cm:i:107	s1:i:720	s2:i:720	de:f:0.0091	rl:i:475	cg:Z:880M
+GCA_000011185.1_CRISPR_0_from_109188_(all)	1251	371	1251	+	contig_56866	10411	9440	10320	872	880	0	NM:i:8	ms:i:1712	AS:i:1712	nn:i:0	tp:A:S	cm:i:107	s1:i:720	de:f:0.0091	rl:i:475	cg:Z:880M
+GCA_000011185.1_CRISPR_1_from_121470_(all)	1146	2	741	-	contig_56546	15231	14427	15166	739	739	0	NM:i:0	ms:i:1478	AS:i:1478	nn:i:0	tp:A:P	cm:i:146	s1:i:842	s2:i:842	de:f:0	rl:i:390	cg:Z:739M
+GCA_000011185.1_CRISPR_1_from_121470_(all)	1146	2	741	-	strain26_opera_contig_49_2	15231	14427	15166	739	739	0	NM:i:0	ms:i:1478	AS:i:1478	nn:i:0	tp:A:S	cm:i:146	s1:i:842	de:f:0	rl:i:390	cg:Z:739M

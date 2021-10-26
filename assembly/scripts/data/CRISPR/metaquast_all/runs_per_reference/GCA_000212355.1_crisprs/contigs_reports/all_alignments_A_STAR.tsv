@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+28	510	1280	1762	GCA_000212355.1_crisprs_GCA_000212355.1_CRISPR_0_from_619130__ml_	contig_551661	99.17		True
+CONTIG	contig_551661	2285	correct_unaligned
+28	510	6129	6611	GCA_000212355.1_crisprs_GCA_000212355.1_CRISPR_0_from_619130__ml_	opera_contig_23778	99.17		True
+CONTIG	opera_contig_23778	7134	correct_unaligned

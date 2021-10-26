@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	1251	20490	21740	GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_1	opera_contig_5084	100.0		True
+CONTIG	opera_contig_5084	28333	correct_unaligned
+1	1146	13474	12329	GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_2	opera_contig_8781	99.91		True
+CONTIG	opera_contig_8781	18381	correct_unaligned

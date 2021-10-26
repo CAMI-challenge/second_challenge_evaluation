@@ -1,0 +1,5 @@
+GCA_000011185.1_CRISPR_0_from_109188_(all)	1251	0	733	+	Scaffold709041	1855	1122	1855	733	733	60	NM:i:0	ms:i:1466	AS:i:1466	nn:i:0	tp:A:P	cm:i:100	s1:i:625	s2:i:341	de:f:0	rl:i:475	cg:Z:733M
+GCA_000011185.1_CRISPR_0_from_109188_(all)	1251	668	1251	+	Scaffold29814	895	36	619	583	583	0	NM:i:0	ms:i:1166	AS:i:1166	nn:i:0	tp:A:P	cm:i:80	s1:i:505	s2:i:505	de:f:0	rl:i:475	cg:Z:583M
+GCA_000011185.1_CRISPR_0_from_109188_(all)	1251	668	1251	+	Scaffold15672148	895	36	619	583	583	0	NM:i:0	ms:i:1166	AS:i:1166	nn:i:0	tp:A:S	cm:i:80	s1:i:505	de:f:0	rl:i:475	cg:Z:583M
+GCA_000011185.1_CRISPR_1_from_121470_(all)	1146	195	806	-	Scaffold2681486	611	0	611	611	611	38	NM:i:0	ms:i:1222	AS:i:1222	nn:i:0	tp:A:P	cm:i:82	s1:i:508	s2:i:476	de:f:0	rl:i:390	cg:Z:611M
+GCA_000011185.1_CRISPR_1_from_121470_(all)	1146	195	755	+	Scaffold369253	560	0	560	560	560	0	NM:i:0	ms:i:1120	AS:i:1120	nn:i:0	tp:A:S	cm:i:74	s1:i:476	de:f:0	rl:i:390	cg:Z:560M

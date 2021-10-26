@@ -1,0 +1,37 @@
+Number of interspecies translocations by references: 
+References               1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17
+GCA_000011185.1_crisprs  -  0  0  0  0  0  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000012885.1_crisprs  0  -  0  0  0  0  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000012985.1_crisprs  0  0  -  0  0  0  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000014865.1_crisprs  0  0  0  -  0  0  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000014885.1_crisprs  0  0  0  0  -  0  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000015145.1_crisprs  0  0  0  0  0  -  0  0  0  0   0   0   0   0   0   0   0 
+GCA_000016425.1_crisprs  0  0  0  0  0  0  -  0  0  0   0   0   0   0   0   0   0 
+GCA_000020525.1_crisprs  0  0  0  0  0  0  0  -  0  0   0   0   0   0   0   0   0 
+GCA_000192865.1_crisprs  0  0  0  0  0  0  0  0  -  0   0   0   0   0   0   0   0 
+GCA_000195335.1_crisprs  0  0  0  0  0  0  0  0  0  -   0   0   0   0   0   0   0 
+GCA_000211475.1_crisprs  0  0  0  0  0  0  0  0  0  0   -   0   0   0   0   0   0 
+GCA_000214665.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   -   0   0   0   0   0 
+GCA_000221185.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   0   -   0   0   0   0 
+GCA_000307105.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   0   0   -   0   0   0 
+GCA_000591035.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   0   0   0   -   0   0 
+GCA_000626635.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   0   0   0   0   -   0 
+GCA_000725425.1_crisprs  0  0  0  0  0  0  0  0  0  0   0   0   0   0   0   0   - 
+References:
+1 - GCA_000011185.1_crisprs
+2 - GCA_000012885.1_crisprs
+3 - GCA_000012985.1_crisprs
+4 - GCA_000014865.1_crisprs
+5 - GCA_000014885.1_crisprs
+6 - GCA_000015145.1_crisprs
+7 - GCA_000016425.1_crisprs
+8 - GCA_000020525.1_crisprs
+9 - GCA_000192865.1_crisprs
+10 - GCA_000195335.1_crisprs
+11 - GCA_000211475.1_crisprs
+12 - GCA_000214665.1_crisprs
+13 - GCA_000221185.1_crisprs
+14 - GCA_000307105.1_crisprs
+15 - GCA_000591035.1_crisprs
+16 - GCA_000626635.1_crisprs
+17 - GCA_000725425.1_crisprs

@@ -1,0 +1,23 @@
+reference chromosomes:
+	GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 (total length: 3306 bp, total length without N's: 3306 bp, maximal covered length: 3306 bp)
+	GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 (total length: 3182 bp, total length without N's: 3182 bp, maximal covered length: 3182 bp)
+
+total genome size: 6488
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+ABySS_to_GCA_000015145.1 | 42.602    | 1.064       | 4         | -         | -         | -         | -         |
+A_STAR_to_GCA_000015145. | 99.615    | 3.402       | 0         | -         | -         | -         | -         |
+Flye_to_GCA_000015145.1_ | 86.020    | 2.001       | 1         | -         | -         | -         | -         |
+HipMer_to_GCA_000015145. | 100.000   | 2.007       | 0         | -         | -         | -         | -         |
+marmgCAMI2_to_GCA_000015 | 100.000   | 1.000       | 0         | -         | -         | -         | -         |
+Megahit_to_GCA_000015145 | 100.000   | 2.734       | 0         | -         | -         | -         | -         |
+metaSPAdes_to_GCA_000015 | 100.000   | 3.000       | 0         | -         | -         | -         | -         |
+Miniasm_to_GCA_000015145 | 100.000   | 3.000       | 0         | -         | -         | -         | -         |
+SPAdes_to_GCA_000015145. | 100.000   | 1.000       | 0         | -         | -         | -         | -         |

@@ -1,0 +1,911 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_1]
+	Loaded [GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_2]
+	Loaded [GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1]
+	Loaded [GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_1]
+	Loaded [GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2]
+	Loaded [GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1]
+	Loaded [GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_1]
+	Loaded [GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1]
+	Loaded [GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2]
+	Loaded [GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1]
+	Loaded [GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_2]
+	Loaded [GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1]
+	Loaded [GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2]
+	Loaded [GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1]
+	Loaded [GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_2]
+	Loaded [GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3]
+	Loaded [GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4]
+	Loaded [GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_5]
+	Loaded [GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1]
+	Loaded [GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2]
+	Loaded [GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3]
+	Loaded [GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_4]
+	Loaded [GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1]
+	Loaded [GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_4]
+	Loaded [GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_1]
+	Loaded [GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_2]
+	Loaded [GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_3]
+	Loaded [GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4]
+	Loaded [GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_5]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3]
+	Loaded [GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_1]
+	Loaded [GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_2]
+	Loaded [GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_3]
+	Loaded [GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_4]
+	Loaded [GCA_000626635.1_crisprs_GCA_000626635.1_CRISPR_1]
+	Loaded [GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1]
+	Loaded [GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2]
+	Loaded [GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3]
+	Total Regions: 44
+	Total Region Length: 113900
+Analyzing contigs...
+CONTIG: PC181781 (4884705bp)
+		This contig is unaligned. (4884705 bp)
+		Unaligned bases: 4884705 (number of Ns: 0)
+
+CONTIG: PC587778 (3914609bp)
+		This contig is unaligned. (3914609 bp)
+		Unaligned bases: 3914609 (number of Ns: 0)
+
+CONTIG: PC395988 (2884284bp)
+		This contig is unaligned. (2884284 bp)
+		Unaligned bases: 2884284 (number of Ns: 0)
+
+CONTIG: PC9462 (1387bp)
+		This contig is unaligned. (1387 bp)
+		Unaligned bases: 1387 (number of Ns: 0)
+
+CONTIG: PC190296 (586bp)
+		This contig is unaligned. (586 bp)
+		Unaligned bases: 586 (number of Ns: 0)
+
+CONTIG: PC234220 (529bp)
+		This contig is unaligned. (529 bp)
+		Unaligned bases: 529 (number of Ns: 0)
+
+CONTIG: PC283899 (4480493bp)
+		This contig is unaligned. (4480493 bp)
+		Unaligned bases: 4480493 (number of Ns: 0)
+
+CONTIG: PC452057 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627 (number of Ns: 0)
+
+CONTIG: PC455159 (653bp)
+		This contig is unaligned. (653 bp)
+		Unaligned bases: 653 (number of Ns: 0)
+
+CONTIG: PC981118 (948bp)
+		This contig is unaligned. (948 bp)
+		Unaligned bases: 948 (number of Ns: 0)
+
+CONTIG: PC1315005 (520bp)
+		This contig is unaligned. (520 bp)
+		Unaligned bases: 520 (number of Ns: 0)
+
+CONTIG: PC155814 (1667163bp)
+Best alignment score: 3306.0 (LEN: 3306, IDY: 100.00), Total number of alignments: 26
+			Looking for the best set of alignments (out of 26 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 898 1169 | 633451 633722 | 272 272 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 898 1169 | 633451 633722 | 272 272 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 828 1498 | 633381 634051 | 671 671 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 828 1498 | 633381 634051 | 671 671 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 1233 1833 | 633786 634386 | 601 601 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 1233 1833 | 633786 634386 | 601 601 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 1500 1969 | 634053 634522 | 470 470 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 1500 1969 | 634053 634522 | 470 470 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Skipping redundant alignment 890 1025 | 703399 703534 | 136 136 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 890 1052 | 703399 703561 | 163 163 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 690 1509 | 703064 703883 | 820 820 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 690 1509 | 703064 703883 | 820 820 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 830 1643 | 703204 704017 | 814 814 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 830 1712 | 703204 704086 | 883 883 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 959 1714 | 703333 704088 | 756 756 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 959 1714 | 703333 704088 | 756 756 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1241 1853 | 703615 704227 | 613 613 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1241 1853 | 703615 704227 | 613 613 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1239 1924 | 703613 704298 | 686 686 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1025 1924 | 703399 704298 | 900 900 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1715 1925 | 704089 704299 | 211 211 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1856 1994 | 704230 704368 | 139 139 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1856 1994 | 704230 704368 | 139 139 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Skipping redundant alignment 1715 2207 | 704089 704581 | 493 493 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+			The best set is below. Score: 6237.0, number of alignments: 2, unaligned bases: 1660675
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 6488 out of 1667163 non-N bases (0.39%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1667163 (number of Ns: 0) and total length of all aligns is 6488
+		Alignment: 1 3306 | 632554 635859 | 3306 3306 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 PC155814
+		Alignment: 1 3182 | 702375 705556 | 3182 3182 | 100.0 | GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 PC155814
+		Unaligned bases: 1660675
+
+CONTIG: PC1512878 (3555091bp)
+		This contig is unaligned. (3555091 bp)
+		Unaligned bases: 3555091 (number of Ns: 0)
+
+CONTIG: PC261116 (3389983bp)
+		This contig is unaligned. (3389983 bp)
+		Unaligned bases: 3389983 (number of Ns: 0)
+
+CONTIG: PC1444046 (1859369bp)
+Best alignment score: 3437.0 (LEN: 3437, IDY: 100.00), Total number of alignments: 30
+			Looking for the best set of alignments (out of 30 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 600 938 | 736577 736915 | 339 339 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 600 938 | 736577 736915 | 339 339 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 671 1075 | 736648 737052 | 405 405 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 671 1075 | 736648 737052 | 405 405 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1076 1939 | 737053 737916 | 864 864 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1076 1939 | 737053 737916 | 864 864 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1743 2137 | 737720 738114 | 395 395 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 807 2137 | 736784 738114 | 1331 1331 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 807 2137 | 736784 738114 | 1331 1331 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1413 2271 | 737390 738248 | 859 859 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1413 2337 | 737390 738314 | 925 925 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 2006 2405 | 737983 738382 | 400 400 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 2006 2405 | 737983 738382 | 400 400 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 1743 2405 | 737720 738382 | 663 663 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 942 2471 | 736919 738448 | 1530 1530 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 875 2471 | 736852 738448 | 1597 1597 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 2472 2637 | 738516 738681 | 166 166 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 2539 2871 | 738516 738848 | 333 333 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 2539 3170 | 738516 739147 | 632 632 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Skipping redundant alignment 203 472 | 1004137 1004406 | 270 270 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 PC1444046
+		Skipping redundant alignment 203 472 | 1004137 1004406 | 270 270 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 PC1444046
+		Skipping redundant alignment 1075 1272 | 1005009 1005206 | 198 198 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 PC1444046
+		Skipping redundant alignment 1340 1776 | 1005274 1005710 | 437 437 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 PC1444046
+		Skipping redundant alignment 602 1265 | 1427025 1427688 | 664 664 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 PC1444046
+		Skipping redundant alignment 602 1265 | 1427025 1427688 | 664 664 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 PC1444046
+		Skipping redundant alignment 997 1330 | 1427420 1427753 | 334 334 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 PC1444046
+		Skipping redundant alignment 997 1330 | 1427420 1427753 | 334 334 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 PC1444046
+			The best set is below. Score: 6806.0, number of alignments: 3, unaligned bases: 1852061
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 7308 out of 1859369 non-N bases (0.39%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1859369 (number of Ns: 0) and total length of all aligns is 7308
+		Alignment: 1 3437 | 735978 739414 | 3437 3437 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 PC1444046
+		Alignment: 1 1776 | 1003935 1005710 | 1776 1776 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 PC1444046
+		Alignment: 1 2095 | 1426424 1428518 | 2095 2095 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 PC1444046
+		Unaligned bases: 1852061
+
+CONTIG: PC93607 (5226895bp)
+		This contig is unaligned. (5226895 bp)
+		Unaligned bases: 5226895 (number of Ns: 0)
+
+CONTIG: PC907928 (926bp)
+		This contig is unaligned. (926 bp)
+		Unaligned bases: 926 (number of Ns: 0)
+
+CONTIG: PC1030285 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537 (number of Ns: 0)
+
+CONTIG: PC1137402 (5373173bp)
+		This contig is unaligned. (5373173 bp)
+		Unaligned bases: 5373173 (number of Ns: 0)
+
+CONTIG: PC325088 (4000036bp)
+		This contig is unaligned. (4000036 bp)
+		Unaligned bases: 4000036 (number of Ns: 0)
+
+CONTIG: PC84073 (5132065bp)
+Best alignment score: 298.0 (LEN: 298, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 298.0, number of alignments: 1, unaligned bases: 5131767
+		This contig is partially unaligned. (Aligned 298 out of 5132065 non-N bases (0.01%))
+		Alignment: 1 298 | 4017666 4017963 | 298 298 | 100.0 | GCA_000626635.1_crisprs_GCA_000626635.1_CRISPR_1 PC84073
+		Unaligned bases: 1 to 4017665 (4017665)
+		Unaligned bases: 4017964 to 5132065 (1114102)
+		It can contain up to 2 interspecies translocations (will be reported as Possible Misassemblies).
+
+CONTIG: PC1111833 (5017042bp)
+		This contig is unaligned. (5017042 bp)
+		Unaligned bases: 5017042 (number of Ns: 0)
+
+CONTIG: PC1253947 (5183322bp)
+Best alignment score: 1624.0 (LEN: 1624, IDY: 100.00), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 391 793 | 1116793 1117195 | 403 403 | 100.0 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 PC1253947
+		Skipping redundant alignment 391 793 | 1116793 1117195 | 403 403 | 100.0 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 PC1253947
+		Skipping redundant alignment 860 961 | 1117127 1117228 | 102 102 | 99.02 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 PC1253947
+		Skipping redundant alignment 725 826 | 1117262 1117363 | 102 102 | 99.02 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 PC1253947
+		Skipping redundant alignment 1 229 | 1140291 1140519 | 229 229 | 100.0 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_2 PC1253947
+			The best set is below. Score: 1624.0, number of alignments: 1, unaligned bases: 5181698
+		This contig is partially unaligned. (Aligned 1624 out of 5183322 non-N bases (0.03%))
+		Alignment: 1 1624 | 1116403 1118026 | 1624 1624 | 100.0 | GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 PC1253947
+		Unaligned bases: 1 to 1116402 (1116402)
+		Unaligned bases: 1118027 to 5183322 (4065296)
+		It can contain up to 2 interspecies translocations (will be reported as Possible Misassemblies).
+
+CONTIG: PC780913 (4134217bp)
+		This contig is unaligned. (4134217 bp)
+		Unaligned bases: 4134217 (number of Ns: 0)
+
+CONTIG: PC752087 (4616522bp)
+		This contig is unaligned. (4616522 bp)
+		Unaligned bases: 4616522 (number of Ns: 0)
+
+CONTIG: PC979312 (4830178bp)
+		This contig is unaligned. (4830178 bp)
+		Unaligned bases: 4830178 (number of Ns: 0)
+
+CONTIG: PC1467134 (2234795bp)
+		This contig is unaligned. (2234795 bp)
+		Unaligned bases: 2234795 (number of Ns: 0)
+
+CONTIG: PC1410700 (3293431bp)
+Best alignment score: 10622.0 (LEN: 10622, IDY: 100.00), Total number of alignments: 30
+			Looking for the best set of alignments (out of 30 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2984 3081 | 2685550 2685647 | 98 98 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 2985 3083 | 2685618 2685716 | 99 99 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 1662 1759 | 2686872 2686969 | 98 98 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 1730 1828 | 2686873 2686971 | 99 99 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 732 3234 | 2684620 2687122 | 2503 2503 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 4438 4532 | 2687799 2687893 | 95 95 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 763 4226 | 2684651 2688114 | 3464 3464 | 96.21 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 3911 4005 | 2688326 2688420 | 95 95 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 6620 6717 | 2689712 2689808 | 98 97 | 98.98 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 5824 5920 | 2690508 2690605 | 97 98 | 98.98 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 7491 7649 | 2691245 2691403 | 159 159 | 99.37 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 7357 7515 | 2691379 2691537 | 159 159 | 99.37 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 1786 1882 | 2692299 2692395 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 8873 9034 | 2692629 2692790 | 162 162 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 8741 8897 | 2692761 2692917 | 157 157 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 5027 5123 | 2692892 2692989 | 97 98 | 98.98 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 3772 3868 | 2813267 2813363 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 8411 8507 | 2814921 2815017 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 4499 4595 | 2815119 2815215 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 67 2561 | 2813202 2815696 | 2495 2495 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 65 2561 | 2813200 2815696 | 2497 2497 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 2911 3009 | 2815914 2816012 | 99 99 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 2911 3010 | 2816046 2816145 | 100 100 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 132 228 | 2816907 2817003 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 1984 2080 | 2817634 2817730 | 97 97 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 9004 9101 | 2818162 2818258 | 98 97 | 98.98 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Skipping redundant alignment 6286 6448 | 2819288 2819450 | 163 163 | 96.32 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Skipping redundant alignment 6153 6316 | 2819421 2819584 | 164 164 | 96.34 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+			The best set is below. Score: 16819.0, number of alignments: 2, unaligned bases: 3276361
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 17070 out of 3293431 non-N bases (0.52%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 3293431 (number of Ns: 0) and total length of all aligns is 17070
+		Alignment: 1 10622 | 2683889 2694510 | 10622 10622 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 PC1410700
+		Alignment: 1 6448 | 2813136 2819583 | 6448 6448 | 100.0 | GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 PC1410700
+		Unaligned bases: 3276361
+
+CONTIG: PC673711 (3899934bp)
+		This contig is unaligned. (3899934 bp)
+		Unaligned bases: 3899934 (number of Ns: 0)
+
+CONTIG: PC10936 (2269117bp)
+Best alignment score: 3455.0 (LEN: 3455, IDY: 100.00), Total number of alignments: 26
+			Looking for the best set of alignments (out of 26 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3129 3244 | 277001 277116 | 116 116 | 98.28 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2 PC10936
+		Skipping redundant alignment 2982 3091 | 277148 277257 | 110 110 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2 PC10936
+		Skipping redundant alignment 915 1586 | 960584 961255 | 672 672 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 915 1645 | 960584 961314 | 731 731 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1342 1647 | 961011 961316 | 306 306 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1342 1647 | 961011 961316 | 306 306 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1098 1708 | 960767 961377 | 611 611 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1098 1708 | 960767 961377 | 611 611 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1098 1769 | 960767 961438 | 672 672 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1098 1769 | 960767 961438 | 672 672 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1280 1830 | 960949 961499 | 551 551 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1280 1891 | 960949 961560 | 612 612 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1587 2074 | 961256 961743 | 488 488 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1587 2074 | 961256 961743 | 488 488 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1587 2074 | 961256 961743 | 488 488 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1587 2074 | 961256 961743 | 488 488 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1953 2257 | 961622 961926 | 305 305 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 1953 2317 | 961622 961986 | 365 365 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Skipping redundant alignment 203 774 | 1466152 1466723 | 572 572 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_4 PC10936
+		Skipping redundant alignment 1264 1331 | 2083798 2083865 | 68 68 | 97.06 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 PC10936
+		Skipping redundant alignment 606 735 | 2084136 2084265 | 130 130 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 PC10936
+		Skipping redundant alignment 268 335 | 2084794 2084861 | 68 68 | 97.06 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 PC10936
+			The best set is below. Score: 9830.0, number of alignments: 4, unaligned bases: 2258534
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 10583 out of 2269117 non-N bases (0.47%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2269117 (number of Ns: 0) and total length of all aligns is 10583
+		Alignment: 1 3455 | 274020 277474 | 3455 3455 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2 PC10936
+		Alignment: 1 3446 | 959670 963115 | 3446 3446 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 PC10936
+		Alignment: 1 1848 | 1465950 1467797 | 1848 1848 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_4 PC10936
+		Alignment: 1 1834 | 2083531 2085364 | 1834 1834 | 100.0 | GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 PC10936
+		Unaligned bases: 2258534
+
+CONTIG: PC141442 (4200513bp)
+		This contig is unaligned. (4200513 bp)
+		Unaligned bases: 4200513 (number of Ns: 0)
+
+CONTIG: PC158780 (5396452bp)
+Best alignment score: 206.0 (LEN: 206, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 206.0, number of alignments: 1, unaligned bases: 5396246
+		This contig is partially unaligned. (Aligned 206 out of 5396452 non-N bases (0.00%))
+		Alignment: 1 206 | 1020817 1021022 | 206 206 | 100.0 | GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_1 PC158780
+		Unaligned bases: 1 to 1020816 (1020816)
+		Unaligned bases: 1021023 to 5396452 (4375430)
+		It can contain up to 2 interspecies translocations (will be reported as Possible Misassemblies).
+
+CONTIG: PC406074 (3665852bp)
+Best alignment score: 6799.0 (LEN: 6799, IDY: 100.00), Total number of alignments: 67
+			Looking for the best set of alignments (out of 67 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1463 1890 | 1135994 1136421 | 428 428 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 133 1952 | 1134664 1136483 | 1820 1820 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 377 2074 | 1134908 1136605 | 1698 1698 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2075 2196 | 1136606 1136727 | 122 122 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2075 2315 | 1136606 1136846 | 241 241 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 610 2318 | 1135141 1136849 | 1709 1709 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 610 2318 | 1135141 1136849 | 1709 1709 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2075 2500 | 1136606 1137031 | 426 426 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 204 2562 | 1134735 1137093 | 2359 2359 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1892 2866 | 1136423 1137397 | 975 975 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1770 2866 | 1136301 1137397 | 1097 1097 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1597 2866 | 1136128 1137397 | 1270 1270 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1536 2866 | 1136067 1137397 | 1331 1331 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1658 3111 | 1136189 1137642 | 1454 1454 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1597 3111 | 1136128 1137642 | 1515 1515 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2319 3293 | 1136850 1137824 | 975 975 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2256 3293 | 1136787 1137824 | 1038 1038 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3244 3538 | 1137775 1138069 | 295 295 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2756 3538 | 1137287 1138069 | 783 783 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1892 3660 | 1136423 1138191 | 1769 1769 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1892 3660 | 1136423 1138191 | 1769 1769 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3549 3782 | 1138080 1138313 | 234 234 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3062 3782 | 1137593 1138313 | 721 721 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5063 5152 | 1138253 1138342 | 90 90 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1343 3838 | 1135874 1138369 | 2496 2496 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1343 3843 | 1135874 1138374 | 2501 2501 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 855 3903 | 1135386 1138434 | 3049 3049 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 855 3903 | 1135386 1138434 | 3049 3049 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3661 3904 | 1138192 1138435 | 244 244 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3661 3904 | 1138192 1138435 | 244 244 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1953 4087 | 1136484 1138618 | 2135 2135 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1953 4087 | 1136484 1138618 | 2135 2135 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2807 4392 | 1137338 1138923 | 1586 1586 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2685 4392 | 1137216 1138923 | 1708 1708 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3539 4452 | 1138070 1138983 | 914 914 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3539 4512 | 1138070 1139043 | 974 974 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3234 4513 | 1137765 1139044 | 1280 1280 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3234 4513 | 1137765 1139044 | 1280 1280 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2989 4513 | 1137520 1139044 | 1525 1525 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 2989 4513 | 1137520 1139044 | 1525 1525 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3660 4879 | 1138191 1139410 | 1220 1220 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3660 4879 | 1138191 1139410 | 1220 1220 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4271 4999 | 1138802 1139530 | 729 729 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4271 4999 | 1138802 1139530 | 729 729 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3905 5000 | 1138436 1139531 | 1096 1096 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3905 5000 | 1138436 1139531 | 1096 1096 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4149 5061 | 1138680 1139592 | 913 913 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4149 5061 | 1138680 1139592 | 913 913 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4514 5062 | 1139045 1139593 | 549 549 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4453 5062 | 1138984 1139593 | 610 610 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4694 5123 | 1139225 1139654 | 430 430 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3722 3811 | 1139594 1139683 | 90 90 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 4694 5184 | 1139225 1139715 | 491 491 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5002 5245 | 1139533 1139776 | 244 244 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5002 5245 | 1139533 1139776 | 244 244 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5184 5489 | 1139715 1140020 | 306 306 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5184 5489 | 1139715 1140020 | 306 306 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3253 5611 | 1137784 1140142 | 2359 2359 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5734 5853 | 1140265 1140384 | 120 120 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 1668 5884 | 1136199 1140415 | 4217 4217 | 97.15 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5734 5916 | 1140265 1140447 | 183 183 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5734 5916 | 1140265 1140447 | 183 183 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 5012 5977 | 1139543 1140508 | 966 966 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 3619 5977 | 1138150 1140508 | 2359 2359 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 6466 6799 | 1140997 1141330 | 334 334 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Skipping redundant alignment 6466 6799 | 1140997 1141330 | 334 334 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+			The best set is below. Score: 6799.0, number of alignments: 1, unaligned bases: 3659053
+		This contig is partially unaligned. (Aligned 6799 out of 3665852 non-N bases (0.19%))
+		Alignment: 1 6799 | 1134532 1141330 | 6799 6799 | 100.0 | GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 PC406074
+		Unaligned bases: 1 to 1134531 (1134531)
+		Unaligned bases: 1141331 to 3665852 (2524522)
+		It can contain up to 2 interspecies translocations (will be reported as Possible Misassemblies).
+
+CONTIG: PC1041898 (2011287bp)
+Best alignment score: 2558.0 (LEN: 2558, IDY: 100.00), Total number of alignments: 11
+			Looking for the best set of alignments (out of 11 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 679 1004 | 131828 132153 | 326 326 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_1 PC1041898
+		Skipping redundant alignment 679 1004 | 131828 132153 | 326 326 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_1 PC1041898
+		Skipping redundant alignment 674 1008 | 702584 702918 | 335 335 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 PC1041898
+		Skipping redundant alignment 674 1008 | 702584 702918 | 335 335 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 PC1041898
+		Skipping redundant alignment 739 1141 | 702649 703051 | 403 403 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 PC1041898
+		Skipping redundant alignment 739 1141 | 702649 703051 | 403 403 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 PC1041898
+			The best set is below. Score: 6903.0, number of alignments: 5, unaligned bases: 2003380
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 7907 out of 2011287 non-N bases (0.39%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2011287 (number of Ns: 0) and total length of all aligns is 7907
+		Alignment: 1 2041 | 131150 133190 | 2041 2041 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_1 PC1041898
+		Alignment: 1 2558 | 137529 140086 | 2558 2558 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_2 PC1041898
+		Alignment: 1 764 | 345750 346513 | 764 764 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_3 PC1041898
+		Alignment: 1 1777 | 701911 703687 | 1777 1777 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 PC1041898
+		Alignment: 1 767 | 1907407 1908173 | 767 767 | 100.0 | GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_5 PC1041898
+		Unaligned bases: 2003380
+
+CONTIG: PC1563287 (3975877bp)
+		This contig is unaligned. (3975877 bp)
+		Unaligned bases: 3975877 (number of Ns: 0)
+
+CONTIG: PC1381474 (5051673bp)
+Best alignment score: 4288.0 (LEN: 4288, IDY: 100.00), Total number of alignments: 24
+			Looking for the best set of alignments (out of 24 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 231 419 | 1526376 1526564 | 189 189 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 231 419 | 1526376 1526564 | 189 189 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 540 838 | 1526685 1526983 | 299 299 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 540 838 | 1526685 1526983 | 299 299 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 480 1140 | 1526625 1527285 | 661 661 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 480 1140 | 1526625 1527285 | 661 661 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 309 1675 | 1526454 1527820 | 1367 1367 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 249 1675 | 1526394 1527820 | 1427 1427 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 960 1798 | 1527105 1527943 | 839 839 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 960 1798 | 1527105 1527943 | 839 839 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 2696 2786 | 1528661 1528751 | 91 91 | 95.6 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1080 2697 | 1527225 1528842 | 1618 1618 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 2516 2606 | 1528841 1528931 | 91 91 | 95.6 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1321 2879 | 1527466 1529024 | 1559 1559 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1321 2879 | 1527466 1529024 | 1559 1559 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1080 3059 | 1527225 1529204 | 1980 1980 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 959 3059 | 1527104 1529204 | 2101 2101 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 959 3059 | 1527104 1529204 | 2101 2101 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1796 3358 | 1527941 1529503 | 1563 1563 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Skipping redundant alignment 1796 3539 | 1527941 1529684 | 1744 1744 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+			The best set is below. Score: 5831.0, number of alignments: 4, unaligned bases: 5045089
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 6584 out of 5051673 non-N bases (0.13%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 5051673 (number of Ns: 0) and total length of all aligns is 6584
+		Alignment: 1 4288 | 1526146 1530433 | 4288 4288 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 PC1381474
+		Alignment: 1 1000 | 3370177 3371176 | 1000 1000 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2 PC1381474
+		Alignment: 1 877 | 3372471 3373347 | 877 877 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3 PC1381474
+		Alignment: 1 419 | 3375004 3375422 | 419 419 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_4 PC1381474
+		Unaligned bases: 5045089
+
+CONTIG: PC1062849 (7215228bp)
+Best alignment score: 3670.0 (LEN: 3670, IDY: 100.00), Total number of alignments: 23
+			Looking for the best set of alignments (out of 23 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 797 1128 | 2918275 2918606 | 332 332 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 797 1128 | 2918275 2918606 | 332 332 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 666 1256 | 2918144 2918734 | 591 591 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 666 1256 | 2918144 2918734 | 591 591 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1063 1786 | 2918541 2919264 | 724 724 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1063 1786 | 2918541 2919264 | 724 724 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1195 1917 | 2918673 2919395 | 723 723 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1195 1918 | 2918673 2919396 | 724 724 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1720 1982 | 2919198 2919460 | 263 263 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1720 1982 | 2919198 2919460 | 263 263 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1450 2117 | 2918928 2919595 | 668 668 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1450 2117 | 2918928 2919595 | 668 668 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1389 2117 | 2918867 2919595 | 729 729 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1389 2117 | 2918867 2919595 | 729 729 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1654 2313 | 2919132 2919791 | 660 660 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1654 2313 | 2919132 2919791 | 660 660 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1853 2381 | 2919331 2919859 | 529 529 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1853 2447 | 2919331 2919925 | 595 595 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1984 2512 | 2919462 2919990 | 529 529 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1983 2512 | 2919461 2919990 | 530 530 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Skipping redundant alignment 1983 2512 | 2919461 2919990 | 530 530 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+			The best set is below. Score: 5567.0, number of alignments: 2, unaligned bases: 7209410
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 5818 out of 7215228 non-N bases (0.08%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 7215228 (number of Ns: 0) and total length of all aligns is 5818
+		Alignment: 1 2148 | 2905493 2907640 | 2148 2148 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_1 PC1062849
+		Alignment: 1 3670 | 2917479 2921148 | 3670 3670 | 100.0 | GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 PC1062849
+		Unaligned bases: 7209410
+
+CONTIG: PC134058 (1481183bp)
+		This contig is unaligned. (1481183 bp)
+		Unaligned bases: 1481183 (number of Ns: 2)
+
+CONTIG: PC428773 (1926630bp)
+		This contig is unaligned. (1926630 bp)
+		Unaligned bases: 1926630 (number of Ns: 0)
+
+CONTIG: PC1409169 (2986827bp)
+		This contig is unaligned. (2986827 bp)
+		Unaligned bases: 2986827 (number of Ns: 0)
+
+CONTIG: PC463477 (1443759bp)
+		This contig is unaligned. (1443759 bp)
+		Unaligned bases: 1443759 (number of Ns: 0)
+
+CONTIG: PC849480 (1518632bp)
+		This contig is unaligned. (1518632 bp)
+		Unaligned bases: 1518632 (number of Ns: 2)
+
+CONTIG: PC1579130 (1595975bp)
+Best alignment score: 2188.0 (LEN: 2188, IDY: 100.00), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 215 | 1224270 1224484 | 215 215 | 100.0 | GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_4 PC1579130
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 3925.0, number of alignments: 3, unaligned bases: 1591548
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 4427 out of 1595975 non-N bases (0.28%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1595975 (number of Ns: 0) and total length of all aligns is 4427
+		Alignment: 1 1199 | 313019 314217 | 1199 1199 | 100.0 | GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_1 PC1579130
+		Alignment: 1 1040 | 679460 680499 | 1040 1040 | 100.0 | GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_2 PC1579130
+		Alignment: 1 2188 | 737703 739890 | 2188 2188 | 100.0 | GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_3 PC1579130
+		Unaligned bases: 1591548
+
+CONTIG: PC1048206 (1739487bp)
+		This contig is unaligned. (1739487 bp)
+		Unaligned bases: 1739487 (number of Ns: 0)
+
+CONTIG: PC608913 (1641796bp)
+		This contig is unaligned. (1641796 bp)
+		Unaligned bases: 1641796 (number of Ns: 0)
+
+CONTIG: PC777888 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531 (number of Ns: 0)
+
+CONTIG: PC1136531 (2366978bp)
+		This contig is unaligned. (2366978 bp)
+		Unaligned bases: 2366978 (number of Ns: 0)
+
+CONTIG: PC1003764 (3052329bp)
+		This contig is unaligned. (3052329 bp)
+		Unaligned bases: 3052329 (number of Ns: 0)
+
+CONTIG: PC817034 (1704075bp)
+		This contig is unaligned. (1704075 bp)
+		Unaligned bases: 1704075 (number of Ns: 0)
+
+CONTIG: PC328638 (5197896bp)
+Best alignment score: 4504.0 (LEN: 4504, IDY: 100.00), Total number of alignments: 45
+			Looking for the best set of alignments (out of 45 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 726 1187 | 1121684 1122145 | 462 462 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1121 1386 | 1122079 1122344 | 266 266 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 925 1386 | 1121883 1122344 | 462 462 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 726 1386 | 1121684 1122344 | 661 661 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 925 1586 | 1121883 1122544 | 662 662 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 925 1586 | 1121883 1122544 | 662 662 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 793 1979 | 1121751 1122937 | 1187 1187 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 793 1979 | 1121751 1122937 | 1187 1187 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1387 2439 | 1122345 1123397 | 1053 1053 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1387 2439 | 1122345 1123397 | 1053 1053 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1254 2506 | 1122212 1123464 | 1253 1253 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1254 2506 | 1122212 1123464 | 1253 1253 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1652 2705 | 1122610 1123663 | 1054 1054 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1652 2705 | 1122610 1123663 | 1054 1054 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1720 2837 | 1122678 1123795 | 1118 1118 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1720 2837 | 1122678 1123795 | 1118 1118 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1851 2902 | 1122809 1123860 | 1052 1052 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1851 2902 | 1122809 1123860 | 1052 1052 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1980 2966 | 1122938 1123924 | 987 987 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 1980 2966 | 1122938 1123924 | 987 987 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2109 2967 | 1123067 1123925 | 859 859 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2109 2967 | 1123067 1123925 | 859 859 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2371 3099 | 1123329 1124057 | 729 729 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2371 3099 | 1123329 1124057 | 729 729 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2240 3099 | 1123198 1124057 | 860 860 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2240 3099 | 1123198 1124057 | 860 860 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2507 3230 | 1123465 1124188 | 724 724 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2507 3230 | 1123465 1124188 | 724 724 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2706 3293 | 1123664 1124251 | 588 588 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2706 3293 | 1123664 1124251 | 588 588 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3034 3295 | 1123992 1124253 | 262 262 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3034 3295 | 1123992 1124253 | 262 262 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2838 3362 | 1123796 1124320 | 525 525 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 2838 3362 | 1123796 1124320 | 525 525 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3032 3430 | 1123990 1124388 | 399 399 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3032 3430 | 1123990 1124388 | 399 399 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3231 3563 | 1124189 1124521 | 333 333 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3231 3563 | 1124189 1124521 | 333 333 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3830 3939 | 1124654 1124763 | 110 110 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3696 3806 | 1124788 1124898 | 111 111 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 4137 4244 | 1124897 1125004 | 108 108 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Skipping redundant alignment 3939 4046 | 1125095 1125202 | 108 108 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 4916.0, number of alignments: 3, unaligned bases: 5192478
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 5418 out of 5197896 non-N bases (0.10%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 5197896 (number of Ns: 0) and total length of all aligns is 5418
+		Alignment: 1 4504 | 1120959 1125462 | 4504 4504 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Alignment: 1 292 | 1127872 1128163 | 292 292 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 PC328638
+		Alignment: 1 622 | 3489798 3490419 | 622 622 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 PC328638
+		Unaligned bases: 5192478
+
+CONTIG: PC332052 (4719539bp)
+Best alignment score: 9260.0 (LEN: 9260, IDY: 100.00), Total number of alignments: 86
+			Looking for the best set of alignments (out of 86 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 6470 6535 | 4408405 4408470 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6470 6535 | 4408405 4408470 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6470 6535 | 4408405 4408470 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5119 5218 | 4408405 4408504 | 100 100 | 99.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2697 2795 | 4409076 4409174 | 99 99 | 98.99 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1615 2021 | 4409008 4409414 | 407 407 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1279 2087 | 4408672 4409480 | 809 809 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1279 2087 | 4408672 4409480 | 809 809 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1347 2561 | 4408740 4409954 | 1215 1215 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1347 2561 | 4408740 4409954 | 1215 1215 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1683 1781 | 4410090 4410188 | 99 99 | 98.99 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 2829 | 4408405 4410222 | 1818 1818 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 2829 | 4408405 4410222 | 1818 1818 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1482 4110 | 4408875 4411503 | 2629 2629 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1482 4178 | 4408875 4411571 | 2697 2697 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3030 4310 | 4410423 4411703 | 1281 1281 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3030 4310 | 4410423 4411703 | 1281 1281 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4784 4883 | 4411906 4412005 | 100 100 | 96.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3976 4647 | 4411369 4412040 | 672 672 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3976 4647 | 4411369 4412040 | 672 672 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4513 4612 | 4412177 4412276 | 100 100 | 96.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1884 5051 | 4409277 4412444 | 3168 3168 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1884 5051 | 4409277 4412444 | 3168 3168 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6470 6535 | 4412512 4412577 | 66 66 | 98.48 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 1111 | 4412512 4412611 | 100 100 | 99.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2292 5252 | 4409685 4412645 | 2961 2961 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3704 5253 | 4411097 4412646 | 1550 1550 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2224 5321 | 4409617 4412714 | 3098 3098 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3704 5322 | 4411097 4412715 | 1619 1619 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2630 5389 | 4410023 4412782 | 2760 2760 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2630 5389 | 4410023 4412782 | 2760 2760 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2830 5591 | 4410223 4412984 | 2762 2762 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 2830 5660 | 4410223 4413053 | 2831 2831 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4311 5728 | 4411704 4413121 | 1418 1418 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4311 5728 | 4411704 4413121 | 1418 1418 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3162 5794 | 4410555 4413187 | 2633 2633 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3162 5794 | 4410555 4413187 | 2633 2633 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3976 5924 | 4411369 4413317 | 1949 1949 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 3976 5924 | 4411369 4413317 | 1949 1949 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5795 6065 | 4413188 4413458 | 271 271 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5795 6065 | 4413188 4413458 | 271 271 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4110 6200 | 4411503 4413593 | 2091 2091 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4110 6200 | 4411503 4413593 | 2091 2091 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6875 6978 | 4413525 4413628 | 104 104 | 99.04 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4716 6400 | 4412109 4413793 | 1685 1685 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 4716 6400 | 4412109 4413793 | 1685 1685 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6133 6469 | 4413526 4413862 | 337 337 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6133 6469 | 4413526 4413862 | 337 337 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 1077 | 4413863 4413928 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 1077 | 4413863 4413928 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 1012 1077 | 4413863 4413928 | 66 66 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5119 5184 | 4413863 4413928 | 66 66 | 98.48 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5119 6601 | 4412512 4413994 | 1483 1483 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5119 6601 | 4412512 4413994 | 1483 1483 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5323 6668 | 4412716 4414061 | 1346 1346 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5323 6668 | 4412716 4414061 | 1346 1346 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5592 6807 | 4412985 4414200 | 1216 1216 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5592 6807 | 4412985 4414200 | 1216 1216 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5660 6875 | 4413053 4414268 | 1216 1216 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5660 6875 | 4413053 4414268 | 1216 1216 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5592 6875 | 4412985 4414268 | 1284 1284 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5592 6875 | 4412985 4414268 | 1284 1284 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6132 6235 | 4414268 4414371 | 104 104 | 99.04 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5998 7143 | 4413391 4414536 | 1146 1146 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 5998 7143 | 4413391 4414536 | 1146 1146 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6403 7211 | 4413796 4414604 | 809 809 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6403 7211 | 4413796 4414604 | 809 809 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6469 7279 | 4413862 4414672 | 811 811 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6469 7279 | 4413862 4414672 | 811 811 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6470 7412 | 4413863 4414805 | 943 943 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6470 7412 | 4413863 4414805 | 943 943 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6944 7547 | 4414337 4414940 | 604 604 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 6944 7547 | 4414337 4414940 | 604 604 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7079 7683 | 4414472 4415076 | 605 605 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7280 7749 | 4414673 4415142 | 470 470 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7280 7749 | 4414673 4415142 | 470 470 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7079 7749 | 4414472 4415142 | 671 671 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7412 7812 | 4414805 4415205 | 401 401 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7616 7953 | 4415009 4415346 | 338 338 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7412 7953 | 4414805 4415346 | 542 542 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7616 8020 | 4415009 4415413 | 405 405 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7750 8089 | 4415143 4415482 | 340 340 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7750 8089 | 4415143 4415482 | 340 340 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7884 8220 | 4415277 4415613 | 337 337 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Skipping redundant alignment 7884 8220 | 4415277 4415613 | 337 337 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+			The best set is below. Score: 9260.0, number of alignments: 1, unaligned bases: 4710279
+		This contig is partially unaligned. (Aligned 9260 out of 4719539 non-N bases (0.20%))
+		Alignment: 1 9260 | 4407394 4416653 | 9260 9260 | 100.0 | GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 PC332052
+		Unaligned bases: 1 to 4407393 (4407393)
+		Unaligned bases: 4416654 to 4719539 (302886)
+		It can contain up to 2 interspecies translocations (will be reported as Possible Misassemblies).
+
+CONTIG: PC1390041 (4279149bp)
+		This contig is unaligned. (4279149 bp)
+		Unaligned bases: 4279149 (number of Ns: 0)
+
+CONTIG: PC182763 (4684311bp)
+Best alignment score: 4153.0 (LEN: 4153, IDY: 100.00), Total number of alignments: 43
+			Looking for the best set of alignments (out of 43 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1 106 | 693588 693693 | 106 106 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_5 PC182763
+		Skipping redundant alignment 3583 3761 | 697375 697552 | 179 178 | 99.44 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Skipping redundant alignment 225 3755 | 694160 697690 | 3531 3531 | 95.95 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Skipping redundant alignment 3440 3617 | 697518 697696 | 178 179 | 99.44 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Skipping redundant alignment 966 4153 | 694901 698088 | 3188 3188 | 95.46 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Skipping redundant alignment 76 4153 | 694011 698088 | 4078 4078 | 96.44 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Skipping redundant alignment 419 538 | 3644227 3644346 | 120 120 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 660 1440 | 3644468 3645248 | 781 781 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 599 1440 | 3644407 3645248 | 842 842 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 960 1738 | 3644768 3645546 | 779 779 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 960 1738 | 3644768 3645546 | 779 779 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1379 1800 | 3645187 3645608 | 422 422 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1261 1920 | 3645069 3645728 | 660 660 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1261 1920 | 3645069 3645728 | 660 660 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1501 1978 | 3645309 3645786 | 478 478 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1501 1980 | 3645309 3645788 | 480 480 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1681 2040 | 3645489 3645848 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1681 2040 | 3645489 3645848 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1801 2097 | 3645609 3645905 | 297 297 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 1801 2159 | 3645609 3645967 | 359 359 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 2100 2279 | 3645908 3646087 | 180 180 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Skipping redundant alignment 540 779 | 3896959 3897198 | 240 240 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 540 779 | 3896959 3897198 | 240 240 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 600 1079 | 3897019 3897498 | 480 480 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 600 1079 | 3897019 3897498 | 480 480 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 660 1138 | 3897079 3897557 | 479 479 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 660 1138 | 3897079 3897557 | 479 479 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 720 1139 | 3897139 3897558 | 420 420 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 720 1139 | 3897139 3897558 | 420 420 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 779 1198 | 3897198 3897617 | 420 420 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 779 1198 | 3897198 3897617 | 420 420 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 840 1199 | 3897259 3897618 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 840 1199 | 3897259 3897618 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 899 1258 | 3897318 3897677 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 899 1258 | 3897318 3897677 | 360 360 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 1078 1319 | 3897497 3897738 | 242 242 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 1078 1319 | 3897497 3897738 | 242 242 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 1137 1379 | 3897556 3897798 | 243 243 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Skipping redundant alignment 1137 1379 | 3897556 3897798 | 243 243 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+			The best set is below. Score: 9393.0, number of alignments: 4, unaligned bases: 4674165
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 10146 out of 4684311 non-N bases (0.22%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4684311 (number of Ns: 0) and total length of all aligns is 10146
+		Alignment: 1 4153 | 693936 698088 | 4153 4153 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 PC182763
+		Alignment: 1 598 | 710345 710942 | 598 598 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_2 PC182763
+		Alignment: 1 3148 | 3643809 3646956 | 3148 3148 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 PC182763
+		Alignment: 1 2247 | 3896420 3898666 | 2247 2247 | 100.0 | GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 PC182763
+		Unaligned bases: 4674165
+
+CONTIG: PC133087 (1690869bp)
+		This contig is unaligned. (1690869 bp)
+		Unaligned bases: 1690869 (number of Ns: 0)
+
+CONTIG: PC1571938 (1584791bp)
+Best alignment score: 1251.0 (LEN: 1251, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 2146.0, number of alignments: 2, unaligned bases: 1582394
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 2397 out of 1584791 non-N bases (0.15%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1584791 (number of Ns: 0) and total length of all aligns is 2397
+		Alignment: 1 1251 | 109184 110434 | 1251 1251 | 100.0 | GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_1 PC1571938
+		Alignment: 1 1146 | 121466 122611 | 1146 1146 | 100.0 | GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_2 PC1571938
+		Unaligned bases: 1582394
+
+CONTIG: PC952933 (2736366bp)
+		This contig is unaligned. (2736366 bp)
+		Unaligned bases: 2736366 (number of Ns: 0)
+
+CONTIG: PC343448 (1861292bp)
+Best alignment score: 5747.0 (LEN: 5747, IDY: 100.00), Total number of alignments: 56
+			Looking for the best set of alignments (out of 56 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1343 1676 | 1493211 1493544 | 334 334 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 1343 1676 | 1493211 1493544 | 334 334 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2749 3016 | 1494617 1494884 | 268 268 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2749 3016 | 1494617 1494884 | 268 268 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2605 3422 | 1494473 1495290 | 818 818 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2605 3422 | 1494473 1495290 | 818 818 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 1942 3422 | 1493810 1495290 | 1481 1481 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2950 3897 | 1494818 1495765 | 948 948 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 1877 3897 | 1493745 1495765 | 2021 2021 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 1877 3897 | 1493745 1495765 | 2021 2021 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 3627 4233 | 1495495 1496101 | 607 607 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 2950 4299 | 1494818 1496167 | 1350 1350 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 3627 4366 | 1495495 1496234 | 740 740 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 4366 4767 | 1496234 1496635 | 402 402 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Skipping redundant alignment 942 1342 | 1689034 1689434 | 401 401 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 942 1342 | 1689034 1689434 | 401 401 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 876 2151 | 1688968 1690243 | 1276 1276 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 876 2151 | 1688968 1690243 | 1276 1276 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1949 2618 | 1690041 1690710 | 670 670 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1949 2618 | 1690041 1690710 | 670 670 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1745 2687 | 1689837 1690779 | 943 943 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1745 2687 | 1689837 1690779 | 943 943 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1074 2820 | 1689166 1690912 | 1747 1747 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1074 2889 | 1689166 1690981 | 1816 1816 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1343 3092 | 1689435 1691184 | 1750 1750 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1343 3092 | 1689435 1691184 | 1750 1750 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1410 3159 | 1689502 1691251 | 1750 1750 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1410 3159 | 1689502 1691251 | 1750 1750 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1478 3426 | 1689570 1691518 | 1949 1949 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 1478 3426 | 1689570 1691518 | 1949 1949 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2285 3492 | 1690377 1691584 | 1208 1208 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2285 3492 | 1690377 1691584 | 1208 1208 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2152 3559 | 1690244 1691651 | 1408 1408 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2152 3559 | 1690244 1691651 | 1408 1408 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2350 3695 | 1690442 1691787 | 1346 1346 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2350 3695 | 1690442 1691787 | 1346 1346 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3025 3963 | 1691117 1692055 | 939 939 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3025 3963 | 1691117 1692055 | 939 939 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2555 3963 | 1690647 1692055 | 1409 1409 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 2555 3963 | 1690647 1692055 | 1409 1409 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3094 4095 | 1691186 1692187 | 1002 1002 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3094 4095 | 1691186 1692187 | 1002 1002 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3227 4164 | 1691319 1692256 | 938 938 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3227 4164 | 1691319 1692256 | 938 938 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3427 4296 | 1691519 1692388 | 870 870 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3427 4296 | 1691519 1692388 | 870 870 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3695 4431 | 1691787 1692523 | 737 737 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 4163 4497 | 1692255 1692589 | 335 335 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 4163 4497 | 1692255 1692589 | 335 335 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3695 4498 | 1691787 1692590 | 804 804 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3964 4635 | 1692056 1692727 | 672 672 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 3964 4635 | 1692056 1692727 | 672 672 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 4432 4838 | 1692524 1692930 | 407 407 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Skipping redundant alignment 4432 4838 | 1692524 1692930 | 407 407 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+			The best set is below. Score: 10766.0, number of alignments: 2, unaligned bases: 1850275
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 11017 out of 1861292 non-N bases (0.59%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1861292 (number of Ns: 0) and total length of all aligns is 11017
+		Alignment: 1 5270 | 1491869 1497138 | 5270 5270 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 PC343448
+		Alignment: 1 5747 | 1688093 1693839 | 5747 5747 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 PC343448
+		Unaligned bases: 1850275
+
+CONTIG: PC289250 (3705011bp)
+		This contig is unaligned. (3705011 bp)
+		Unaligned bases: 3705011 (number of Ns: 0)
+
+CONTIG: PC995645 (3296144bp)
+		This contig is unaligned. (3296144 bp)
+		Unaligned bases: 3296144 (number of Ns: 0)
+
+CONTIG: PC1168447 (2562275bp)
+		This contig is unaligned. (2562275 bp)
+		Unaligned bases: 2562275 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/combined_reference/contigs_reports/minimap_output/marmgCAMI2.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/combined_reference/contigs_reports/minimap_output/marmgCAMI2.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Interspecies translocations: 0
+		Inversions: 0
+	Potentially Misassembled Contigs (i/s translocations): 5
+		Possible Misassemblies: 10
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 43 + 17 part
+Half Unaligned Contigs with Misassemblies: 12
+Unaligned Contig Bases: 171032510
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 6793871
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 113350
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

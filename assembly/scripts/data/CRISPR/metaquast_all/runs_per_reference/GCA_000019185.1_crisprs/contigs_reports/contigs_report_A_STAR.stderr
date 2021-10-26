@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.001*6.00] collected minimizers
+[M::mm_idx_gen::0.002*4.67] sorted minimizers
+[M::main::0.002*4.65] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.002*4.50] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.002*4.37] distinct minimizers: 36 (55.56% are singletons); average occurrences: 1.833; average spacing: 10.606
+[M::worker_pipeline::0.012*1.62] mapped 4 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /home/afritz/bin/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/quast_corrected_input/GCA_000019185.1_crisprs.fa /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/quast_corrected_input/A_STAR_to_GCA_000019185.1_crisprs.fasta
+[M::main] Real time: 0.013 sec; CPU: 0.020 sec

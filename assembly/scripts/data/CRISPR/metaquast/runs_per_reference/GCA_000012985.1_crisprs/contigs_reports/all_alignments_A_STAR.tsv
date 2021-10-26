@@ -1,0 +1,15 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	829	59979	60807	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_1	contig_839273	100.0		True
+unknown
+1	898	72035	72932	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2	contig_839273	100.0		True
+unknown
+CONTIG	contig_839273	72932	mis_unaligned
+1	829	59979	60807	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_1	strain101_opera_contig_24	100.0		True
+unknown
+1	898	72035	72932	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2	strain101_opera_contig_24	100.0		True
+unknown
+CONTIG	strain101_opera_contig_24	72932	mis_unaligned
+3202	3670	1	469	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2	contig_946780	100.0		True
+CONTIG	contig_946780	2017	correct_unaligned
+3202	3670	1	469	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2	opera_contig_74401	100.0		True
+CONTIG	opera_contig_74401	2017	correct_unaligned

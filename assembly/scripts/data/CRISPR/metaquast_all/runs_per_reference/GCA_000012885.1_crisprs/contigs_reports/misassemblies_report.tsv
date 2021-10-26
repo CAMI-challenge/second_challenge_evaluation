@@ -1,0 +1,23 @@
+Assembly	A_STAR	HipMer	marmgCAMI2	Megahit	metaSPAdes	Miniasm	OPERA_MS_inhouse	SPAdes
+# misassemblies	2	0	0	0	0	0	0	0
+  # contig misassemblies	2	0	0	0	0	0	0	0
+    # c. relocations	2	0	0	0	0	0	0	0
+    # c. translocations	0	0	0	0	0	0	0	0
+    # c. inversions	0	0	0	0	0	0	0	0
+  # scaffold misassemblies	0	0	0	0	0	0	0	0
+    # s. relocations	0	0	0	0	0	0	0	0
+    # s. translocations	0	0	0	0	0	0	0	0
+    # s. inversions	0	0	0	0	0	0	0	0
+# misassembled contigs	2	0	0	0	0	0	0	0
+Misassembled contigs length	2148	0	0	0	0	0	0	0
+# possibly misassembled contigs	0	4	1	5	3	1	1	1
+    # possible misassemblies	0	4	2	6	6	2	2	2
+# local misassemblies	0	0	0	0	0	0	0	0
+# scaffold gap ext. mis.	0	0	0	0	0	0	0	0
+# scaffold gap loc. mis.	0	0	0	0	0	0	0	0
+# unaligned mis. contigs	2	0	0	0	0	0	0	0
+# mismatches	26	0	0	66	0	0	8	0
+# indels	0	0	0	4	0	0	1	0
+    # indels (<= 5 bp)	0	0	0	1	0	0	0	0
+    # indels (> 5 bp)	0	0	0	3	0	0	1	0
+Indels length	0	0	0	81	0	0	61	0

@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	820	656870	657689	GCA_001430865.1_crisprs_GCA_001430865.1_CRISPR_0_from_1748110__ml_	Scaffold506557	100.0		True
+CONTIG	Scaffold506557	764620	correct_unaligned
+1	820	573127	573946	GCA_001430865.1_crisprs_GCA_001430865.1_CRISPR_0_from_1748110__ml_	Scaffold16830113	100.0		True
+CONTIG	Scaffold16830113	680877	correct_unaligned

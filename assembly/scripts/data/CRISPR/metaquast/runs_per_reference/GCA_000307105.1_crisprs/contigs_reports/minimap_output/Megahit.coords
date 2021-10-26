@@ -1,0 +1,9 @@
+1 4504 | 4434 129 | 4504 4306 | 95.58 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 k131_97045 | cs:Z::3901*ag:36-aatgcttttctgcttttaatcagaccagtgtggaattgaaacacggaataaccagagatatttctcaaaacgcaatacttttaatcagaccagtgtggaattgaaacaggataagcggattgcattcaagcagtatggaccaaacttttaatcagaccagtgtggaattgaaacgtatccacggcgtatgggtcagat:368
+1 4504 | 146382 150751 | 4504 4370 | 96.74 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 k141_785335 | cs:Z::233*ga:1*tg:14*at:1094*gc:40*cg:9*gt:1182*at:14*ag:16*tc:24*tc:16*ga:50*ac:5*ag:984-cttttaatcagaccagtgtggaattgaaactaatatcctatttttttggtgatccaccaagaagttcttttaatcagaccagtgtggaattgaaacatactaaaatacaaacgaataaatatccacattgccat:675
+1 866 | 146332 147197 | 866 866 | 99.77 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 k91_1235958 | cs:Z::424*ct:221*gt:219
+1 292 | 543347 543056 | 292 292 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 k131_364927 | cs:Z::292
+1 292 | 543261 542970 | 292 292 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 k141_1489691 | cs:Z::292
+1 292 | 145 436 | 292 292 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 k91_1015840 | cs:Z::292
+1 622 | 83261 82640 | 622 622 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 k131_418277 | cs:Z::622
+1 622 | 88004 88625 | 622 622 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 k141_1204508 | cs:Z::622
+1 622 | 87784 88405 | 622 622 | 100.00 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 k91_769404 | cs:Z::622

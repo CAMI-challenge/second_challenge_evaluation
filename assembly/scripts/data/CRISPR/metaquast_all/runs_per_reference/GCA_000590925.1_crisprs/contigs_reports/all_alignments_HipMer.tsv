@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	590	51486	50897	GCA_000590925.1_crisprs_GCA_000590925.1_CRISPR_0_from_1172920__ml_	Scaffold520985	100.0		True
+CONTIG	Scaffold520985	55817	correct_unaligned
+1	590	51486	50897	GCA_000590925.1_crisprs_GCA_000590925.1_CRISPR_0_from_1172920__ml_	Scaffold14661166	100.0		True
+CONTIG	Scaffold14661166	55817	correct_unaligned

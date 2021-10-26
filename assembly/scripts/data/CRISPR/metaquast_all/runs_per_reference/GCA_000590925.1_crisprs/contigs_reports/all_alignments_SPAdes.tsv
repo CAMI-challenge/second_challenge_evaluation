@@ -1,0 +1,3 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	590	2818	3407	GCA_000590925.1_crisprs_GCA_000590925.1_CRISPR_0_from_1172920__ml_	NODE_36992_length_3556_cov_5.170739	100.0		True
+CONTIG	NODE_36992_length_3556_cov_5.170739	3556	correct_unaligned

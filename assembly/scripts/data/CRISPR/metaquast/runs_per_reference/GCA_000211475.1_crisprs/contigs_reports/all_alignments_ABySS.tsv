@@ -1,0 +1,3 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+2268	2914	1	647	GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1	999482	100.0		True
+CONTIG	999482	647	correct

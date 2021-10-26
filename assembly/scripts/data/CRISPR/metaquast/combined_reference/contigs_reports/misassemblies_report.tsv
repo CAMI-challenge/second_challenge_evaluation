@@ -1,0 +1,25 @@
+Assembly	ABySS	A_STAR	Flye	HipMer	marmgCAMI2	Megahit	metaSPAdes	Miniasm	OPERA_MS_inhouse	SPAdes
+# misassemblies	0	2	0	0	0	3	0	0	0	0
+  # contig misassemblies	0	2	0	0	0	3	0	0	0	0
+    # c. relocations	0	2	0	0	0	3	0	0	0	0
+    # c. translocations	0	0	0	0	0	0	0	0	0	0
+    # c. inversions	0	0	0	0	0	0	0	0	0	0
+    # c. interspecies translocations	0	0	0	0	0	0	0	0	0	0
+  # scaffold misassemblies	0	0	0	0	0	0	0	0	0	0
+    # s. relocations	0	0	0	0	0	0	0	0	0	0
+    # s. translocations	0	0	0	0	0	0	0	0	0	0
+    # s. inversions	0	0	0	0	0	0	0	0	0	0
+    # s. interspecies translocations	0	0	0	0	0	0	0	0	0	0
+# misassembled contigs	0	2	0	0	0	3	0	0	0	0
+Misassembled contigs length	0	2148	0	0	0	5244	0	0	0	0
+# possibly misassembled contigs	6	99	4	91	5	145	109	34	27	37
+    # possible misassemblies	12	116	6	120	10	188	177	54	45	51
+# local misassemblies	0	0	0	0	0	5	0	0	0	2
+# scaffold gap ext. mis.	0	0	0	0	0	0	0	0	0	0
+# scaffold gap loc. mis.	0	1	0	0	0	0	0	0	0	0
+# unaligned mis. contigs	0	26	0	8	12	14	9	8	9	5
+# mismatches	0	212	0	3	0	1356	19	84	311	159
+# indels	1	14	6	9	0	54	4	210	190	23
+    # indels (<= 5 bp)	0	4	6	0	0	33	1	196	178	20
+    # indels (> 5 bp)	1	10	0	9	0	21	3	14	12	3
+Indels length	7	694	6	514	0	1822	314	464	980	69

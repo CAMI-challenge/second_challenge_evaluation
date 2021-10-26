@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{10}{|r}|}
+\hline
+Assembly & ABySS & A\_STAR & Flye & HipMer & marmgCAMI2 & Megahit & metaSPAdes & Miniasm & OPERA\_MS\_inhouse & SPAdes \\ \hline
+\# misassemblies & {\bf 0} & 2 & {\bf 0} & {\bf 0} & {\bf 0} & 3 & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+\hspace{2mm}\# contig misassemblies & 0 & 2 & 0 & 0 & 0 & 3 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. relocations & 0 & 2 & 0 & 0 & 0 & 3 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# c. interspecies translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{2mm}\# scaffold misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. relocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# s. interspecies translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & {\bf 0} & 2 & {\bf 0} & {\bf 0} & {\bf 0} & 3 & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+Misassembled contigs length & {\bf 0} & 2148 & {\bf 0} & {\bf 0} & {\bf 0} & 5244 & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+\# possibly misassembled contigs & 6 & 99 & {\bf 4} & 91 & 5 & 145 & 109 & 34 & 27 & 37 \\ \hline
+\hspace{5mm}\# possible misassemblies & 12 & 116 & {\bf 6} & 120 & 10 & 188 & 177 & 54 & 45 & 51 \\ \hline
+\# local misassemblies & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & 5 & {\bf 0} & {\bf 0} & {\bf 0} & 2 \\ \hline
+\# scaffold gap ext. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap loc. mis. & {\bf 0} & 1 & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+\# unaligned mis. contigs & {\bf 0} & 26 & {\bf 0} & 8 & 12 & 14 & 9 & 8 & 9 & 5 \\ \hline
+\# mismatches & {\bf 0} & 212 & {\bf 0} & 3 & {\bf 0} & 1356 & 19 & 84 & 311 & 159 \\ \hline
+\# indels & 1 & 14 & 6 & 9 & {\bf 0} & 54 & 4 & 210 & 190 & 23 \\ \hline
+\hspace{5mm}\# indels ($\leq$ 5 bp) & {\bf 0} & 4 & 6 & {\bf 0} & {\bf 0} & 33 & 1 & 196 & 178 & 20 \\ \hline
+\hspace{5mm}\# indels ($>$ 5 bp) & 1 & 10 & {\bf 0} & 9 & {\bf 0} & 21 & 3 & 14 & 12 & 3 \\ \hline
+Indels length & 7 & 694 & 6 & 514 & {\bf 0} & 1822 & 314 & 464 & 980 & 69 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

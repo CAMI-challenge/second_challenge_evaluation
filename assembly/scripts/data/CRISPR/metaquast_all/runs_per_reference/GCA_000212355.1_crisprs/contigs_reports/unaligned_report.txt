@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       A_STAR  HipMer  marmgCAMI2  Megahit  metaSPAdes  Miniasm  OPERA_MS_inhouse  SPAdes
+# fully unaligned contigs      0       0       0           0        0           0        0                 0     
+Fully unaligned length         0       0       0           0        0           0        0                 0     
+# partially unaligned contigs  2       2       1           4        3           2        1                 1     
+Partially unaligned length     6423    846730  3389473     224068   141914      326712   189687            5022  
+# N's                          2030    30      0           0        0           0        1                 0     

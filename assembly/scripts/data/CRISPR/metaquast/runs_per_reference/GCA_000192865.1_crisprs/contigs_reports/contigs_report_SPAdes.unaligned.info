@@ -1,0 +1,5 @@
+Contig	Total_length	Unaligned_length	Unaligned_type	Unaligned_parts
+NODE_2337_length_24754_cov_8.750132	24754	21606	partial	1-8668,11817-24754
+NODE_2529_length_23209_cov_8.455127	23209	22611	partial	1-9599,10198-23209
+NODE_3188_length_19019_cov_9.517527	19019	14864	partial	1-2804,6960-19019
+NODE_3737_length_16558_cov_7.945574	16558	14311	partial	1-12657,14905-16558

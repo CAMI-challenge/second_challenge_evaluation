@@ -1,0 +1,2 @@
+opera_contig_72	510819	329296	329958	-	GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_	860	134	796	659	662	60	NM:i:3	ms:i:644	AS:i:644	nn:i:0	tp:A:P	cm:i:57	s1:i:626	s2:i:321	dv:f:0.0116	cg:Z:662M	cs:Z::8*gt:8*ct:8*tc:635
+opera_contig_883	115348	101371	101531	-	GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_0_from_2330345__crt_	160	0	160	160	160	60	NM:i:0	ms:i:160	AS:i:160	nn:i:0	tp:A:P	cm:i:11	s1:i:159	s2:i:0	dv:f:0	cg:Z:160M	cs:Z::160

@@ -1,0 +1,47 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	2095	90779	88685	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	contig_69	100.0		True
+CONTIG	contig_69	327935	correct_unaligned
+1	648	7736	8383	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	contig_125997	100.0		True
+unknown
+822	1265	8594	9037	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	contig_125997	100.0		True
+unknown
+1331	2095	9038	9802	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	contig_125997	99.74		True
+unknown
+CONTIG	contig_125997	33219	mis_unaligned
+1	512	512	1	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	contig_723170	99.41		True
+CONTIG	contig_723170	4988	correct_unaligned
+1	2095	90779	88685	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	strain8_opera_contig_1_0	100.0		True
+CONTIG	strain8_opera_contig_1_0	327935	correct_unaligned
+1	648	7736	8383	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	opera_contig_864_6	100.0		True
+unknown
+822	1265	8594	9037	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	opera_contig_864_6	100.0		True
+unknown
+1331	2095	9038	9802	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	opera_contig_864_6	99.74		True
+unknown
+CONTIG	opera_contig_864_6	33219	mis_unaligned
+1	512	21241	20730	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3	opera_contig_2004	99.41		True
+CONTIG	opera_contig_2004	25717	correct_unaligned
+1	1776	185593	183883	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2	contig_76	96.12		True
+CONTIG	contig_76	421667	correct_unaligned
+1	144	3115	3258	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2	contig_281713	97.22		True
+CONTIG	contig_281713	3258	correct_unaligned
+1	1776	185593	183883	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2	opera_contig_15_0	96.12		True
+CONTIG	opera_contig_15_0	421667	correct_unaligned
+1	144	3115	3258	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2	opera_contig_42041	97.22		True
+CONTIG	opera_contig_42041	3258	correct_unaligned
+1	3437	26907	23605	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	contig_83	96.1		True
+CONTIG	contig_83	261837	correct_unaligned
+1	1151	12090	13240	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	contig_125880	99.39		True
+CONTIG	contig_125880	13240	correct_unaligned
+2644	3319	11342	10667	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	contig_126276	99.41		True
+CONTIG	contig_126276	11342	correct_unaligned
+1	535	535	1	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	contig_479634	99.81		True
+CONTIG	contig_479634	1441	correct_unaligned
+1	3437	26907	23605	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	opera_contig_20_0	96.1		True
+CONTIG	opera_contig_20_0	261837	correct_unaligned
+1	1151	12090	13240	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	opera_contig_2942_6	99.39		True
+CONTIG	opera_contig_2942_6	13240	correct_unaligned
+2644	3319	11342	10667	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	opera_contig_3276_6	99.41		True
+CONTIG	opera_contig_3276_6	11342	correct_unaligned
+1	535	535	1	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1	opera_contig_110733	99.81		True
+CONTIG	opera_contig_110733	1441	correct_unaligned

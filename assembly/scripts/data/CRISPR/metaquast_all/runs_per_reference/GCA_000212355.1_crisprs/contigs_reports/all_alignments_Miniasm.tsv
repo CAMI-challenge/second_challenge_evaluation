@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	510	279194	278685	GCA_000212355.1_crisprs_GCA_000212355.1_CRISPR_0_from_619130__ml_	5153	100.0		True
+CONTIG	5153	280460	correct_unaligned
+280	510	39011	38781	GCA_000212355.1_crisprs_GCA_000212355.1_CRISPR_0_from_619130__ml_	utg009837l	100.0		True
+CONTIG	utg009837l	46993	correct_unaligned

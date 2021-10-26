@@ -1,0 +1,47 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     A_STAR       HipMer       marmgCAMI2  Megahit      metaSPAdes   Miniasm     OPERA_MS_inhouse  SPAdes    
+# contigs (>= 1000 bp)       14           16           1           20           13           4           4                 6         
+# contigs (>= 5000 bp)       5            4            1           11           11           4           4                 0         
+# contigs (>= 10000 bp)      4            1            1           8            8            4           3                 0         
+# contigs (>= 25000 bp)      1            0            1           5            2            2           2                 0         
+# contigs (>= 50000 bp)      0            0            1           0            0            0           2                 0         
+Total length (>= 1000 bp)    111613       64486        2011287     283625       176690       132269      156983            14548     
+Total length (>= 5000 bp)    90015        40152        2011287     254713       168141       132269      156983            0         
+Total length (>= 10000 bp)   82694        21427        2011287     235326       146679       132269      150818            0         
+Total length (>= 25000 bp)   34316        0            2011287     175394       63344        85321       136325            0         
+Total length (>= 50000 bp)   0            0            2011287     0            0            0           136325            0         
+# contigs                    17           17           1           21           13           4           4                 7         
+Largest contig               34316        21427        2011287     39210        31672        44078       71756             3432      
+Total length                 113561       65003        2011287     284527       176690       132269      156983            15136     
+Reference length             7907         7907         7907        7907         7907         7907        7907              7907      
+GC (%)                       55.19        52.89        56.08       54.95        54.40        55.19       55.57             50.13     
+Reference GC (%)             48.01        48.01        48.01       48.01        48.01        48.01       48.01             48.01     
+N50                          19019        6075         2011287     32814        19409        41243       64569             2729      
+NG50                         34316        21427        2011287     39210        31672        44078       71756             2894      
+N75                          7321         2592         2011287     19879        10684        24463       64569             1957      
+NG75                         34316        21427        2011287     39210        31672        44078       71756             2894      
+L50                          3            3            1           4            4            2           2                 3         
+LG50                         1            1            1           1            1            1           1                 2         
+L75                          5            8            1           7            7            3           2                 5         
+LG75                         1            1            1           1            1            1           1                 2         
+# misassemblies              0            0            0           0            0            0           0                 0         
+# misassembled contigs       0            0            0           0            0            0           0                 0         
+Misassembled contigs length  0            0            0           0            0            0           0                 0         
+# local misassemblies        0            0            0           0            0            0           0                 0         
+# scaffold gap ext. mis.     0            0            0           0            0            0           0                 0         
+# scaffold gap loc. mis.     0            0            0           0            0            0           0                 0         
+# unaligned mis. contigs     2            2            1           2            3            1           1                 0         
+# unaligned contigs          0 + 12 part  0 + 11 part  0 + 1 part  0 + 19 part  0 + 13 part  0 + 4 part  0 + 4 part        0 + 5 part
+Unaligned length             96501        48281        2003380     263571       153072       124362      149134            7165      
+Genome fraction (%)          58.821       98.191       100.000     100.000      100.000      100.000     100.000           90.135    
+Duplication ratio            3.668        2.154        1.000       2.650        2.987        1.000       0.993             1.118     
+# N's per 100 kbp            5055.43      0.00         0.00        0.00         0.00         0.00        0.64              0.00      
+# mismatches per 100 kbp     86.00        0.00         0.00        1783.23      75.88        0.00        417.35            631.40    
+# indels per 100 kbp         0.00         0.00         0.00        25.29        0.00         0.00        189.71            238.53    
+Largest alignment            779          1986         2558        2558         2558         2558        2564              2040      
+Total aligned length         9561         15750        7907        20818        23618        7907        7848              7346      
+NGA50                        569          1591         2041        1976         2558         2041        1976              1291      
+NGA75                        438          1151         1777        1976         2041         1777        1777              760       
+LGA50                        6            3            2           2            2            2           2                 3         
+LGA75                        10           4            3           3            3            3           3                 5         

@@ -1,0 +1,2 @@
+NODE_8493_length_8580_cov_10.326120	8580	6107	6786	-	GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_	913	234	913	674	679	60	NM:i:5	ms:i:649	AS:i:649	nn:i:0	tp:A:P	cm:i:57	s1:i:589	s2:i:414	dv:f:0.0069	cg:Z:679M	cs:Z::223*ga:4*ag:5*ct:90*ag:125*ag:227
+NODE_8493_length_8580_cov_10.326120	8580	7034	7297	-	GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_	913	0	263	263	263	60	NM:i:0	ms:i:263	AS:i:263	nn:i:0	tp:A:P	cm:i:23	s1:i:246	s2:i:395	dv:f:0.0193	zd:i:1	cg:Z:263M	cs:Z::263

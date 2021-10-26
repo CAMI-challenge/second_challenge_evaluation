@@ -1,0 +1,72 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_]
+	Total Regions: 1
+	Total Region Length: 730
+Analyzing contigs...
+CONTIG: 26110 (250003bp)
+Best alignment score: 730.0 (LEN: 730, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 730.0, number of alignments: 1, unaligned bases: 249273
+		This contig is partially unaligned. (Aligned 730 out of 250003 non-N bases (0.29%))
+		Alignment: 1 730 | 20343 21072 | 730 730 | 100.0 | GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_ 26110
+		Unaligned bases: 1 to 20342 (20342)
+		Unaligned bases: 21073 to 250003 (228931)
+
+CONTIG: utg003657l (63663bp)
+Best alignment score: 133.0 (LEN: 133, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 261.0, number of alignments: 2, unaligned bases: 63402
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 261 out of 63663 non-N bases (0.41%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 63663 (number of Ns: 0) and total length of all aligns is 261
+		Alignment: 591 723 | 37502 37370 | 133 133 | 100.0 | GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_ utg003657l
+		Alignment: 340 467 | 37765 37638 | 128 128 | 100.0 | GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_ utg003657l
+		Unaligned bases: 63402
+
+CONTIG: utg003657l_1 (63663bp)
+Best alignment score: 133.0 (LEN: 133, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 261.0, number of alignments: 2, unaligned bases: 63402
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 261 out of 63663 non-N bases (0.41%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 63663 (number of Ns: 0) and total length of all aligns is 261
+		Alignment: 591 723 | 37502 37370 | 133 133 | 100.0 | GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_ utg003657l_1
+		Alignment: 340 467 | 37765 37638 | 128 128 | 100.0 | GCA_000299395.1_crisprs_GCA_000299395.1_CRISPR_0_from_569850__ml_ utg003657l_1
+		Unaligned bases: 63402
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000299395.1_crisprs/contigs_reports/minimap_output/Miniasm.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000299395.1_crisprs/contigs_reports/minimap_output/Miniasm.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 3 part
+Half Unaligned Contigs with Misassemblies: 2
+Unaligned Contig Bases: 376077
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 730
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

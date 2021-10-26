@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	206	76523	76318	GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_0_from_1020817__finder_	contig_819704	100.0		True
+CONTIG	contig_819704	88086	correct_unaligned
+1	206	76523	76318	GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_0_from_1020817__finder_	strain35_opera_contig_7	100.0		True
+CONTIG	strain35_opera_contig_7	88086	correct_unaligned

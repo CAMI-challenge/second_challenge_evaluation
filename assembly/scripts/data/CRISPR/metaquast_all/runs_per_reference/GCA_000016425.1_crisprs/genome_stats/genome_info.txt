@@ -1,0 +1,26 @@
+reference chromosomes:
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_0_from_1116406__all_ (total length: 1624 bp, total length without N's: 1624 bp, maximal covered length: 1624 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1_from_1140294__finder_ (total length: 229 bp, total length without N's: 229 bp, maximal covered length: 229 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_2_from_1622233__crt_ml_ (total length: 988 bp, total length without N's: 988 bp, maximal covered length: 988 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_3_from_2237967__crt_ml_ (total length: 516 bp, total length without N's: 516 bp, maximal covered length: 516 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_4_from_1620310__ml_ (total length: 890 bp, total length without N's: 890 bp, maximal covered length: 890 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_5_from_4121650__ml_ (total length: 860 bp, total length without N's: 860 bp, maximal covered length: 860 bp)
+
+total genome size: 5107
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+A_STAR_to_GCA_000016425. | 56.883    | 3.446       | 7         | -         | -         | -         | -         |
+HipMer_to_GCA_000016425. | 74.995    | 1.971       | 4         | -         | -         | -         | -         |
+marmgCAMI2_to_GCA_000016 | 95.516    | 1.016       | 1         | -         | -         | -         | -         |
+Megahit_to_GCA_000016425 | 88.623    | 2.574       | 2         | -         | -         | -         | -         |
+metaSPAdes_to_GCA_000016 | 80.419    | 3.109       | 4         | -         | -         | -         | -         |
+Miniasm_to_GCA_000016425 | 64.578    | 1.206       | 5         | -         | -         | -         | -         |
+OPERA_MS_inhouse_to_GCA_ | 76.914    | 1.158       | 4         | -         | -         | -         | -         |
+SPAdes_to_GCA_000016425. | 83.160    | 1.061       | 2         | -         | -         | -         | -         |

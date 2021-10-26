@@ -1,0 +1,110 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_0_from_1526146__all_]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1_from_3370177__all_]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2_from_3372471__all_]
+	Loaded [GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3_from_3375004__finder_crt_]
+	Total Regions: 4
+	Total Region Length: 6584
+Analyzing contigs...
+CONTIG: Scaffold382370 (408855bp)
+Best alignment score: 419.0 (LEN: 419, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 419.0, number of alignments: 1, unaligned bases: 408436
+		This contig is partially unaligned. (Aligned 419 out of 408855 non-N bases (0.10%))
+		Alignment: 1 419 | 408668 408250 | 419 419 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3_from_3375004__finder_crt_ Scaffold382370
+		Unaligned bases: 1 to 408249 (408249)
+		Unaligned bases: 408669 to 408855 (187)
+
+CONTIG: Scaffold14004787 (407637bp)
+Best alignment score: 419.0 (LEN: 419, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 419.0, number of alignments: 1, unaligned bases: 407218
+		This contig is partially unaligned. (Aligned 419 out of 407637 non-N bases (0.10%))
+		Alignment: 1 419 | 407581 407163 | 419 419 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3_from_3375004__finder_crt_ Scaffold14004787
+		Unaligned bases: 1 to 407162 (407162)
+		Unaligned bases: 407582 to 407637 (56)
+
+CONTIG: Scaffold527203 (218544bp)
+Best alignment score: 4288.0 (LEN: 4288, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 4288.0, number of alignments: 1, unaligned bases: 214256
+		This contig is partially unaligned. (Aligned 4288 out of 218532 non-N bases (1.96%))
+		Alignment: 1 4288 | 91926 96213 | 4288 4288 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_0_from_1526146__all_ Scaffold527203
+		Unaligned bases: 1 to 91925 (91925)
+		Unaligned bases: 96214 to 218544 (122331)
+
+CONTIG: Scaffold18041460 (128136bp)
+Best alignment score: 4288.0 (LEN: 4288, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 4288.0, number of alignments: 1, unaligned bases: 123848
+		This contig is partially unaligned. (Aligned 4288 out of 128136 non-N bases (3.35%))
+		Alignment: 1 4288 | 91662 95949 | 4288 4288 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_0_from_1526146__all_ Scaffold18041460
+		Unaligned bases: 1 to 91661 (91661)
+		Unaligned bases: 95950 to 128136 (32187)
+
+CONTIG: Scaffold798036 (1152bp)
+Best alignment score: 877.0 (LEN: 877, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 877.0, number of alignments: 1, unaligned bases: 275
+		Alignment: 1 877 | 1075 199 | 877 877 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2_from_3372471__all_ Scaffold798036
+
+CONTIG: Scaffold13245634 (1007bp)
+Best alignment score: 877.0 (LEN: 877, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 877.0, number of alignments: 1, unaligned bases: 130
+		Alignment: 1 877 | 930 54 | 877 877 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2_from_3372471__all_ Scaffold13245634
+
+CONTIG: Scaffold798046 (41591bp)
+Best alignment score: 1000.0 (LEN: 1000, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 1000.0, number of alignments: 1, unaligned bases: 40591
+		This contig is partially unaligned. (Aligned 1000 out of 41510 non-N bases (2.41%))
+		Alignment: 1 1000 | 39309 40308 | 1000 1000 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1_from_3370177__all_ Scaffold798046
+		Unaligned bases: 1 to 39308 (39308)
+		Unaligned bases: 40309 to 41591 (1283)
+
+CONTIG: Scaffold16932703 (39569bp)
+Best alignment score: 1000.0 (LEN: 1000, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 1000.0, number of alignments: 1, unaligned bases: 38569
+		This contig is partially unaligned. (Aligned 1000 out of 39497 non-N bases (2.53%))
+		Alignment: 1 1000 | 1094 95 | 1000 1000 | 100.0 | GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1_from_3370177__all_ Scaffold16932703
+		Unaligned bases: 1 to 94 (94)
+		Unaligned bases: 1095 to 39569 (38475)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000214665.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000214665.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 6 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 1232762
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 6584
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

@@ -1,0 +1,9 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	2188	31525	33712	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_3	opera_contig_3448	99.77		True
+CONTIG	opera_contig_3448	37923	correct_unaligned
+3	215	21628	21416	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_4	opera_contig_7183	100.0		True
+CONTIG	opera_contig_7183	21739	correct_unaligned
+1	1040	15795	14756	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_2	opera_contig_10564	99.9		True
+CONTIG	opera_contig_10564	15970	correct_unaligned
+1	1199	175	1373	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_1	opera_contig_11237	100.0		True
+CONTIG	opera_contig_11237	15197	correct_unaligned

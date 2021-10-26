@@ -1,0 +1,8 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+135	617	85097	85579	GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_	utg000045l	98.14		True
+unknown
+1	860	85197	86056	GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_	utg000045l	100.0		True
+unknown
+513	796	85907	86190	GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_	utg000045l	98.59		True
+unknown
+CONTIG	utg000045l	240219	mis_unaligned

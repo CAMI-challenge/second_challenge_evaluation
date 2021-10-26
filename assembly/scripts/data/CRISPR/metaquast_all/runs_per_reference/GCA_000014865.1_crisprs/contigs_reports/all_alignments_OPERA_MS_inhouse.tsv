@@ -1,0 +1,25 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1340	1510	104310	104480	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_3_from_2656410__ml_	opera_contig_643	98.25		True
+CONTIG	opera_contig_643	145003	correct_unaligned
+813	1410	598	1	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_3_from_2656410__ml_	opera_contig_288994	100.0		True
+CONTIG	opera_contig_288994	696	correct
+368	623	262	7	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_3_from_2656410__ml_	opera_contig_437898	99.22		True
+local misassembly
+1	262	524	263	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_3_from_2656410__ml_	opera_contig_437898	99.24		True
+CONTIG	opera_contig_437898	542	correct
+5083	9260	1	4178	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_0_from_4407395__all_	opera_contig_855	99.66		True
+CONTIG	opera_contig_855	120652	correct_unaligned
+1	4759	62452	67210	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_0_from_4407395__all_	opera_contig_1703	99.79		True
+CONTIG	opera_contig_1703	67210	correct_unaligned
+441	640	49969	49770	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1_from_973200__ml_	opera_contig_1532	99.0		True
+unknown
+37	134	50442	50345	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1_from_973200__ml_	opera_contig_1532	100.0		True
+unknown
+CONTIG	opera_contig_1532	73260	mis_unaligned
+1416	1570	38188	38034	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_2_from_1797180__ml_	opera_contig_2030	100.0		True
+unknown
+1216	1367	38340	38189	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_2_from_1797180__ml_	opera_contig_2030	100.0		True
+unknown
+983	1289	39527	39221	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_2_from_1797180__ml_	opera_contig_2030	96.09		True
+unknown
+CONTIG	opera_contig_2030	59081	mis_unaligned

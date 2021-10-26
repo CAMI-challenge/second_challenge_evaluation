@@ -1,0 +1,57 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3]
+	Total Regions: 3
+	Total Region Length: 5418
+Analyzing contigs...
+CONTIG: PC328638 (5197896bp)
+Best alignment score: 4504.0 (LEN: 4504, IDY: 100.00), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 4916.0, number of alignments: 3, unaligned bases: 5192478
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 5418 out of 5197896 non-N bases (0.10%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 5197896 (number of Ns: 0) and total length of all aligns is 5418
+		Alignment: 1 4504 | 1120959 1125462 | 4504 4504 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 PC328638
+		Alignment: 1 292 | 1127872 1128163 | 292 292 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 PC328638
+		Alignment: 1 622 | 3489798 3490419 | 622 622 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 PC328638
+		Unaligned bases: 5192478
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/runs_per_reference/GCA_000307105.1_crisprs/contigs_reports/minimap_output/marmgCAMI2.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast/runs_per_reference/GCA_000307105.1_crisprs/contigs_reports/minimap_output/marmgCAMI2.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 5192478
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 5197896
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 5418
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

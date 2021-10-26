@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & A\_STAR & HipMer & marmgCAMI2 & Megahit & metaSPAdes & Miniasm & OPERA\_MS\_inhouse & SPAdes \\ \hline
+\# contigs ($\geq$ 1000 bp) & 2 & 8 & 1 & 11 & 3 & 2 & 2 & 3 \\ \hline
+\# contigs ($\geq$ 5000 bp) & 0 & 4 & 1 & 6 & 3 & 2 & 2 & 2 \\ \hline
+\# contigs ($\geq$ 10000 bp) & 0 & 4 & 1 & 6 & 3 & 2 & 2 & 1 \\ \hline
+\# contigs ($\geq$ 25000 bp) & 0 & 1 & 1 & 1 & 3 & 2 & 2 & 0 \\ \hline
+\# contigs ($\geq$ 50000 bp) & 0 & 1 & 1 & 1 & 3 & 0 & 2 & 0 \\ \hline
+Total length ($\geq$ 1000 bp) & 4850 & 153096 & {\bf 4719539} & 191479 & 267623 & 83507 & 187862 & 22876 \\ \hline
+Total length ($\geq$ 5000 bp) & 0 & 140036 & {\bf 4719539} & 180720 & 267623 & 83507 & 187862 & 19823 \\ \hline
+Total length ($\geq$ 10000 bp) & 0 & 140036 & {\bf 4719539} & 180720 & 267623 & 83507 & 187862 & 12914 \\ \hline
+Total length ($\geq$ 25000 bp) & 0 & 78316 & {\bf 4719539} & 82451 & 267623 & 83507 & 187862 & 0 \\ \hline
+Total length ($\geq$ 50000 bp) & 0 & 78316 & {\bf 4719539} & 82451 & 267623 & 0 & 187862 & 0 \\ \hline
+\# contigs & 4 & 8 & 1 & 13 & 3 & 2 & 2 & 3 \\ \hline
+Largest contig & 2425 & 78316 & {\bf 4719539} & 82451 & 106950 & 45687 & 120652 & 12914 \\ \hline
+Total length & 6772 & 153096 & {\bf 4719539} & 192603 & 267623 & 83507 & 187862 & 22876 \\ \hline
+Reference length & 9260 & 9260 & 9260 & 9260 & 9260 & 9260 & 9260 & 9260 \\ \hline
+GC (\%) & 54.25 & 53.21 & 54.17 & 52.80 & 53.33 & 52.94 & 53.85 & 55.04 \\ \hline
+Reference GC (\%) & 57.72 & 57.72 & 57.72 & 57.72 & 57.72 & 57.72 & 57.72 & 57.72 \\ \hline
+N50 & 2425 & 78316 & {\bf 4719539} & 20722 & 106950 & 45687 & 120652 & 12914 \\ \hline
+NG50 & 2425 & 78316 & {\bf 4719539} & 82451 & 106950 & 45687 & 120652 & 12914 \\ \hline
+N75 & 961 & 22298 & {\bf 4719539} & 18864 & 106950 & 37820 & 67210 & 6909 \\ \hline
+NG75 & - & 78316 & 4719539 & 82451 & 106950 & 45687 & 120652 & 12914 \\ \hline
+L50 & 2 & {\bf 1} & {\bf 1} & 2 & 2 & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+LG50 & 2 & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+L75 & 3 & 3 & {\bf 1} & 5 & 2 & 2 & 2 & 2 \\ \hline
+LG75 & - & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+\# misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+Misassembled contigs length & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# local misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap ext. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap loc. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned mis. contigs & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned contigs & 0 + 2 part & 0 + 4 part & {\bf 0 + 1 part} & 0 + 6 part & 0 + 3 part & 0 + 2 part & 0 + 2 part & 0 + 2 part \\ \hline
+Unaligned length & {\bf 3058} & 134458 & 4710279 & 173000 & 239843 & 74174 & 178925 & 13330 \\ \hline
+Genome fraction (\%) & 15.065 & 99.374 & {\bf 100.000} & {\bf 100.000} & {\bf 100.000} & {\bf 100.000} & 96.512 & {\bf 100.000} \\ \hline
+Duplication ratio & 2.662 & 2.025 & {\bf 1.000} & 2.117 & 3.000 & 1.008 & {\bf 1.000} & 1.031 \\ \hline
+\# N's per 100 kbp & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ \hline
+\# mismatches per 100 kbp & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & 1371.49 & {\bf 0.00} & {\bf 0.00} & 268.55 & 205.18 \\ \hline
+\# indels per 100 kbp & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & 10.80 & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} \\ \hline
+Largest alignment & 896 & 4153 & {\bf 9260} & 4327 & {\bf 9260} & {\bf 9260} & 4759 & 5784 \\ \hline
+Total aligned length & 2790 & 18540 & 9260 & 19146 & {\bf 27780} & 9333 & 8937 & 9536 \\ \hline
+NGA50 & - & 4153 & 9260 & 2919 & 9260 & 9260 & 4759 & 5784 \\ \hline
+NGA75 & - & 4153 & 9260 & 2919 & 9260 & 9260 & 4178 & 3043 \\ \hline
+LGA50 & - & 2 & 1 & 2 & 1 & 1 & 1 & 1 \\ \hline
+LGA75 & - & 2 & 1 & 2 & 1 & 1 & 2 & 2 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

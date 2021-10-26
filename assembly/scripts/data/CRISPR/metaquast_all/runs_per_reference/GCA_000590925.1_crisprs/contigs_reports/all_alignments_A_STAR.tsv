@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	590	4665	5254	GCA_000590925.1_crisprs_GCA_000590925.1_CRISPR_0_from_1172920__ml_	contig_897808	100.0		True
+CONTIG	contig_897808	54900	correct_unaligned
+1	590	4665	5254	GCA_000590925.1_crisprs_GCA_000590925.1_CRISPR_0_from_1172920__ml_	opera_contig_245	100.0		True
+CONTIG	opera_contig_245	54900	correct_unaligned

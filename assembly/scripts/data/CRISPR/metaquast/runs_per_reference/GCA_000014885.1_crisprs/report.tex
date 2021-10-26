@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & A\_STAR & HipMer & marmgCAMI2 & Megahit & metaSPAdes & Miniasm & OPERA\_MS\_inhouse & SPAdes \\ \hline
+\# contigs ($\geq$ 1000 bp) & 2 & 2 & 1 & 3 & 3 & 1 & 1 & 1 \\ \hline
+\# contigs ($\geq$ 5000 bp) & 2 & 0 & 1 & 3 & 2 & 1 & 1 & 0 \\ \hline
+\# contigs ($\geq$ 10000 bp) & 2 & 0 & 1 & 2 & 2 & 1 & 1 & 0 \\ \hline
+\# contigs ($\geq$ 25000 bp) & 2 & 0 & 1 & 1 & 0 & 0 & 1 & 0 \\ \hline
+\# contigs ($\geq$ 50000 bp) & 2 & 0 & 1 & 0 & 0 & 0 & 1 & 0 \\ \hline
+Total length ($\geq$ 1000 bp) & 176172 & 9616 & {\bf 5396452} & 64369 & 24824 & 15161 & 64738 & 3821 \\ \hline
+Total length ($\geq$ 5000 bp) & 176172 & 0 & {\bf 5396452} & 64369 & 21828 & 15161 & 64738 & 0 \\ \hline
+Total length ($\geq$ 10000 bp) & 176172 & 0 & {\bf 5396452} & 58035 & 21828 & 15161 & 64738 & 0 \\ \hline
+Total length ($\geq$ 25000 bp) & 176172 & 0 & {\bf 5396452} & 38660 & 0 & 0 & 64738 & 0 \\ \hline
+Total length ($\geq$ 50000 bp) & 176172 & 0 & {\bf 5396452} & 0 & 0 & 0 & 64738 & 0 \\ \hline
+\# contigs & 2 & 2 & 1 & 3 & 3 & 1 & 1 & 1 \\ \hline
+Largest contig & 88086 & 4808 & {\bf 5396452} & 38660 & 10914 & 15161 & 64738 & 3821 \\ \hline
+Total length & 176172 & 9616 & {\bf 5396452} & 64369 & 24824 & 15161 & 64738 & 3821 \\ \hline
+Reference length & 206 & 206 & 206 & 206 & 206 & 206 & 206 & 206 \\ \hline
+GC (\%) & 41.71 & 42.28 & 43.29 & 41.11 & 40.11 & 40.68 & 42.23 & 41.74 \\ \hline
+Reference GC (\%) & 48.06 & 48.06 & 48.06 & 48.06 & 48.06 & 48.06 & 48.06 & 48.06 \\ \hline
+N50 & 88086 & 4808 & {\bf 5396452} & 38660 & 10914 & 15161 & 64738 & 3821 \\ \hline
+NG50 & 88086 & 4808 & {\bf 5396452} & 38660 & 10914 & 15161 & 64738 & 3821 \\ \hline
+N75 & 88086 & 4808 & {\bf 5396452} & 19375 & 10914 & 15161 & 64738 & 3821 \\ \hline
+NG75 & 88086 & 4808 & {\bf 5396452} & 38660 & 10914 & 15161 & 64738 & 3821 \\ \hline
+L50 & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} & 2 & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+LG50 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+L75 & 2 & 2 & {\bf 1} & 2 & 2 & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+LG75 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+\# misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+Misassembled contigs length & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# local misassemblies & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap ext. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# scaffold gap loc. mis. & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned mis. contigs & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# unaligned contigs & 0 + 2 part & 0 + 2 part & {\bf 0 + 1 part} & 0 + 3 part & 0 + 3 part & {\bf 0 + 1 part} & {\bf 0 + 1 part} & {\bf 0 + 1 part} \\ \hline
+Unaligned length & 175760 & 9204 & 5396246 & 63751 & 24206 & 14955 & 64532 & {\bf 3615} \\ \hline
+Genome fraction (\%) & 100.000 & 100.000 & 100.000 & 100.000 & 100.000 & 100.000 & 100.000 & 100.000 \\ \hline
+Duplication ratio & 2.000 & 2.000 & {\bf 1.000} & 3.000 & 3.000 & {\bf 1.000} & {\bf 1.000} & {\bf 1.000} \\ \hline
+\# N's per 100 kbp & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ \hline
+\# mismatches per 100 kbp & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & 1456.31 & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} \\ \hline
+\# indels per 100 kbp & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ \hline
+Largest alignment & 206 & 206 & 206 & 206 & 206 & 206 & 206 & 206 \\ \hline
+Total aligned length & 412 & 412 & 206 & {\bf 618} & {\bf 618} & 206 & 206 & 206 \\ \hline
+NGA50 & 206 & 206 & 206 & 206 & 206 & 206 & 206 & 206 \\ \hline
+NGA75 & 206 & 206 & 206 & 206 & 206 & 206 & 206 & 206 \\ \hline
+LGA50 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+LGA75 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

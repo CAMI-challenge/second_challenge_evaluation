@@ -1,0 +1,66 @@
+reference chromosomes:
+	GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_1 (total length: 1251 bp, total length without N's: 1251 bp, maximal covered length: 1251 bp)
+	GCA_000011185.1_crisprs_GCA_000011185.1_CRISPR_2 (total length: 1146 bp, total length without N's: 1146 bp, maximal covered length: 1146 bp)
+	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_1 (total length: 6799 bp, total length without N's: 6799 bp, maximal covered length: 6799 bp)
+	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_1 (total length: 2148 bp, total length without N's: 2148 bp, maximal covered length: 2148 bp)
+	GCA_000012985.1_crisprs_GCA_000012985.1_CRISPR_2 (total length: 3670 bp, total length without N's: 3670 bp, maximal covered length: 3670 bp)
+	GCA_000014865.1_crisprs_GCA_000014865.1_CRISPR_1 (total length: 9260 bp, total length without N's: 9260 bp, maximal covered length: 9260 bp)
+	GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_1 (total length: 206 bp, total length without N's: 206 bp, maximal covered length: 206 bp)
+	GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_1 (total length: 3306 bp, total length without N's: 3306 bp, maximal covered length: 3306 bp)
+	GCA_000015145.1_crisprs_GCA_000015145.1_CRISPR_2 (total length: 3182 bp, total length without N's: 3182 bp, maximal covered length: 3182 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_1 (total length: 1624 bp, total length without N's: 1624 bp, maximal covered length: 1624 bp)
+	GCA_000016425.1_crisprs_GCA_000016425.1_CRISPR_2 (total length: 229 bp, total length without N's: 229 bp, maximal covered length: 229 bp)
+	GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_1 (total length: 10622 bp, total length without N's: 10622 bp, maximal covered length: 10622 bp)
+	GCA_000020525.1_crisprs_GCA_000020525.1_CRISPR_2 (total length: 6448 bp, total length without N's: 6448 bp, maximal covered length: 6448 bp)
+	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1 (total length: 4153 bp, total length without N's: 4153 bp, maximal covered length: 4153 bp)
+	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_2 (total length: 598 bp, total length without N's: 598 bp, maximal covered length: 598 bp)
+	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3 (total length: 3148 bp, total length without N's: 3148 bp, maximal covered length: 3148 bp)
+	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4 (total length: 2247 bp, total length without N's: 2247 bp, maximal covered length: 2247 bp)
+	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_5 (total length: 106 bp, total length without N's: 106 bp, maximal covered length: 106 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 (total length: 1834 bp, total length without N's: 1834 bp, maximal covered length: 1834 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2 (total length: 3455 bp, total length without N's: 3455 bp, maximal covered length: 3455 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 (total length: 3446 bp, total length without N's: 3446 bp, maximal covered length: 3446 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_4 (total length: 1848 bp, total length without N's: 1848 bp, maximal covered length: 1848 bp)
+	GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1 (total length: 5270 bp, total length without N's: 5270 bp, maximal covered length: 5270 bp)
+	GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_2 (total length: 5747 bp, total length without N's: 5747 bp, maximal covered length: 5747 bp)
+	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1 (total length: 4288 bp, total length without N's: 4288 bp, maximal covered length: 4288 bp)
+	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2 (total length: 1000 bp, total length without N's: 1000 bp, maximal covered length: 1000 bp)
+	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3 (total length: 877 bp, total length without N's: 877 bp, maximal covered length: 877 bp)
+	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_4 (total length: 419 bp, total length without N's: 419 bp, maximal covered length: 419 bp)
+	GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_1 (total length: 2041 bp, total length without N's: 2041 bp, maximal covered length: 2041 bp)
+	GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_2 (total length: 2558 bp, total length without N's: 2558 bp, maximal covered length: 2558 bp)
+	GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_3 (total length: 764 bp, total length without N's: 764 bp, maximal covered length: 764 bp)
+	GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_4 (total length: 1777 bp, total length without N's: 1777 bp, maximal covered length: 1777 bp)
+	GCA_000221185.1_crisprs_GCA_000221185.1_CRISPR_5 (total length: 767 bp, total length without N's: 767 bp, maximal covered length: 767 bp)
+	GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1 (total length: 4504 bp, total length without N's: 4504 bp, maximal covered length: 4504 bp)
+	GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2 (total length: 292 bp, total length without N's: 292 bp, maximal covered length: 292 bp)
+	GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_3 (total length: 622 bp, total length without N's: 622 bp, maximal covered length: 622 bp)
+	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_1 (total length: 1199 bp, total length without N's: 1199 bp, maximal covered length: 1199 bp)
+	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_2 (total length: 1040 bp, total length without N's: 1040 bp, maximal covered length: 1040 bp)
+	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_3 (total length: 2188 bp, total length without N's: 2188 bp, maximal covered length: 2188 bp)
+	GCA_000591035.1_crisprs_GCA_000591035.1_CRISPR_4 (total length: 215 bp, total length without N's: 215 bp, maximal covered length: 215 bp)
+	GCA_000626635.1_crisprs_GCA_000626635.1_CRISPR_1 (total length: 298 bp, total length without N's: 298 bp, maximal covered length: 298 bp)
+	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 (total length: 3437 bp, total length without N's: 3437 bp, maximal covered length: 3437 bp)
+	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 (total length: 1776 bp, total length without N's: 1776 bp, maximal covered length: 1776 bp)
+	GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 (total length: 2095 bp, total length without N's: 2095 bp, maximal covered length: 2095 bp)
+
+total genome size: 113900
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+ABySS                    | 14.123    | 3.481       | 48        | -         | -         | -         | -         |
+A_STAR                   | 50.568    | 143.898     | 28        | -         | -         | -         | -         |
+Flye                     | 4.900     | 2.001       | 43        | -         | -         | -         | -         |
+HipMer                   | 99.124    | 2.553       | 6         | -         | -         | -         | -         |
+marmgCAMI2               | 99.517    | 1.000       | 3         | -         | -         | -         | -         |
+Megahit                  | 99.900    | 2.527       | 1         | -         | -         | -         | -         |
+metaSPAdes               | 99.907    | 3.094       | 1         | -         | -         | -         | -         |
+Miniasm                  | 77.567    | 1.319       | 13        | -         | -         | -         | -         |
+OPERA_MS_inhouse         | 92.881    | 1.018       | 11        | -         | -         | -         | -         |
+SPAdes                   | 97.844    | 1.852       | 9         | -         | -         | -         | -         |

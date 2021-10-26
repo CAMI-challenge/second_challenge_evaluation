@@ -1,0 +1,5 @@
+13325	27129	26366	26494	-	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	700	251	379	122	128	1	NM:i:6	ms:i:92	AS:i:92	nn:i:0	tp:A:P	cm:i:4	s1:i:59	s2:i:71	dv:f:0.0427	cg:Z:128M	cs:Z::13*ct:35*ga:5*ag:2*tc:5*ga:1*ag:61
+13325	27129	26370	26478	-	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	700	27	135	105	108	0	NM:i:3	ms:i:90	AS:i:90	nn:i:0	tp:A:S	cm:i:5	s1:i:71	dv:f:0.0177	cg:Z:108M	cs:Z::7*tc:11*ga:7*tc:80
+13325	27129	27011	27108	-	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	700	327	424	94	97	12	NM:i:3	ms:i:79	AS:i:79	nn:i:0	tp:A:P	cm:i:6	s1:i:71	s2:i:62	dv:f:0.0151	cg:Z:97M	cs:Z::14*ga:48*ag:10*ga:22
+13325	27129	26366	26489	-	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	700	346	469	115	123	0	NM:i:8	ms:i:75	AS:i:75	nn:i:0	tp:A:S	cm:i:4	s1:i:42	dv:f:0.0482	cg:Z:123M	cs:Z::8*ct:14*ct:35*ga:8*ct:1*ag:14*ag:3*ag:25*ga:7
+13325	27129	27015	27125	-	GCA_000019185.1_crisprs_GCA_000019185.1_CRISPR_0_from_1777670__ml_	700	280	390	103	110	6	NM:i:7	ms:i:68	AS:i:68	nn:i:0	tp:A:P	cm:i:3	s1:i:46	s2:i:0	dv:f:0.0365	cg:Z:110M	cs:Z::26*ag:2*tc:1*ga:5*ag:6*tc:1*ga:14*ga:48

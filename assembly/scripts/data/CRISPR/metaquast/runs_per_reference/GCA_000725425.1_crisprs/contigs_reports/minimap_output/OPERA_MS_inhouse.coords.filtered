@@ -1,0 +1,6 @@
+1 3437 | 736946 740248 | 3437 3303 | 96.04 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_1 opera_contig_16 | cs:Z::2406*tc:64-gttccaataagactttagaagtattgaaagttacagctgatggaatcaataatgaactcaatacaaagttccaataagactttagaagtattgaaagttacagctgatggaatcaataatgaactcaatacaaa:187*at:644
+1 327 | 228873 229199 | 327 327 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 opera_contig_18 | :327
+606 1272 | 229275 229941 | 667 667 | 99.85 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 opera_contig_18 | :27*at:639
+1340 1435 | 229942 230037 | 96 96 | 100.0 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 opera_contig_18 | :96
+1437 1776 | 230038 230377 | 340 340 | 99.71 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_2 opera_contig_18 | :294*ta:45
+1 2095 | 651607 653710 | 2095 2104 | 98.95 | GCA_000725425.1_crisprs_GCA_000725425.1_CRISPR_3 opera_contig_18 | cs:Z::370+tac:10+c:2*ca:2+g:1*ta:8+g:4+a:10*tc:2*tc:8+cgt:3-t:536*ac:7*ct:39*tg*tg:50*at:21*ta:85*ga:925

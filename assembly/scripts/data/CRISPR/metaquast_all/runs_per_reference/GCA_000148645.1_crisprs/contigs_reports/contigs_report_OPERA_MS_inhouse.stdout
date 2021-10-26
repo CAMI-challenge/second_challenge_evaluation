@@ -1,0 +1,63 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_]
+	Total Regions: 1
+	Total Region Length: 720
+Analyzing contigs...
+CONTIG: opera_contig_521 (169709bp)
+Best alignment score: 274.0 (LEN: 274, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 274.0, number of alignments: 1, unaligned bases: 169435
+		This contig is partially unaligned. (Aligned 274 out of 169709 non-N bases (0.16%))
+		Alignment: 447 720 | 1 274 | 274 274 | 100.0 | GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_ opera_contig_521
+		Unaligned bases: 275 to 169709 (169435)
+
+CONTIG: opera_contig_1718 (66583bp)
+Best alignment score: 225.0 (LEN: 231, IDY: 97.40), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 424 654 | 292 62 | 231 231 | 97.4 | GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_ opera_contig_1718
+			The best set is below. Score: 255.0, number of alignments: 3, unaligned bases: 66322
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 261 out of 66583 non-N bases (0.39%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 66583 (number of Ns: 0) and total length of all aligns is 261
+		Alignment: 403 486 | 148 65 | 84 84 | 100.0 | GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_ opera_contig_1718
+		Alignment: 304 369 | 214 149 | 66 66 | 95.45 | GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_ opera_contig_1718
+		Alignment: 127 237 | 325 215 | 111 111 | 97.3 | GCA_000148645.1_crisprs_GCA_000148645.1_CRISPR_0_from_2937980__ml_ opera_contig_1718
+		Unaligned bases: 66322
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000148645.1_crisprs/contigs_reports/minimap_output/OPERA_MS_inhouse.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000148645.1_crisprs/contigs_reports/minimap_output/OPERA_MS_inhouse.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 2 part
+Half Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 235757
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 495
+
+	SNPs: 6
+	Insertions: 0
+	Deletions: 0
+

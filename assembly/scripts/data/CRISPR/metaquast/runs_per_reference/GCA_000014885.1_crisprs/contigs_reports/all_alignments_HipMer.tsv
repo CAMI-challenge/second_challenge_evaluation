@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	206	3879	3674	GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_1	Scaffold565808	100.0		True
+CONTIG	Scaffold565808	4808	correct_unaligned
+1	206	3879	3674	GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_1	Scaffold25037063	100.0		True
+CONTIG	Scaffold25037063	4808	correct_unaligned

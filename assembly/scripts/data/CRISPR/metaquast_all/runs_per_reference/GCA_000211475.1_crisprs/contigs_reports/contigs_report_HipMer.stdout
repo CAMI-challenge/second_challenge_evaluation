@@ -1,0 +1,78 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_0_from_1491888__all_]
+	Loaded [GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1_from_1688112__all_]
+	Total Regions: 2
+	Total Region Length: 11017
+Analyzing contigs...
+CONTIG: Scaffold198162 (311222bp)
+Best alignment score: 5747.0 (LEN: 5747, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 5747.0, number of alignments: 1, unaligned bases: 305475
+		This contig is partially unaligned. (Aligned 5747 out of 311158 non-N bases (1.85%))
+		Alignment: 1 5747 | 138678 144424 | 5747 5747 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1_from_1688112__all_ Scaffold198162
+		Unaligned bases: 1 to 138677 (138677)
+		Unaligned bases: 144425 to 311222 (166798)
+
+CONTIG: Scaffold872129 (161315bp)
+Best alignment score: 5747.0 (LEN: 5747, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 5747.0, number of alignments: 1, unaligned bases: 155568
+		This contig is partially unaligned. (Aligned 5747 out of 161312 non-N bases (3.56%))
+		Alignment: 1 5747 | 72934 67188 | 5747 5747 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_1_from_1688112__all_ Scaffold872129
+		Unaligned bases: 1 to 67187 (67187)
+		Unaligned bases: 72935 to 161315 (88381)
+
+CONTIG: Scaffold163600 (410716bp)
+Best alignment score: 5270.0 (LEN: 5270, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 5270.0, number of alignments: 1, unaligned bases: 405446
+		This contig is partially unaligned. (Aligned 5270 out of 410610 non-N bases (1.28%))
+		Alignment: 1 5270 | 59793 54524 | 5270 5270 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_0_from_1491888__all_ Scaffold163600
+		Unaligned bases: 1 to 54523 (54523)
+		Unaligned bases: 59794 to 410716 (350923)
+
+CONTIG: Scaffold10171762 (350668bp)
+Best alignment score: 5270.0 (LEN: 5270, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 5270.0, number of alignments: 1, unaligned bases: 345398
+		This contig is partially unaligned. (Aligned 5270 out of 350631 non-N bases (1.50%))
+		Alignment: 1 5270 | 293623 298892 | 5270 5270 | 100.0 | GCA_000211475.1_crisprs_GCA_000211475.1_CRISPR_0_from_1491888__all_ Scaffold10171762
+		Unaligned bases: 1 to 293622 (293622)
+		Unaligned bases: 298893 to 350668 (51776)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000211475.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000211475.1_crisprs/contigs_reports/minimap_output/HipMer.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 4 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 1211677
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 11017
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

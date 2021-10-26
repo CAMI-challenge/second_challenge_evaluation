@@ -1,0 +1,10 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# possibly misassembled contigs	    # possible misassemblies	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+ABySS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+A_STAR	0	0	0	0	0	0	0	0	0	0	0	6	6	0	0	1	0	69	0	0	0	0
+HipMer	0	0	0	0	0	0	0	0	0	0	0	4	8	0	0	0	0	0	0	0	0	0
+marmgCAMI2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Megahit	0	0	0	0	0	0	0	0	0	0	0	9	12	0	0	0	0	160	12	10	2	72
+metaSPAdes	0	0	0	0	0	0	0	0	0	0	0	6	12	0	0	0	0	0	0	0	0	0
+Miniasm	0	0	0	0	0	0	0	0	0	0	0	3	4	0	0	0	0	0	4	4	0	4
+OPERA_MS_inhouse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	22	0	0	0	0
+SPAdes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0

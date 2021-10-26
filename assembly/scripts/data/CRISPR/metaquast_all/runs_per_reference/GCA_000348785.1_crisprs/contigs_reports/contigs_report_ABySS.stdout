@@ -1,0 +1,57 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_0_from_2330345__crt_]
+	Loaded [GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_]
+	Total Regions: 2
+	Total Region Length: 1020
+Analyzing contigs...
+CONTIG: 414400 (591bp)
+Best alignment score: 345.0 (LEN: 345, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 345.0, number of alignments: 1, unaligned bases: 246
+		Alignment: 452 796 | 1 345 | 345 345 | 100.0 | GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_1_from_985880__ml_ 414400
+
+CONTIG: 1206105 (8996bp)
+Best alignment score: 160.0 (LEN: 160, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 160.0, number of alignments: 1, unaligned bases: 8836
+		This contig is partially unaligned. (Aligned 160 out of 8967 non-N bases (1.78%))
+		Alignment: 1 160 | 5797 5638 | 160 160 | 100.0 | GCA_000348785.1_crisprs_GCA_000348785.1_CRISPR_0_from_2330345__crt_ 1206105
+		Unaligned bases: 1 to 5637 (5637)
+		Unaligned bases: 5798 to 8996 (3199)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000348785.1_crisprs/contigs_reports/minimap_output/ABySS.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000348785.1_crisprs/contigs_reports/minimap_output/ABySS.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 8807
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 505
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

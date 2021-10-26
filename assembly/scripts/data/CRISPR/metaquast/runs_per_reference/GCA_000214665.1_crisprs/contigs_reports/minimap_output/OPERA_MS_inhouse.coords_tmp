@@ -1,0 +1,4 @@
+opera_contig_8	881144	411678	412678	-	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_2	1000	0	1000	1000	1000	60	NM:i:0	ms:i:1000	AS:i:1000	nn:i:0	tp:A:P	cm:i:96	s1:i:987	s2:i:261	dv:f:0	cg:Z:1000M	cs:Z::1000
+opera_contig_8	881144	409422	410299	-	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_3	877	0	877	874	877	60	NM:i:3	ms:i:859	AS:i:859	nn:i:0	tp:A:P	cm:i:83	s1:i:834	s2:i:242	dv:f:0.0048	cg:Z:877M	cs:Z::283*ac:162*ag:123*ct:306
+opera_contig_8	881144	407227	407646	-	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_4	419	0	419	418	419	60	NM:i:1	ms:i:413	AS:i:413	nn:i:0	tp:A:P	cm:i:37	s1:i:388	s2:i:130	dv:f:0.0054	cg:Z:419M	cs:Z::50*ta:368
+opera_contig_941	107985	71541	75769	+	GCA_000214665.1_crisprs_GCA_000214665.1_CRISPR_1	4288	0	4288	4225	4288	60	NM:i:63	ms:i:4026	AS:i:4134	nn:i:0	tp:A:P	cm:i:422	s1:i:4153	s2:i:334	dv:f:0.0006	cg:Z:3058M60D1170M	cs:Z::869*tg:635*cg:1552-tgtccgccgccgcacaggcggcttagaaagctacagaatcggcggccgatagcgtcaaca:232*ca:937

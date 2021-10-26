@@ -1,0 +1,6 @@
+Assembly	A_STAR	HipMer	marmgCAMI2	Megahit	metaSPAdes	Miniasm	OPERA_MS_inhouse	SPAdes
+# fully unaligned contigs	0	0	0	0	0	0	0	0
+Fully unaligned length	0	0	0	0	0	0	0	0
+# partially unaligned contigs	12	16	1	24	16	6	5	8
+Partially unaligned length	308820	147629	5178366	352390	194336	140826	154247	42692
+# N's	2462	0	0	0	0	0	0	100

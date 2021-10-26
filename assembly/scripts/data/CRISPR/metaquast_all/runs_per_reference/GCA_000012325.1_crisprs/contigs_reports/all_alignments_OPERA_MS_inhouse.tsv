@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+120	426	313	7	GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_	opera_contig_48	98.05		True
+CONTIG	opera_contig_48	555914	correct_unaligned
+668	913	106671	106426	GCA_000012325.1_crisprs_GCA_000012325.1_CRISPR_0_from_3967485__crt_	opera_contig_956	100.0		True
+CONTIG	opera_contig_956	106671	correct_unaligned

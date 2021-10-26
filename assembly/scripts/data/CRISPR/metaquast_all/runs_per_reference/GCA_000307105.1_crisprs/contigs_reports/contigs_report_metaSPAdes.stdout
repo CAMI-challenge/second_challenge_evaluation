@@ -1,0 +1,124 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_0_from_1120959__all_]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1_from_1127872__finder_crt_]
+	Loaded [GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2_from_3489798__all_]
+	Total Regions: 3
+	Total Region Length: 5418
+Analyzing contigs...
+CONTIG: NODE_47_length_405895_cov_42.275037 (405895bp)
+Best alignment score: 292.0 (LEN: 292, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 292.0, number of alignments: 1, unaligned bases: 405603
+		This contig is partially unaligned. (Aligned 292 out of 405895 non-N bases (0.07%))
+		Alignment: 1 292 | 405787 405496 | 292 292 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1_from_1127872__finder_crt_ NODE_47_length_405895_cov_42.275037
+		Unaligned bases: 1 to 405495 (405495)
+		Unaligned bases: 405788 to 405895 (108)
+
+CONTIG: NODE_36_length_449204_cov_31.124194 (449204bp)
+Best alignment score: 292.0 (LEN: 292, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 292.0, number of alignments: 1, unaligned bases: 448912
+		This contig is partially unaligned. (Aligned 292 out of 449204 non-N bases (0.07%))
+		Alignment: 1 292 | 449074 448783 | 292 292 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1_from_1127872__finder_crt_ NODE_36_length_449204_cov_31.124194
+		Unaligned bases: 1 to 448782 (448782)
+		Unaligned bases: 449075 to 449204 (130)
+
+CONTIG: NODE_53_length_405883_cov_42.263599 (405883bp)
+Best alignment score: 292.0 (LEN: 292, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 292.0, number of alignments: 1, unaligned bases: 405591
+		This contig is partially unaligned. (Aligned 292 out of 405883 non-N bases (0.07%))
+		Alignment: 1 292 | 109 400 | 292 292 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_1_from_1127872__finder_crt_ NODE_53_length_405883_cov_42.263599
+		Unaligned bases: 1 to 108 (108)
+		Unaligned bases: 401 to 405883 (405483)
+
+CONTIG: NODE_343_length_169618_cov_41.297600 (169618bp)
+Best alignment score: 622.0 (LEN: 622, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 622.0, number of alignments: 1, unaligned bases: 168996
+		This contig is partially unaligned. (Aligned 622 out of 169618 non-N bases (0.37%))
+		Alignment: 1 622 | 83185 82564 | 622 622 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2_from_3489798__all_ NODE_343_length_169618_cov_41.297600
+		Unaligned bases: 1 to 82563 (82563)
+		Unaligned bases: 83186 to 169618 (86433)
+
+CONTIG: NODE_270_length_170971_cov_30.159315 (170971bp)
+Best alignment score: 622.0 (LEN: 622, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 622.0, number of alignments: 1, unaligned bases: 170349
+		This contig is partially unaligned. (Aligned 622 out of 170971 non-N bases (0.36%))
+		Alignment: 1 622 | 87765 88386 | 622 622 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2_from_3489798__all_ NODE_270_length_170971_cov_30.159315
+		Unaligned bases: 1 to 87764 (87764)
+		Unaligned bases: 88387 to 170971 (82585)
+
+CONTIG: NODE_345_length_169618_cov_41.325849 (169618bp)
+Best alignment score: 622.0 (LEN: 622, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 622.0, number of alignments: 1, unaligned bases: 168996
+		This contig is partially unaligned. (Aligned 622 out of 169618 non-N bases (0.37%))
+		Alignment: 1 622 | 86434 87055 | 622 622 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_2_from_3489798__all_ NODE_345_length_169618_cov_41.325849
+		Unaligned bases: 1 to 86433 (86433)
+		Unaligned bases: 87056 to 169618 (82563)
+
+CONTIG: NODE_431_length_150851_cov_43.026599 (150851bp)
+Best alignment score: 4504.0 (LEN: 4504, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 4504.0, number of alignments: 1, unaligned bases: 146347
+		This contig is partially unaligned. (Aligned 4504 out of 150851 non-N bases (2.99%))
+		Alignment: 1 4504 | 146296 150799 | 4504 4504 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_0_from_1120959__all_ NODE_431_length_150851_cov_43.026599
+		Unaligned bases: 1 to 146295 (146295)
+		Unaligned bases: 150800 to 150851 (52)
+
+CONTIG: NODE_342_length_147600_cov_31.700867 (147600bp)
+Best alignment score: 4504.0 (LEN: 4504, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 4504.0, number of alignments: 1, unaligned bases: 143096
+		This contig is partially unaligned. (Aligned 4504 out of 147600 non-N bases (3.05%))
+		Alignment: 1 4504 | 143023 147526 | 4504 4504 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_0_from_1120959__all_ NODE_342_length_147600_cov_31.700867
+		Unaligned bases: 1 to 143022 (143022)
+		Unaligned bases: 147527 to 147600 (74)
+
+CONTIG: NODE_427_length_150851_cov_43.029026 (150851bp)
+Best alignment score: 4504.0 (LEN: 4504, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 4504.0, number of alignments: 1, unaligned bases: 146347
+		This contig is partially unaligned. (Aligned 4504 out of 150851 non-N bases (2.99%))
+		Alignment: 1 4504 | 146296 150799 | 4504 4504 | 100.0 | GCA_000307105.1_crisprs_GCA_000307105.1_CRISPR_0_from_1120959__all_ NODE_427_length_150851_cov_43.029026
+		Unaligned bases: 1 to 146295 (146295)
+		Unaligned bases: 150800 to 150851 (52)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000307105.1_crisprs/contigs_reports/minimap_output/metaSPAdes.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000307105.1_crisprs/contigs_reports/minimap_output/metaSPAdes.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 9 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 2204237
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 5418
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

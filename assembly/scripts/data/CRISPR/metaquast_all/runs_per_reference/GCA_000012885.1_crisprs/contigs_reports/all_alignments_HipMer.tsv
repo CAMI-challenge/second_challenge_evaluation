@@ -1,0 +1,9 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+4170	6799	1	2630	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_0_from_1134549__all_	Scaffold354076	100.0		True
+CONTIG	Scaffold354076	25209	correct_unaligned
+1	4157	14771	18927	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_0_from_1134549__all_	Scaffold604813	100.0		True
+CONTIG	Scaffold604813	18927	correct_unaligned
+1	3791	14258	18048	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_0_from_1134549__all_	Scaffold710514	100.0		True
+CONTIG	Scaffold710514	18048	correct_unaligned
+4170	6799	1	2630	GCA_000012885.1_crisprs_GCA_000012885.1_CRISPR_0_from_1134549__all_	Scaffold11584385	100.0		True
+CONTIG	Scaffold11584385	25209	correct_unaligned

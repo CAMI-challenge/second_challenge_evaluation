@@ -1,0 +1,50 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_0_from_1020817__finder_]
+	Total Regions: 1
+	Total Region Length: 206
+Analyzing contigs...
+CONTIG: NODE_32242_length_3821_cov_1.714476 (3821bp)
+Best alignment score: 206.0 (LEN: 206, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 206.0, number of alignments: 1, unaligned bases: 3615
+		This contig is partially unaligned. (Aligned 206 out of 3821 non-N bases (5.39%))
+		Alignment: 1 206 | 383 588 | 206 206 | 100.0 | GCA_000014885.1_crisprs_GCA_000014885.1_CRISPR_0_from_1020817__finder_ NODE_32242_length_3821_cov_1.714476
+		Unaligned bases: 1 to 382 (382)
+		Unaligned bases: 589 to 3821 (3233)
+
+Analyzing coverage...
+Writing SNPs into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000014885.1_crisprs/contigs_reports/minimap_output/SPAdes.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /net/sgi/cami/data/CAMI2/scripts/second_challenge_evaluation/assembly/scripts/data/CRISPR/metaquast_all/runs_per_reference/GCA_000014885.1_crisprs/contigs_reports/minimap_output/SPAdes.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 3615
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 206
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                         A_STAR  HipMer  marmgCAMI2  Megahit  metaSPAdes  Miniasm  OPERA_MS_inhouse  SPAdes
+# misassemblies                  0       0       0           0        0           0        0                 0     
+  # contig misassemblies         0       0       0           0        0           0        0                 0     
+    # c. relocations             0       0       0           0        0           0        0                 0     
+    # c. translocations          0       0       0           0        0           0        0                 0     
+    # c. inversions              0       0       0           0        0           0        0                 0     
+  # scaffold misassemblies       0       0       0           0        0           0        0                 0     
+    # s. relocations             0       0       0           0        0           0        0                 0     
+    # s. translocations          0       0       0           0        0           0        0                 0     
+    # s. inversions              0       0       0           0        0           0        0                 0     
+# misassembled contigs           0       0       0           0        0           0        0                 0     
+Misassembled contigs length      0       0       0           0        0           0        0                 0     
+# possibly misassembled contigs  8       14      0           19       17          9        2                 6     
+    # possible misassemblies     12      14      0           20       21          12       2                 6     
+# local misassemblies            0       0       0           2        0           0        1                 0     
+# scaffold gap ext. mis.         0       0       0           0        0           0        0                 0     
+# scaffold gap loc. mis.         0       0       0           0        0           0        0                 0     
+# unaligned mis. contigs         3       3       1           7        3           0        2                 1     
+# mismatches                     31      28      8           209      61          14       45                35    
+# indels                         2       3       0           2        1           15       0                 0     
+    # indels (<= 5 bp)           0       0       0           0        0           15       0                 0     
+    # indels (> 5 bp)            2       3       0           2        1           0        0                 0     
+Indels length                    28      114     0           99       21          17       0                 0     

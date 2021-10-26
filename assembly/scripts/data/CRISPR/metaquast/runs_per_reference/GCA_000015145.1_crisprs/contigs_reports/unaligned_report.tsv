@@ -1,0 +1,6 @@
+Assembly	ABySS	A_STAR	Flye	HipMer	marmgCAMI2	Megahit	metaSPAdes	Miniasm	SPAdes
+# fully unaligned contigs	0	0	0	0	0	0	0	0	0
+Fully unaligned length	0	0	0	0	0	0	0	0	0
+# partially unaligned contigs	0	4	4	2	1	5	3	3	1
+Partially unaligned length	0	2414786	75268	766011	1660675	252359	3716979	7267536	1660675
+# N's	0	0	0	22	0	0	0	0	0

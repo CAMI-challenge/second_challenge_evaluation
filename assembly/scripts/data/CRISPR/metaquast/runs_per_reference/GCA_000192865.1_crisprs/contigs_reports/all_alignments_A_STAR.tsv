@@ -1,0 +1,31 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	929	44736	45664	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3	contig_293465	100.0		True
+unknown
+2419	3148	47230	47959	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3	contig_293465	99.32		True
+unknown
+CONTIG	contig_293465	74413	mis_unaligned
+1	929	44736	45664	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3	strain127_opera_contig_14	100.0		True
+unknown
+2419	3148	47230	47959	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_3	strain127_opera_contig_14	99.32		True
+unknown
+CONTIG	strain127_opera_contig_14	74413	mis_unaligned
+1	739	739	1	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4	contig_352375	100.0		True
+CONTIG	contig_352375	61301	correct_unaligned
+1326	2247	3	924	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4	contig_473896	100.0		True
+CONTIG	contig_473896	5282	correct_unaligned
+1	739	739	1	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4	strain127_opera_contig_20	100.0		True
+CONTIG	strain127_opera_contig_20	61301	correct_unaligned
+1326	2247	3	924	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_4	opera_contig_15938	100.0		True
+CONTIG	opera_contig_15938	7004	correct_unaligned
+1	598	3450	2853	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_2	contig_377626	100.0		True
+CONTIG	contig_377626	5616	correct_unaligned
+1	598	3450	2853	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_2	opera_contig_20846	100.0		True
+CONTIG	opera_contig_20846	5616	correct_unaligned
+1	106	303	198	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_5	contig_748290	100.0		True
+CONTIG	contig_748290	1190	correct_unaligned
+1	106	303	198	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_5	opera_contig_31134	100.0		True
+CONTIG	opera_contig_31134	4470	correct_unaligned
+3684	4153	10507	10038	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1	contig_921045	100.0		True
+CONTIG	contig_921045	10507	correct_unaligned
+3684	4153	10507	10038	GCA_000192865.1_crisprs_GCA_000192865.1_CRISPR_1	strain127_opera_contig_93	100.0		True
+CONTIG	strain127_opera_contig_93	10507	correct_unaligned

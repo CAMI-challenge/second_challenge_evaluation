@@ -1,0 +1,20 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{46}{|r}|}
+\hline
+Assembly & \# contigs ($\geq$ 1000 bp) & \# contigs ($\geq$ 5000 bp) & \# contigs ($\geq$ 10000 bp) & \# contigs ($\geq$ 25000 bp) & \# contigs ($\geq$ 50000 bp) & Total length ($\geq$ 1000 bp) & Total length ($\geq$ 5000 bp) & Total length ($\geq$ 10000 bp) & Total length ($\geq$ 25000 bp) & Total length ($\geq$ 50000 bp) & \# contigs & Largest contig & Total length & Reference length & GC (\%) & Reference GC (\%) & N50 & NG50 & N75 & NG75 & L50 & LG50 & L75 & LG75 & \# misassemblies & \# misassembled contigs & Misassembled contigs length & \# local misassemblies & \# scaffold gap ext. mis. & \# scaffold gap loc. mis. & \# unaligned mis. contigs & \# unaligned contigs & Unaligned length & Genome fraction (\%) & Duplication ratio & \# N's per 100 kbp & \# mismatches per 100 kbp & \# indels per 100 kbp & Largest alignment & Total aligned length & NA50 & NGA50 & NGA75 & LA50 & LGA50 & LGA75 \\ \hline
+A\_STAR & 4 & 2 & 2 & 2 & 2 & 154710 & 152562 & 152562 & 152562 & 152562 & 8 & 76281 & 157464 & 6799 & 53.15 & 58.27 & 76281 & 76281 & 76281 & 76281 & 2 & 1 & 2 & 1 & 2 & 2 & 2148 & 0 & 0 & 0 & 2 & 0 + 2 part & 148890 & 58.994 & 2.138 & 0.00 & 648.22 & 0.00 & 981 & 8482 & - & 943 & 855 & - & 4 & 6 \\ \hline
+HipMer & 4 & 4 & 4 & 2 & 0 & 87393 & 87393 & 87393 & 50418 & 0 & 4 & 25209 & 87393 & 6799 & 52.29 & 58.27 & 25209 & 25209 & 18927 & 25209 & 2 & 1 & 3 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 4 part & 74185 & 99.824 & 1.946 & 0.00 & 0.00 & 0.00 & 4157 & 13208 & - & 4157 & 3791 & - & 1 & 2 \\ \hline
+marmgCAMI2 & 1 & 1 & 1 & 1 & 1 & 3665852 & 3665852 & 3665852 & 3665852 & 3665852 & 1 & 3665852 & 3665852 & 6799 & 55.11 & 58.27 & 3665852 & 3665852 & 3665852 & 3665852 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 1 part & 3659053 & 100.000 & 1.000 & 0.00 & 0.00 & 0.00 & 6799 & 6799 & - & 6799 & 6799 & - & 1 & 1 \\ \hline
+Megahit & 8 & 5 & 5 & 2 & 1 & 194470 & 189335 & 189335 & 134542 & 90815 & 9 & 90815 & 195027 & 6799 & 53.32 & 58.27 & 43727 & 90815 & 24001 & 90815 & 2 & 1 & 3 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 5 part & 179273 & 100.000 & 2.317 & 0.00 & 970.73 & 58.83 & 6738 & 15313 & - & 6738 & 6738 & - & 1 & 1 \\ \hline
+metaSPAdes & 3 & 3 & 3 & 3 & 2 & 208419 & 208419 & 208419 & 208419 & 182892 & 3 & 91446 & 208419 & 6799 & 53.58 & 58.27 & 91446 & 91446 & 91446 & 91446 & 2 & 1 & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 3 part & 188022 & 100.000 & 3.000 & 0.00 & 0.00 & 0.00 & 6799 & 20397 & - & 6799 & 6799 & - & 1 & 1 \\ \hline
+Miniasm & 1 & 1 & 1 & 1 & 1 & 50405 & 50405 & 50405 & 50405 & 50405 & 1 & 50405 & 50405 & 6799 & 52.84 & 58.27 & 50405 & 50405 & 50405 & 50405 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 1 part & 43606 & 100.000 & 1.000 & 0.00 & 0.00 & 0.00 & 6799 & 6799 & - & 6799 & 6799 & - & 1 & 1 \\ \hline
+OPERA\_MS\_inhouse & 1 & 1 & 1 & 1 & 0 & 44893 & 44893 & 44893 & 44893 & 0 & 1 & 44893 & 44893 & 6799 & 52.28 & 58.27 & 44893 & 44893 & 44893 & 44893 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 1 part & 38159 & 99.941 & 0.991 & 0.00 & 117.73 & 14.72 & 6734 & 6734 & - & 6734 & 6734 & - & 1 & 1 \\ \hline
+SPAdes & 1 & 1 & 1 & 0 & 0 & 13545 & 13545 & 13545 & 0 & 0 & 1 & 13545 & 13545 & 6799 & 56.94 & 58.27 & 13545 & 13545 & 13545 & 13545 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 + 1 part & 6746 & 100.000 & 1.000 & 0.00 & 0.00 & 0.00 & 6799 & 6799 & 6799 & 6799 & 6799 & 1 & 1 & 1 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

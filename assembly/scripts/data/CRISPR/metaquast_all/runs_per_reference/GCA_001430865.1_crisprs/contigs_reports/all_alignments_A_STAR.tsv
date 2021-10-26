@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	820	10855	10036	GCA_001430865.1_crisprs_GCA_001430865.1_CRISPR_0_from_1748110__ml_	contig_646101	100.0		True
+CONTIG	contig_646101	12791	correct_unaligned
+1	820	10855	10036	GCA_001430865.1_crisprs_GCA_001430865.1_CRISPR_0_from_1748110__ml_	opera_contig_3614	100.0		True
+CONTIG	opera_contig_3614	17118	correct_unaligned

@@ -1,0 +1,25 @@
+reference chromosomes:
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_1 (total length: 1834 bp, total length without N's: 1834 bp, maximal covered length: 1834 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_2 (total length: 3455 bp, total length without N's: 3455 bp, maximal covered length: 3455 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_3 (total length: 3446 bp, total length without N's: 3446 bp, maximal covered length: 3446 bp)
+	GCA_000195335.1_crisprs_GCA_000195335.1_CRISPR_4 (total length: 1848 bp, total length without N's: 1848 bp, maximal covered length: 1848 bp)
+
+total genome size: 10583
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+ABySS_to_GCA_000195335.1 | 4.828     | 1.000       | 5         | -         | -         | -         | -         |
+A_STAR_to_GCA_000195335. | 47.879    | 1.974       | 3         | -         | -         | -         | -         |
+HipMer_to_GCA_000195335. | 99.717    | 2.007       | 0         | -         | -         | -         | -         |
+marmgCAMI2_to_GCA_000195 | 100.000   | 1.000       | 0         | -         | -         | -         | -         |
+Megahit_to_GCA_000195335 | 100.000   | 2.484       | 0         | -         | -         | -         | -         |
+metaSPAdes_to_GCA_000195 | 100.000   | 2.993       | 0         | -         | -         | -         | -         |
+Miniasm_to_GCA_000195335 | 100.000   | 1.026       | 0         | -         | -         | -         | -         |
+OPERA_MS_inhouse_to_GCA_ | 99.348    | 1.010       | 1         | -         | -         | -         | -         |
+SPAdes_to_GCA_000195335. | 100.000   | 1.015       | 0         | -         | -         | -         | -         |
