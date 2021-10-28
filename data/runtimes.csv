@@ -1,4 +1,5 @@
 Name,Version,Runtime (hours),Maximum memory (GB),dataset,task,challenge,detail
+MetaHipMer,2.0.1.2,2.17,1961.09,marine,assembly,cami2,
 Flye,2.4.1,3.59,407.12,marine,assembly,cami2,
 MEGAHIT,1.2.7,7.07,42.02,marine,assembly,cami2,
 metaSPAdes,3.13.1,44.41,262.74,marine,assembly,cami2,

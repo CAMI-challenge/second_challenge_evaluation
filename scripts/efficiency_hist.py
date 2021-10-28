@@ -29,7 +29,7 @@ def comp_average(a, b):
 
 def get_sorted(runtimes, tools, metric):
     x = runtimes[runtimes['Name'].isin(tools)].copy()
-    x['method'] = x['Name'] + ' ' + x['Version'] + ' ' + x['detail']
+    x['method'] = x['Name'] + ' ' + x['Version'] + ' ' + x['detail'].str.upper()
 
     x = x[['method', metric, 'dataset']]
     x = x.pivot_table(index=['method'], columns='dataset', values=metric)
@@ -60,9 +60,8 @@ def format_pd(runtimes, metric):
     colors2_tb = [COLORS2_TB] * n2
     colors1_pr = [COLORS1_PR] * n3
     colors2_pr = [COLORS2_PR] * n3
-    my_colors = (
-        tuple(colors1_as + colors1_gb + colors1_tb + colors1_pr),
-        tuple(colors2_as + colors2_gb + colors2_tb + colors2_pr))
+    my_colors = {'marine': colors1_as + colors1_gb + colors1_tb + colors1_pr,
+                 'strain madness': colors2_as + colors2_gb + colors2_tb + colors2_pr}
 
     return sorted_pd, my_colors, metric
 
@@ -125,7 +124,7 @@ def doit(sorted_pd, my_colors, metric):
     ax.tick_params(axis='y', which='both', labelsize=12, labelbottom=True)
     ax.tick_params(axis='x', which='both', labelsize=12, labelbottom=True)
 
-    ax.set_xscale('symlog', linthreshx=1)
+    ax.set_xscale('symlog', linthresh=1)
     vals = ax.get_xticks()
     ax.set_xticklabels(['{:,.0f}'.format(x) for x in vals], fontsize=12, ha='right')
 
@@ -147,7 +146,7 @@ if __name__ == "__main__":
     # exit()
     runtimes = pd.read_csv(FILE, sep=',').fillna('')
 
-    assemblers = 'MEGAHIT,GATB,metaSPAdes,OPERA-MS,Ray Meta,AbySS'.split(',')
+    assemblers = 'MetaHipMer,MEGAHIT,GATB,metaSPAdes,OPERA-MS,Ray Meta,AbySS'.split(',')
     genome_binners = 'UltraBinner,MetaBAT,MetaBinner,Autometa,MaxBin,CONCOCT,SolidBin,LSHVec,Vamb'.split(',')
     taxonomic_binners = 'DIAMOND,MEGAN,Kraken,PhyloPythiaS+'.split(',')
     profilers = ['Bracken', 'CCMetagen', 'Centrifuge', 'DUDes', 'FOCUS', 'LSHVec', 'MetaPhlAn', 'MetaPhyler',
