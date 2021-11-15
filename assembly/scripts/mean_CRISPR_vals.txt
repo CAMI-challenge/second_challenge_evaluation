@@ -1,0 +1,42 @@
+ABySS
+mean: 36.635944591970016
+median: 27.050700571692936
+mean contig length: 9327.568965517241
+median contig length: 602.5
+A-STAR
+mean: 44.605679002575975
+median: 31.842966194111234
+mean contig length: 61604.99076923077
+median contig length: 6824
+Flye missing
+HipMer
+mean: 57.62042289968788
+median: 52.93701043061813
+mean contig length: 94876.09523809524
+median contig length: 23069
+marmgCAMI2
+mean: 100.0
+median: 100.0
+mean contig length: 3851444.256756757
+median contig length: 4684311.0
+Megahit
+mean: 72.58514872066624
+median: 100.0
+mean contig length: 68503.72602739726
+median contig length: 30273
+metaSPAdes
+mean: 83.64380958714375
+median: 100.0
+mean contig length: 115932.54098360655
+median contig length: 31372.5
+Miniasm
+mean: 68.03137309472268
+median: 84.41860465116278
+mean contig length: 270747.46853146853
+median contig length: 51418
+OPERA-MS-inhouse
+mean: 76.64426402770762
+median: 100.0
+mean contig length: 148778.63636363635
+median contig length: 66583
+SPAdes missing

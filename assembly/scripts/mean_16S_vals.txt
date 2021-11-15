@@ -1,0 +1,50 @@
+ABySS_short
+mean: 31.591204627354546
+median: 25.539083557951482
+mean contig length: 8657.96875
+median contig length: 768.5
+A-STAR_contig_hybrid
+mean: 37.89576143911569
+median: 34.11863604574771
+mean contig length: 29645.098039215685
+median contig length: 1028.0
+A-STAR_scaffold_hybrid missing
+Flye_long missing
+HipMer_cgraph-ono_short missing
+HipMer_cgraph_short missing
+HipMer_Metagenome_short
+mean: 29.643447135352936
+median: 21.482176904283776
+mean contig length: 22913.306666666667
+median contig length: 1313
+Megahit_v1-1-2_short missing
+marmgCAMI2_short_read_pooled_gsa
+mean: 99.9870617156165
+median: 100.0
+mean contig length: 4047368.9312977097
+median contig length: 4279149
+Megahit_v1-1-4-2_short
+mean: 36.92184219858489
+median: 29.273084479371313
+mean contig length: 16433.807228915663
+median contig length: 1391
+Megahit_V1-2-7-inhouse_short missing
+metaSPAdes_v3-13-0_short missing
+metaSPAdes_v3-13-1-inhouse_short missing
+metaSPAdes_v3-13-1_short
+mean: 34.03767680002963
+median: 23.72291146249131
+mean contig length: 46852.76190476191
+median contig length: 1082.0
+Miniasm_GATB_hybrid
+mean: 60.07026058923199
+median: 63.261296660117885
+mean contig length: 148542.10144927536
+median contig length: 8513
+OPERA-MS-inhouse_hybrid
+mean: 47.12879338238558
+median: 34.509102284277674
+mean contig length: 68529.16
+median contig length: 4430.0
+Ray-Meta_short missing
+SPAdes_v3-14-dev_short missing
