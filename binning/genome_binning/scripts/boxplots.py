@@ -42,11 +42,11 @@ DATASET_TO_PATH = {'mar_gsa': '../marine_dataset/results/amber_marine_nocircular
                    'str_unique': '../strain_madness_dataset/results/amber_strain_madness_unique_strains/',
                    'str_common': '../strain_madness_dataset/results/amber_strain_madness_common_strains/'}
 
-DATASETS_L = {'mar_gsa': 'Marine\nGSA', 'mar_ma': 'Marine\nMA',
-              'str_gsa': 'Strain\nmadness\nGSA', 'str_ma': 'Strain\nmadness\nMA',
-              'rhi_gsa': 'Plant-\nassociated\nGSA', 'rhi_ma': 'Plant-\nassociated\nMA',
-              'mar_unique': 'Marine\nunique\nstrains', 'mar_common': 'Marine\ncommon\nstrains',
-              'str_unique': 'Strain\nmadness\nunique\nstrains', 'str_common': 'Strain\nmadness\ncommon\nstrains'}
+DATASETS_L = {'mar_gsa': 'Marine GSA', 'mar_ma': 'Marine MA',
+              'str_gsa': 'Strain madness GSA', 'str_ma': 'Strain madness MA',
+              'rhi_gsa': 'Plant-associated GSA', 'rhi_ma': 'Plant-associated MA',
+              'mar_unique': 'Marine unique strains', 'mar_common': 'Marine common strains',
+              'str_unique': 'Strain madness unique strains', 'str_common': 'Strain madness common strains'}
 
 DATASETS_L2 = {'mar_gsa': 'Marine GSA', 'mar_ma': 'Marine MA',
                'str_gsa': 'Strain m. GSA', 'str_ma': 'Strain m. MA',
@@ -96,13 +96,13 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
         axs[i, j].spines['top'].set_visible(False)
         axs[i, j].set_xlabel('')
 
-        if j == 4 and dataset:
-            axs[i, j].set_ylabel(DATASETS_L[dataset], fontsize=11, rotation='0', labelpad=35)
-            axs[i, j].yaxis.set_label_position('right')
-            axs[i, j].yaxis.set_label_coords(1.4, .7)
+        if j == 2 and dataset:
+            axs[i, j].set_title(DATASETS_L[dataset], fontsize=11, pad=3)  # x=-0.5
+            axs[i, j].set_ylabel('')
         elif j == 0:
             axs[i, j].set_ylabel(string.ascii_lowercase[i], rotation='0', weight='bold', fontsize=12)
-            axs[i, j].yaxis.set_label_coords(-.8, .85)
+            axs[i, j].yaxis.set_label_coords(-1.1, 0.95)
+            # axs[i, j].yaxis.set_label_coords(-0.8, 0.95)
         else:
             axs[i, j].set_ylabel('')
 
@@ -122,9 +122,15 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
             metric_ = plotcol['metric_']
 
             data_order = [DATASETS_L2[dataset] for dataset in datasets]
-            print(data_order)
             meanprops = dict(markerfacecolor='black', markeredgecolor='black', markersize=4, marker='>')
             sns.boxplot(orient='h', x=metric_, y='dataset', data=pdres_u, ax=axs[i, j], showmeans=True, order=data_order, linewidth=.5, fliersize=1, meanprops=meanprops)
+
+            twin_ax = axs[i, j].twinx()
+            twin_ax.set_yticks(axs[i, j].get_yticks())
+            twin_ax.set_yticklabels(['n={}'.format(x) for x in pdres_u.groupby('dataset').count().loc[data_order][TOOL].tolist()])
+            twin_ax.tick_params(axis='y', length=0, labelsize=7.5, pad=1)
+            twin_ax.set_ylim(axs[i, j].get_ylim())
+
             format_axs(i, j)
 
     for j, plotcol in enumerate(plotcols):
@@ -133,7 +139,6 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
         metric_ = plotcol['metric_']
         for i, dataset in enumerate(datasets, row1 if pdres_u.empty else row1 + 1):
             print(dataset, i)
-            # sortedpd = sortedpd.sort_values(by=[dataset + metric_ + 'rank'])
 
             sorted_tools = sortedpd[[dataset + TOOL, dataset + metric_, 'color']]
             sorted_tools = sorted_tools[~sorted_tools[dataset + TOOL].isna()]
@@ -156,6 +161,12 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
 
                 meanprops = dict(markerfacecolor='black', markeredgecolor='black', markersize=4, marker='>')
                 sns.boxplot(orient='h', x=metric, y='method', data=pd_bins, ax=axs[i, j], showmeans=True, order=sorted_tools.index, linewidth=.5, meanprops=meanprops, fliersize=1)
+
+                twin_ax = axs[i, j].twinx()
+                twin_ax.set_yticks(axs[i, j].get_yticks())
+                twin_ax.set_yticklabels(['n={}'.format(x) for x in pd_bins.groupby('method').count().loc[sorted_tools.index][metric].tolist()])
+                twin_ax.tick_params(axis='y', length=0, labelsize=7.5, pad=1)
+                twin_ax.set_ylim(axs[i, j].get_ylim())
 
                 for artists_i, (artist, color) in enumerate(zip(axs[i, j].artists, sorted_tools.color.values.tolist())):
                     artist.set_facecolor(color)
@@ -262,23 +273,23 @@ def main():
     plotcols = [{'label': 'Completeness (%)', 'metric': 'recall_bp', 'metric_': AVG_RECALL_BP_CAMI1},
                 {'label': 'Purity (%)', 'metric': 'precision_bp', 'metric_': AVG_PRECISION_BP},
                 {'label': 'ARI (%)', 'metric_': ARI_BY_BP},
-                {'label': 'Binned bp (%)', 'metric_': PERCENTAGE_ASSIGNED_BPS},
-                {'label': 'Genomes (%)', 'metric_': MIN_RECALL}]
+                {'label': 'Binned bp (%)', 'metric_': PERCENTAGE_ASSIGNED_BPS}]
 
     num_cols = 5
     num_rows = 7
+    plotcols.append({'label': 'Genomes (%)', 'metric_': MIN_RECALL})
     fig, axs = plt.subplots(num_rows, num_cols, figsize=(8, 11), sharex=True)
     go(pdres, plotcols, DATASETS, 0, axs, num_rows, pdres_u)
-    plt.subplots_adjust(wspace=0.1, hspace=0.105)
+    plt.subplots_adjust(wspace=0.6, hspace=0.3)
     fig.savefig('../boxplots.pdf', dpi=100, format='pdf', bbox_inches='tight')
     plt.close()
 
+    # num_cols = 4
     # num_rows = 4
     # fig, axs = plt.subplots(num_rows, num_cols, figsize=(8, 6.37), sharex=True)
-    # # go(pdres, plotcols, DATASETS, 0, axs, num_rows, pdres_u)
     # go(pdres2, plotcols, DATASETSB, 0, axs, num_rows)
-    # plt.subplots_adjust(wspace=0.1, hspace=0.105)
-    # fig.savefig(DATASET_TO_PATH['mar_gsa'] + 'boxplots2.pdf', dpi=100, format='pdf', bbox_inches='tight')
+    # plt.subplots_adjust(wspace=0.5, hspace=0.3)
+    # fig.savefig('../boxplots2.pdf', dpi=100, format='pdf', bbox_inches='tight')
     # plt.close()
 
     print('done')
