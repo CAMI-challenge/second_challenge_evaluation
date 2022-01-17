@@ -76,7 +76,7 @@ def add_legend(save, ax=None):
 
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS1_AS)]
-    leg0 = ax.legend(circles, ['marine'], loc='upper right', bbox_to_anchor=(xpos, ypos), fontsize=14, borderaxespad=0.,
+    leg0 = ax.legend(circles, ['Marine'], loc='upper right', bbox_to_anchor=(xpos, ypos), fontsize=14, borderaxespad=0.,
                      handlelength=1, handletextpad=.5, frameon=False, title='Assembly')
     leg0._legend_box.align = 'left'
     leg0.get_title().set_fontsize(14)
@@ -84,7 +84,7 @@ def add_legend(save, ax=None):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS1_GB),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS2_GB)]
-    leg1 = ax.legend(circles, ['marine', 'strain madness'], loc='upper right', bbox_to_anchor=(xpos + 0.25, ypos),
+    leg1 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='upper right', bbox_to_anchor=(xpos + 0.25, ypos),
                      fontsize=14, borderaxespad=0., handlelength=1, handletextpad=.5, frameon=False,
                      title='Genome binning')
     leg1._legend_box.align = 'left'
@@ -93,7 +93,7 @@ def add_legend(save, ax=None):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS1_TB),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS2_TB)]
-    leg2 = ax.legend(circles, ['marine', 'strain madness'], loc='upper right', bbox_to_anchor=(xpos + 0.50, ypos),
+    leg2 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='upper right', bbox_to_anchor=(xpos + 0.50, ypos),
                      fontsize=14, borderaxespad=0., handlelength=1, handletextpad=.5, frameon=False,
                      title='Taxonomic binning')
     leg2._legend_box.align = 'left'
@@ -102,7 +102,7 @@ def add_legend(save, ax=None):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS1_PR),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=8, markerfacecolor=COLORS2_PR)]
-    leg3 = ax.legend(circles, ['marine', 'strain madness'], loc='upper right', bbox_to_anchor=(xpos + 0.75, ypos),
+    leg3 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='upper right', bbox_to_anchor=(xpos + 0.75, ypos),
                      fontsize=14, borderaxespad=0., handlelength=1, handletextpad=.5, frameon=False,
                      title='Taxonomic profiling')
     leg3._legend_box.align = 'left'

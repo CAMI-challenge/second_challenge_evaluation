@@ -27,16 +27,23 @@ pd.set_option('display.max_rows', None)
 # pd.set_option('display.max_colwidth', 99999999)
 pd.set_option('display.expand_frame_repr', False)
 
-DATASETS = ['mar_gsa', 'str_gsa']
+DATASETS = ['mar_gsa', 'mar_ma', 'str_gsa', 'str_ma', 'rhi_gsa', 'rhi_ma']
 
 DATASET_TO_PATH = {'mar_gsa': '../../binning/genome_binning/marine_dataset/results/amber_marine_nocircular/',
-                   'str_gsa': '../../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness/'}
+                   'mar_ma': '../../binning/genome_binning/marine_dataset/results/amber_marine_megahit_nocircular/',
+                   'str_gsa': '../../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness/',
+                   'str_ma': '../../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness_megahit/',
+                   'rhi_gsa': '../../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_noplasmids/',
+                   'rhi_ma': '../../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_megahit_noplasmids/'}
 
-DATASETS_L = {'mar_gsa': 'Marine GSA',
-              'str_gsa': 'Strain madness GSA'}
+DATASETS_L = {'mar_gsa': 'Marine GSA', 'mar_ma': 'Marine MA',
+              'str_gsa': 'Strain-madness GSA', 'str_ma': 'Strain-madness MA',
+              'rhi_gsa': 'Plant-associated GSA', 'rhi_ma': 'Plant-associated MA',
+              'mar_unique': 'Marine unique strains', 'mar_common': 'Marine common strains',
+              'str_unique': 'Strain-madness unique strains', 'str_common': 'Strain-madness common strains'}
 
 DATASETS_L2 = {'mar_gsa': 'Marine GSA', 'mar_ma': 'Marine MA',
-               'str_gsa': 'Strain m. GSA', 'str_ma': 'Strain m. MA',
+               'str_gsa': 'Strain-m. GSA', 'str_ma': 'Strain-m. MA',
                'rhi_gsa': 'Plant-a. GSA', 'rhi_ma': 'Plant-a. MA'}
 
 
@@ -80,9 +87,9 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
         else:
             ticks_loc = axs[i, j].get_xticks().tolist()
             axs[i, j].xaxis.set_major_locator(mticker.FixedLocator(ticks_loc))
-            axs[i, j].set_xticklabels(['{:3.0f}'.format(x * 100) for x in axs[i, j].get_xticks()], fontsize=14, ha='right')
+            axs[i, j].set_xticklabels(['{:3.0f}'.format(x * 100) for x in axs[i, j].get_xticks()], fontsize=17)
 
-        axs[i, j].tick_params(axis='y', length=0, labelsize=16)
+        axs[i, j].tick_params(axis='y', length=0, labelsize=17)
 
         axs[i, j].spines['right'].set_visible(False)
         axs[i, j].spines['top'].set_visible(False)
@@ -112,7 +119,7 @@ def go(sortedpd, plotcols, datasets, row1, axs, num_rows, pdres_u=pd.DataFrame()
         xlabel = plotcol['label']
         metric = plotcol['metric'] if 'metric' in plotcol else None
         metric_ = plotcol['metric_']
-        for i, dataset in enumerate(datasets, row1 if pdres_u.empty else row1 + 1):
+        for i, dataset in enumerate([datasets[0], datasets[2]], row1 if pdres_u.empty else row1 + 1):
             print(dataset, i)
 
             sorted_tools = sortedpd[[dataset + TOOL, dataset + metric_, 'color']]
@@ -208,10 +215,6 @@ def load_hq_bins_best(datasets):
 
 def main(ax):
     pdres = get_pds(DATASETS)
-
-    hq_bins_best = load_hq_bins_best(DATASETS)
-
-    pdres = pd.concat([pdres, hq_bins_best], axis=1)
 
     pdres['sum'] = pdres[[dataset + metric_r for dataset in DATASETS[:4] for metric_r in METRICS_R]].sum(axis=1)
     sortedpd = pdres.sort_values(by=['sum'])

@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[left=0.3in,right=0.3in,top=0.5in,bottom=0.3in]{geometry}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\floatsetup[figure]{style=plain,subcapbesideposition=top, position=top, margins=raggedright, objectset=raggedright}
+\captionsetup[subfigure]{labelformat=simple,labelfont={bf,sf},font=large}
+
+\begin{document}
+\begin{figure}
+    \centering
+    \includegraphics[width=376pt]{legend-crop}\\
+    \vspace*{-1px}
+    \sidesubfloat[]{\includegraphics[width=174pt]{../marine_dataset/results/OPAL_short_long_noplasmids/avg_purity_completeness_bp_marine_genus_no_legend-crop}}
+    \quad
+    \sidesubfloat[]{\includegraphics[width=170pt]{../marine_dataset/results/OPAL_short_long_noplasmids/l1_unifrac_marine_genus_no_legend-crop}}
+    \par\bigskip
+    \sidesubfloat[]{\includegraphics[width=174pt]{../strain_madness_dataset/results/OPAL_short_long/avg_purity_completeness_bp_sm_genus_no_legend-crop}}
+    \quad
+    \sidesubfloat[]{\includegraphics[width=170pt]{../strain_madness_dataset/results/OPAL_short_long/l1_unifrac_sm_genus_no_legend-crop}}
+    
+\end{figure}
+\end{document}
+
+

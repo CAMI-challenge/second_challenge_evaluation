@@ -204,7 +204,7 @@ def do_plot(ax, theta):
         ax.set_rgrids([all_min + diff/3,all_min+2*diff/3,all_max], rgrids, fontsize=18)
     ax.set_title(metric, size=20, position=(0.5, 1.12), horizontalalignment='center', verticalalignment='center')
     labels = assemblers.keys()
-    ax.set_varlabels(labels, fontsize=16)
+    ax.set_varlabels(labels, fontsize=17)
     angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False).tolist()
     angles += angles[:1]
     for label, angle in zip(ax.get_xticklabels(), angles):
@@ -215,7 +215,7 @@ def do_plot(ax, theta):
         else:
             label.set_horizontalalignment('left')
 
-    subsets = [x.replace('_', ' ') for x in subsets]
+    subsets = [x.replace('_', ' ').replace('strain madness', 'strain-madness') for x in subsets]
 
     def flip(items, ncol):
         return itertools.chain(*[items[i::ncol] for i in range(ncol)])

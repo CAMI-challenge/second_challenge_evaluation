@@ -81,8 +81,8 @@ def plot_summary(counts, df_results, tools, xlabel, ylabel, metricx, metricy, ax
     # turn on grid
     axs.grid(which='major', linestyle=':', linewidth='0.5')
 
-    axs.tick_params(axis='x', labelsize=16)
-    axs.tick_params(axis='y', labelsize=16)
+    axs.tick_params(axis='x', labelsize=17)
+    axs.tick_params(axis='y', labelsize=17)
     axs.xaxis.set_major_locator(plt.MaxNLocator(6))
 
     plt.title('Marine', fontsize=20)

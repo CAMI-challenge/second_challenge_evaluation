@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import os
-import os.path
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -112,7 +110,7 @@ def plot_taxonomic_results(df_summary_t, metrics_list, errors_list, dataset, too
 
         if col == 0:
             yticks = axs[row, col].get_yticks()
-            axs[row, col].set_yticklabels(['{:3.0f}'.format(y * 100) for y in yticks], fontsize=14)
+            axs[row, col].set_yticklabels(['{:3.0f}'.format(y * 100) for y in yticks], fontsize=17)
         else:
             axs[row, col].set_yticklabels('')
 
@@ -128,7 +126,7 @@ def plot_taxonomic_results(df_summary_t, metrics_list, errors_list, dataset, too
             col += 1
 
     # fig.text(0.08, 0.5, 'Metric (%)', ha='center', va='center', rotation='vertical', size=25)
-    axs[0, 0].text(-1.6, -0.5, 'Metric (%)', size=20, rotation='vertical')
+    axs[0, 0].text(-1.7, -0.44, 'Metric (%)', size=20, rotation='vertical')
 
     # plt.subplots_adjust(wspace=0.13, hspace=0.25)
     # fig.suptitle(DATASET_TO_TITLE[dataset], fontsize=28, y=1.01)

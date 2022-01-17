@@ -39,7 +39,7 @@ def get_sorted(runtimes, tools, metric):
     # x['method'] = x['Name'] + ' ' + x['Version'] + ' ' + x['detail'].str.upper()
     x['method'] = x['Name'] + ' ' + x['detail'].str.upper()
 
-    x = x.sort_values(by=['Runtime (hours)']).drop_duplicates(subset=['Name', 'dataset'])
+    x = x.sort_values(by=['Runtime (hours)']).drop_duplicates(subset=['Name', 'dataset', 'task'])
     x = x[['method', metric, 'dataset']]
     x = x.pivot_table(index=['method'], columns='dataset', values=metric)
 
@@ -83,7 +83,7 @@ def add_legend(ax):
 
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS1_AS)]
-    leg0 = ax.legend(circles, ['marine'], loc='lower left', bbox_to_anchor=(xpos, ypos), fontsize=fontsize, borderaxespad=0.,
+    leg0 = ax.legend(circles, ['Marine'], loc='lower left', bbox_to_anchor=(xpos, ypos), fontsize=fontsize, borderaxespad=0.,
                      handlelength=1, handletextpad=.3, frameon=False, title='Assembly')
     leg0._legend_box.align = 'left'
     leg0.get_title().set_fontsize(fontsize)
@@ -91,7 +91,7 @@ def add_legend(ax):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS1_GB),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS2_GB)]
-    leg1 = ax.legend(circles, ['marine', 'strain madness'], loc='lower left', bbox_to_anchor=(xpos, ypos - 0.1),
+    leg1 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='lower left', bbox_to_anchor=(xpos, ypos - 0.1),
                      fontsize=fontsize, borderaxespad=0., handlelength=1, handletextpad=.3, frameon=False,
                      title='Genome binning')
     leg1._legend_box.align = 'left'
@@ -100,7 +100,7 @@ def add_legend(ax):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS1_TB),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS2_TB)]
-    leg2 = ax.legend(circles, ['marine', 'strain madness'], loc='lower left', bbox_to_anchor=(xpos + 1.1, ypos - 0.033),
+    leg2 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='lower left', bbox_to_anchor=(xpos + 1.1, ypos - 0.033),
                      fontsize=fontsize, borderaxespad=0., handlelength=1, handletextpad=.3, frameon=False,
                      title='Taxonomic binning')
     leg2._legend_box.align = 'left'
@@ -109,7 +109,7 @@ def add_legend(ax):
     circles = [
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS1_PR),
         Line2D([], [], markeredgewidth=0, linestyle="None", marker="s", markersize=14, markerfacecolor=COLORS2_PR)]
-    leg3 = ax.legend(circles, ['marine', 'strain madness'], loc='lower left', bbox_to_anchor=(xpos + 1.1, ypos - 0.13),
+    leg3 = ax.legend(circles, ['Marine', 'Strain-madness'], loc='lower left', bbox_to_anchor=(xpos + 1.1, ypos - 0.13),
                      fontsize=fontsize, borderaxespad=0., handlelength=1, handletextpad=.3, frameon=False,
                      title='Taxonomic profiling')
     leg3._legend_box.align = 'left'
@@ -126,8 +126,8 @@ def doit(sorted_pd, my_colors, metric, ax):
     ax.grid(which='major', axis='x', linestyle='-', linewidth='0.5', color='lightgrey', zorder=0)
     ax.set_xlabel(metric, fontsize=20)
     ax.set_ylabel('')
-    ax.tick_params(axis='y', which='both', labelsize=16, labelbottom=True, pad=-1)
-    ax.tick_params(axis='x', which='both', labelsize=16, labelbottom=True)
+    ax.tick_params(axis='y', which='both', labelsize=17, labelbottom=True, pad=-1)
+    ax.tick_params(axis='x', which='both', labelsize=17, labelbottom=True)
 
     ax.set_xscale('symlog')  # linthresh=1
     vals = ax.get_xticks()

@@ -13,6 +13,29 @@ from bokeh.resources import INLINE
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', False)
 
+ASSEMBLERS = [('../assembly/rankings/assemblers_marine.csv', "Marine", "Assemblers - Marine dataset"),
+              ('../assembly/rankings/assemblers_marine_common.csv', "Marine (common genomes)", "Assemblers - Common marine genomes"),
+              ('../assembly/rankings/assemblers_marine_unique.csv', "Marine (unique genomes)", "Assemblers - Unique marine genomes"),
+              ('../assembly/rankings/assemblers_strain_madness.csv', "Strain madness", "Assemblers - Strain madness dataset"),
+              ('../assembly/rankings/assemblers_strain_madness_common.csv', "Strain madness (common genomes)", "Assemblers - Common strain madness genomes"),
+              ('../assembly/rankings/assemblers_strain_madness_unique.csv', "Strain madness (unique genomes)", "Assemblers - Unique strain madness genomes")]
+
+GENOME_BIN = [('../binning/genome_binning/marine_dataset/results/amber_marine_nocircular/rankings.tsv', "Marine GSA", "Genome binners - Marine gold standard assembly"),
+              ('../binning/genome_binning/marine_dataset/results/amber_marine_megahit_nocircular/rankings.tsv', "Marine MEGAHIT", "Genome binners - Marine MEGAHIT assembly"),
+              ('../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness/rankings.tsv', "Strain madness GSA", "Genome binners - Strain madness gold standard assembly"),
+              ('../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness_megahit/rankings.tsv', "Strain madness MEGAHIT", "Genome binners - Strain madness MEGAHIT assembly"),
+              ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_noplasmids/rankings.tsv', "Plant-associated GSA", "Genome binners - Plant-associated gold standard assembly"),
+              ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_megahit_noplasmids/rankings.tsv', "Plant-associated MEGAHIT", "Genome binners - Plant-associated MEGAHIT assembly"),
+              ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_hybrid_noplasmids/rankings.tsv', "Plant-associated hybrid", "Genome binners - Plant-associated hybrid assembly")]
+
+TAX_BIN = [('../binning/taxonomic_binning/marine_dataset/data/results/rankings.tsv', 'Marine', 'Taxonomic binners - Marine gold standard assembly (c.), short reads (s.r.), long reads (l.r.)'),
+           ('../binning/taxonomic_binning/strain_madness_dataset/data/results/rankings.tsv', 'Strain madness', 'Taxonomic binners - Strain madness gold standard assembly (c.), short reads (s.r.), long reads (l.r.)'),
+           ('../binning/taxonomic_binning/plant_associated_dataset/data/results/rankings.tsv', 'Plant-associated', 'Taxonomic binners - Plant-associated gold standard assembly (c.), short reads (s.r.)',)]
+
+PROFILERS = [('../profiling/marine_dataset/results/OPAL_short_long_noplasmids/rankings.tsv', 'Marine', 'Taxonomic profilers - Marine dataset'),
+             ('../profiling/strain_madness_dataset/results/OPAL_short_long/rankings.tsv', 'Strain madness', 'Taxonomic profilers - Strain madness dataset'),
+             ('../profiling/rhizosphere_dataset/results/OPAL_short_long_noplasmids/rankings.tsv', 'Plant-associated', 'Taxonomic profilers - Plant-associated dataset')]
+
 METRICS_ASSEMB = {'Sum of scores': 'sum',
                   'Strain recall': 'recall',
                   'Strain precision': 'precision',
@@ -154,33 +177,10 @@ def create_html():
         </html>
         ''')
 
-    assemblers = [('../assembly/rankings/assemblers_marine.csv', "Marine", "Assemblers - Marine dataset"),
-                  ('../assembly/rankings/assemblers_marine_common.csv', "Marine (common genomes)", "Assemblers - Common marine genomes"),
-                  ('../assembly/rankings/assemblers_marine_unique.csv', "Marine (unique genomes)", "Assemblers - Unique marine genomes"),
-                  ('../assembly/rankings/assemblers_strain_madness.csv', "Strain madness", "Assemblers - Strain madness dataset"),
-                  ('../assembly/rankings/assemblers_strain_madness_common.csv', "Strain madness (common genomes)", "Assemblers - Common strain madness genomes"),
-                  ('../assembly/rankings/assemblers_strain_madness_unique.csv', "Strain madness (unique genomes)", "Assemblers - Unique strain madness genomes")]
-
-    genome_bin = [('../binning/genome_binning/marine_dataset/results/amber_marine_nocircular/rankings.tsv', "Marine GSA", "Genome binners - Marine gold standard assembly"),
-                  ('../binning/genome_binning/marine_dataset/results/amber_marine_megahit_nocircular/rankings.tsv', "Marine MEGAHIT", "Genome binners - Marine MEGAHIT assembly"),
-                  ('../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness/rankings.tsv', "Strain madness GSA", "Genome binners - Strain madness gold standard assembly"),
-                  ('../binning/genome_binning/strain_madness_dataset/results/amber_strain_madness_megahit/rankings.tsv', "Strain madness MEGAHIT", "Genome binners - Strain madness MEGAHIT assembly"),
-                  ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_noplasmids/rankings.tsv', "Plant-associated GSA", "Genome binners - Plant-associated gold standard assembly"),
-                  ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_megahit_noplasmids/rankings.tsv', "Plant-associated MEGAHIT", "Genome binners - Plant-associated MEGAHIT assembly"),
-                  ('../binning/genome_binning/plant_associated_dataset/results/amber_rhizosphere_hybrid_noplasmids/rankings.tsv', "Plant-associated hybrid", "Genome binners - Plant-associated hybrid assembly")]
-
-    tax_bin = [('../binning/taxonomic_binning/marine_dataset/data/results/rankings.tsv', 'Marine', 'Taxonomic binners - Marine gold standard assembly (c.), short reads (s.r.), long reads (l.r.)'),
-               ('../binning/taxonomic_binning/strain_madness_dataset/data/results/rankings.tsv', 'Strain madness', 'Taxonomic binners - Strain madness gold standard assembly (c.), short reads (s.r.), long reads (l.r.)'),
-               ('../binning/taxonomic_binning/plant_associated_dataset/data/results/rankings.tsv', 'Plant-associated', 'Taxonomic binners - Plant-associated gold standard assembly (c.), short reads (s.r.)',)]
-
-    profilers = [('../profiling/marine_dataset/results/OPAL_short_long_noplasmids/rankings.tsv', 'Marine', 'Taxonomic profilers - Marine dataset'),
-                 ('../profiling/strain_madness_dataset/results/OPAL_short_long/rankings.tsv', 'Strain madness', 'Taxonomic profilers - Strain madness dataset'),
-                 ('../profiling/rhizosphere_dataset/results/OPAL_short_long_noplasmids/rankings.tsv', 'Plant-associated', 'Taxonomic profilers - Plant-associated dataset')]
-
-    panels_assemblers = [create_rankings_html(read_assemblers_scores(x[0]), x[1], x[2], METRICS_ASSEMB) for x in assemblers]
-    panels_genome_binners = [create_rankings_html(read_scores(x[0], METRICS_GBIN), x[1], x[2], METRICS_GBIN) for x in genome_bin]
-    panels_tax_binners = [create_rankings_html(read_scores(x[0], METRICS_TBIN), x[1], x[2], METRICS_TBIN) for x in tax_bin]
-    panels_profilers = [create_rankings_html(read_scores(x[0], METRICS_PROF), x[1], x[2], METRICS_PROF) for x in profilers]
+    panels_assemblers = [create_rankings_html(read_assemblers_scores(x[0]), x[1], x[2], METRICS_ASSEMB) for x in ASSEMBLERS]
+    panels_genome_binners = [create_rankings_html(read_scores(x[0], METRICS_GBIN), x[1], x[2], METRICS_GBIN) for x in GENOME_BIN]
+    panels_tax_binners = [create_rankings_html(read_scores(x[0], METRICS_TBIN), x[1], x[2], METRICS_TBIN) for x in TAX_BIN]
+    panels_profilers = [create_rankings_html(read_scores(x[0], METRICS_PROF), x[1], x[2], METRICS_PROF) for x in PROFILERS]
 
     tabs_assemblers = Tabs(tabs=panels_assemblers, css_classes=['bk-tabs-margin'])
     tabs_genome_binners = Tabs(tabs=panels_genome_binners, css_classes=['bk-tabs-margin'])
