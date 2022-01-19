@@ -18,7 +18,7 @@ UNFILTERED = ' (unfiltered)'
 TOOL = 'Tool'
 RANKS = ['superkingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
 
-DATASET_TO_TITLE = {'mar': 'Marine', 'sm': 'Strain madness', 'rhi': 'Plant-associated'}
+DATASET_TO_TITLE = {'mar': 'Marine', 'sm': 'Strain-madness', 'rhi': 'Plant-associated'}
 
 DATASET_TO_PATH = {'mar': '../marine_dataset/data/results/',
                    'sm': '../strain_madness_dataset/data/results/',
@@ -110,7 +110,6 @@ def plot_taxonomic_results(df_summary_t, metrics_list, errors_list, dataset, out
     fig.suptitle(DATASET_TO_TITLE[dataset], fontsize=28, y=1.01)
 
     fig.savefig(os.path.join(output_dir, 'taxonomic.pdf'), dpi=100, format='pdf', bbox_inches='tight')
-    fig.savefig(os.path.join(output_dir, 'taxonomic.png'), dpi=200, format='png', bbox_inches='tight')
     plt.close(fig)
 
 

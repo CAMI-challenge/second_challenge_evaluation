@@ -122,6 +122,7 @@ def metrics_labels(metrics_list):
 
 def create_legend(metrics_list, output_dir):
     colors_list = get_colors()
+    metrics_list = [x.replace('Average', 'Av.') for x in metrics_list]
 
     colors_iter = iter(colors_list)
     lines = [Line2D([], [], lw=2, color=next(colors_iter), linestyle='solid' if 'unfiltered' in metric else 'dotted' , markeredgewidth=10, markeredgecolor='red') for metric in metrics_list]
@@ -168,7 +169,7 @@ def main(base_path, categories):
 
 
 if __name__ == "__main__":
-    main('../marine_dataset/data/results/deep_branching/',
+    main('../marine_dataset/data/results/amber_marine_deep_branching/',
          ['new_species', 'known_strain', 'new_strain', 'virus', 'plasmid'])
-    main('../strain_madness_dataset/data/results/deep_branching/',
+    main('../strain_madness_dataset/data/results/amber_strain_madness_deep_branching/',
          ['new_species', 'new_strain'])
