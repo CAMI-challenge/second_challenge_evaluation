@@ -117,7 +117,11 @@ else:
 plt.close()
 
 plot3 = plt.boxplot([lengths[x] for x in subset_names], vert=False, patch_artist=True, zorder=3)
-plt.yticks(np.arange(1, len(subset) + 1),["%s (%s)" % (subset_names[x], len(assemblers[x][1])) for x in subset])
+plt.yticks(np.arange(1, len(subset) + 1),["%s" % (subset_names[x]) for x in subset])
+ax2 = plt.twinx()
+ax2.set_ylim(0,len(subset))
+ax2.set_yticks(np.arange(0.5, len(subset) + 0.5))
+ax2.set_yticklabels(["n=%s" % len(assemblers[x][1]) for x in subset])
 plt.ticklabel_format(axis='x',style='sci',scilimits=(0,0))
 plt.xlabel("Mapped contig lengths (bp)")
 plt.xscale("log")
