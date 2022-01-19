@@ -120,7 +120,7 @@ min_m = {}
 max_m = {}
 for f in args.files:
     filename = f.name
-    typ = f.name.split("/")[-1].split(".")[0]
+    typ = f.name.split("/")[-1].split(".")[0].replace("_"," ")
     subsets.append(typ)
     header = True
     for line in f:
@@ -232,4 +232,4 @@ for ax, metric in zip(axes.flat, metrics):
             label.set_horizontalalignment('left')
     ax = axes[0, 0]
     ax.legend(subsets, loc=(1.4 - 0.353 * len(subsets), 1.25), labelspacing=0.1, fontsize=15, ncol=len(subsets), frameon=False)
-plt.savefig(args.o, dpi=150, format='png', bbox_inches='tight')
+plt.savefig(args.o, dpi=150, format='svg', bbox_inches='tight')
