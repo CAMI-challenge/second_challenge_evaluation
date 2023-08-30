@@ -108,3 +108,7 @@ Replace last line by the following for normalized and 1%-filtered results:
 ~~~BASH
 -o ./rhizosphere_dataset/results/OPAL_short_long_normalized_filtered -n -f 1
 ~~~
+
+
+## Data used to generate the input samples
+The genomes and their mapping are also present with the simulated data, i.e. https://frl.publisso.de/data/frl:6425521/marine/marmgCAMI2_genomes.tar.gz for the marine genomes and https://frl.publisso.de/data/frl:6425521/marine/short_read/marmgCAMI2_setup.tar.gz for the setup/mapping files
