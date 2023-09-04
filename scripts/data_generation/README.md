@@ -1,11 +1,11 @@
 Handling of the genomes provided (called "new genomes") and the genomes from the database (called "database genomes"):
 1. Downloaded metadata and genomes from database (MarRef, ProGenomes), assemble other genomes
     1. Metadata:
-        1. Marine: https://s1.sfb.uit.no/public/mar/MarRef/Metadatabase/Current.tsv
+        1. Marine: https://s1.sfb.uit.no/public/mar/MarRef/Metadatabase/Current.tsv (link deprecated, the database is now located at https://mmp2.sfb.uit.no/marref/)
         2. Terrestrial: header of the terrestrial contig file
     2. Reference genomes:  
-        1. Marine: https://s1.sfb.uit.no/public/mar/MarRef/Genomes/
-        2. Terrestrial: http://progenomes.embl.de/data/habitats/terrestrial/terrestrial.repr.contigs.fasta.gz
+        1. Marine: https://s1.sfb.uit.no/public/mar/MarRef/Genomes/ (link deprecated, the database is now located at https://mmp2.sfb.uit.no/marref/)
+        2. Terrestrial: http://progenomes.embl.de/data/habitats/terrestrial/terrestrial.repr.contigs.fasta.gz (link deprecated, the habitat is now called `soil`: https://progenomes.embl.de/data/habitats/representatives.soil.contigs.fasta.gz )
     3. New genomes:
         1. Marine: Reads + Standard SPAdes 3.12 (--careful flag)
         2. Strain madness: Reads + Standard SPAdes 3.12 (--careful), filter failed assemblies
@@ -45,7 +45,7 @@ Using the table /net/sgi/cami/data/CAMI2/roter_data/lotus_rhizosphere/CAMISIM_ru
 6. Add plasmids/circular elements with add_plasmids.py script
     1. e.g. python add_plasmids.py -i /net/sgi/cami/data/CAMI2/nwillassen_data/marine/simulation_long_read/ -m /net/sgi/cami/data/CAMI2/lhansen_data/plasmids/assembly/metadata.tsv -s 6082018 -n 200 -mu 1 -sd 0.1 -p /net/sgi/cami/data/CAMI2/lhansen_data/plasmids/assembly/long_read/
     2. Plasmids treated as below in this file for short/long read simulation
-    3. Randomly select x plasmids (i.e. 200 for marine) to be added
+    3. Randomly select x plasmids (i.e. 200 for marine) to be added; the genome names of the plasmids typically start with `RNODE` here
     4. From the first sample, select 200 highest abundant genomes, “map” selected plasmids to the genomes and add plasmids to sample with the following abundance calculation
     5. Choose as abundance: original abundance x abundance factor x gaussian noise
         1. with abundance factor = 1.5x for (for all 10 “sub-plasmids”) and gaussian noise = Normal(1,0.1), low variance so no 0 values occur.
